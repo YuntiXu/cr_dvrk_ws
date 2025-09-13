@@ -1,2 +1,0 @@
-/home/ytxu/cr_dvrk_ws/install/dvrk_robot/lib/libdvrk_utilities.so
-/home/ytxu/cr_dvrk_ws/install/dvrk_robot/lib/dvrk_robot/dvrk_console_json

@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/cisst_msgs/rosidl_generator_py/cisst_msgs/srv/__init__.py

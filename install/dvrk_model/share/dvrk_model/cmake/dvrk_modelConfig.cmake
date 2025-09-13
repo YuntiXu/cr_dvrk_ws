@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/dvrk_model/ament_cmake_core/dvrk_modelConfig.cmake

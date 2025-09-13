@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/cisst_msgs/ament_cmake_core/cisst_msgsConfig-version.cmake

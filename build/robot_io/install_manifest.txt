@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/install/robot_io/lib/robot_io/robot_io_console

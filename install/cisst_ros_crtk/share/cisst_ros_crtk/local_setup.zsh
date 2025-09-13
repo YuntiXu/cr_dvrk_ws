@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/cisst_ros_crtk/ament_cmake_environment_hooks/local_setup.zsh

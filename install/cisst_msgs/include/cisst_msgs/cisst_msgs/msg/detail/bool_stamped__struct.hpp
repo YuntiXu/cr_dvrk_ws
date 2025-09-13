@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/cisst_msgs/rosidl_generator_cpp/cisst_msgs/msg/detail/bool_stamped__struct.hpp

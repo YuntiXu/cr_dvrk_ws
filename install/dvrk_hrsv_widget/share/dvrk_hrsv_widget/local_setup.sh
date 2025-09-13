@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/dvrk_hrsv_widget/ament_cmake_environment_hooks/local_setup.sh

@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_generator_py/crtk_msgs/_crtk_msgs_s.ep.rosidl_typesupport_introspection_c.c

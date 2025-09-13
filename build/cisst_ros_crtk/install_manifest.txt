@@ -1,3 +1,0 @@
-/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/lib/libcisst_ros_crtk.so
-/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/cmake/cisst_ros_crtkExport.cmake
-/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/cmake/cisst_ros_crtkExport-release.cmake

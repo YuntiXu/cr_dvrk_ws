@@ -1,3 +1,0 @@
-repository='https://github.com/jhu-cisst-external/clapack'
-module=''
-tag='origin'

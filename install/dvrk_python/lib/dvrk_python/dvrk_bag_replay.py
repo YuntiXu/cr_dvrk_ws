@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_python/scripts/dvrk_bag_replay.py

@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst-ros/cisst_msgs/msg/BoolStamped.msg

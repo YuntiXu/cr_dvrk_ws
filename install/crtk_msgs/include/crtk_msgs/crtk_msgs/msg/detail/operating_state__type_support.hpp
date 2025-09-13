@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_generator_cpp/crtk_msgs/msg/detail/operating_state__type_support.hpp

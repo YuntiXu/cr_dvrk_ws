@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_model/ros2/launch/surgeon_console.launch.py

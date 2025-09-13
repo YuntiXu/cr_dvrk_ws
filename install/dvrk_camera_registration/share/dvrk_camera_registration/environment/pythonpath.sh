@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration/ament_cmake_environment_hooks/pythonpath.sh

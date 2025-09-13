@@ -1,8 +1,0 @@
-/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/share/sawTextToSpeech/sawTextToSpeechConfig.cmake
-/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/share/sawTextToSpeech/sawTextToSpeechConfigVersion.cmake
-/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include/sawTextToSpeech/mtsTextToSpeech.h
-/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include/sawTextToSpeech/sawTextToSpeechExport.h
-/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include/sawTextToSpeech/sawTextToSpeechRevision.h
-/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib/libsawTextToSpeech.so.1.4.0
-/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib/libsawTextToSpeech.so
-/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/bin/sawTextToSpeechExampleKeyboard

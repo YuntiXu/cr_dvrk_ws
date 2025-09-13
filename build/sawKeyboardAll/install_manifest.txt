@@ -1,7 +1,0 @@
-/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/share/sawKeyboard/sawKeyboardConfig.cmake
-/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/share/sawKeyboard/sawKeyboardConfigVersion.cmake
-/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/include/sawKeyboard/mtsKeyboard.h
-/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/include/sawKeyboard/sawKeyboardExport.h
-/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/include/sawKeyboard/sawKeyboardRevision.h
-/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib/libsawKeyboard.so.1.4.0
-/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib/libsawKeyboard.so

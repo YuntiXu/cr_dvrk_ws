@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_generator_c/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__functions.h

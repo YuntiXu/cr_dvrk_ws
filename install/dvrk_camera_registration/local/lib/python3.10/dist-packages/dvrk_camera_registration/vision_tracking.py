@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_camera_registration/src/dvrk_camera_registration/vision_tracking.py

@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/robot_io/ament_cmake_core/robot_ioConfig.cmake

@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_cmake/srv/QueryForwardKinematics_Response.msg

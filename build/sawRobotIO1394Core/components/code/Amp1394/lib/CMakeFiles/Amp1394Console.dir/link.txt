@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/ytxu/cr_dvrk_ws/install/cisst/lib/libAmp1394Console.a CMakeFiles/Amp1394Console.dir/code/Amp1394Console.cpp.o
-/usr/bin/ranlib /home/ytxu/cr_dvrk_ws/install/cisst/lib/libAmp1394Console.a

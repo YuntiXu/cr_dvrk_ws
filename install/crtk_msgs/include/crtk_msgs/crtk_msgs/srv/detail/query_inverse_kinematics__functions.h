@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_generator_c/crtk_msgs/srv/detail/query_inverse_kinematics__functions.h

@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/dvrk_video/ament_cmake_environment_hooks/local_setup.sh

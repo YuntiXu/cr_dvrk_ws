@@ -1,4 +1,0 @@
-[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst-ros/cisst_ros_crtk/src/mts_ros_crtk_bridge_required.cpp:[m[K In member function ‘[01m[Kvirtual void mts_ros_crtk_bridge_required::ConfigureJSON(const Json::Value&)[m[K’:
-[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst-ros/cisst_ros_crtk/src/mts_ros_crtk_bridge_required.cpp:69:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_json_config[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   69 | void mts_ros_crtk_bridge_required::ConfigureJSON([01;35m[Kconst Json::Value & _json_config[m[K)
-      |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K

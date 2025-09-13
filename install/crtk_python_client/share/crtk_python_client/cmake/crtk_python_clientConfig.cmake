@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/crtk_python_client/ament_cmake_core/crtk_python_clientConfig.cmake

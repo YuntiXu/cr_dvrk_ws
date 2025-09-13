@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_video/ros2/launch/gscam_decklink.launch.py

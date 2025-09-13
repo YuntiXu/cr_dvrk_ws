@@ -1,5 +1,0 @@
-# request needs
-# - cp: cartesian pose
-# - jp: reference joint position
-geometry_msgs/Pose cp
-float64[] jp

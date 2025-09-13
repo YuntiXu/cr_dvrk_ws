@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_python/scripts/dvrk_ecm_psm_gc_collect.py

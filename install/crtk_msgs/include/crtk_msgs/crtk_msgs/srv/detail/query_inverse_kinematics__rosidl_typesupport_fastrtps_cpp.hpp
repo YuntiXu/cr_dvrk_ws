@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_typesupport_fastrtps_cpp/crtk_msgs/srv/detail/query_inverse_kinematics__rosidl_typesupport_fastrtps_cpp.hpp

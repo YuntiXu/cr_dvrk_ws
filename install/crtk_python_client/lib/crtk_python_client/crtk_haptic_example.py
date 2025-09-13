@@ -1,1 +1,0 @@
-/home/ytxu/cr_dvrk_ws/src/crtk/crtk_python_client/scripts/crtk_haptic_example.py
