@@ -77,8 +77,3 @@ cisstLog*
 
 # any python bytecode files
 *.pyc
-
-
-# any specific kinematics files 
-src/cr_dvrk_kinematics/cr_dvrk_kinematics/compute_fk_tdcrpsm.py
-src/cr_dvrk_kinematics/cr_dvrk_kinematics/ctr_tr_kinematics.py
