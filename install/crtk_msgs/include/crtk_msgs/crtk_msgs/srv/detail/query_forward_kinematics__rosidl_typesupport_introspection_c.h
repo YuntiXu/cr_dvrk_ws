@@ -1,0 +1,1 @@
+/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_typesupport_introspection_c/crtk_msgs/srv/detail/query_forward_kinematics__rosidl_typesupport_introspection_c.h

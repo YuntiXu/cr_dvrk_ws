@@ -1,0 +1,116 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+-- Performing Test CXX_SUPPORTS_WEXTRA
+-- Performing Test CXX_SUPPORTS_WEXTRA - Success
+-- Performing Test CXX_SUPPORTS_WALL
+-- Performing Test CXX_SUPPORTS_WALL - Success
+-- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ytxu/cr_dvrk_ws/build/sawTextToSpeechAll
+[ 25%] [32mBuilding CXX object components/CMakeFiles/sawTextToSpeech.dir/code/mtsTextToSpeech.cpp.o[0m
+In file included from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeConstVectorBase.h:41[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorBase.h:29[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeConstVectorRef.h:30[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorRef.h:28[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVector.h:28[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorTypes.h:29[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsGenericObjectProxy.h:33[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsStateArray.h:31[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsStateTable.h:32[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTask.h:35[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTaskContinuous.h:28[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTaskFromSignal.h:30[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawTextToSpeech/components/include/sawTextToSpeech/mtsTextToSpeech.h:23[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawTextToSpeech/components/code/mtsTextToSpeech.cpp:20[m[K:
+In static member function ‘[01m[Kstatic vctUnaryOperations<_outputElementType, _inputElementType>::OutputElementType vctUnaryOperations<_outputElementType, _inputElementType>::Identity::Operate(const InputElementType&) [with _outputElementType = double; _inputElementType = double][m[K’,
+    inlined from ‘[01m[Kstatic void vctFixedSizeVectorRecursiveEngines<_size>::VoVi<_elementOperationType>::Unfold(_outputVectorType&, const _inputVectorType&) [with _outputVectorType = vctFixedSizeVectorBase<3, 1, double, double [3]>; _inputVectorType = vctFixedSizeConstVectorBase<3, 1, double, double [3]>; _elementOperationType = vctUnaryOperations<double>::Identity; long unsigned int _size = 1][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorRecursiveEngines.h:473:67[m[K,
+    inlined from ‘[01m[Kstatic void vctFixedSizeVectorRecursiveEngines<_size>::VoVi<_elementOperationType>::Unfold(_outputVectorType&, const _inputVectorType&) [with _outputVectorType = vctFixedSizeVectorBase<3, 1, double, double [3]>; _inputVectorType = vctFixedSizeConstVectorBase<3, 1, double, double [3]>; _elementOperationType = vctUnaryOperations<double>::Identity; long unsigned int _size = 2][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorRecursiveEngines.h:472:34[m[K,
+    inlined from ‘[01m[Kstatic void vctFixedSizeVectorRecursiveEngines<_size>::VoVi<_elementOperationType>::Unfold(_outputVectorType&, const _inputVectorType&) [with _outputVectorType = vctFixedSizeVectorBase<3, 1, double, double [3]>; _inputVectorType = vctFixedSizeConstVectorBase<3, 1, double, double [3]>; _elementOperationType = vctUnaryOperations<double>::Identity; long unsigned int _size = 3][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorRecursiveEngines.h:472:34[m[K,
+    inlined from ‘[01m[KvctFixedSizeVectorBase<_size, _stride, _elementType, _dataPtrType>::ThisType& vctFixedSizeVectorBase<_size, _stride, _elementType, _dataPtrType>::Assign(const vctFixedSizeConstVectorBase<_size, __stride, __elementType, __dataPtrType>&) [with long int __stride = 1; __elementType = double; __dataPtrType = double [3]; long unsigned int _size = 3; long int _stride = 1; _elementType = double; _dataPtrType = double [3]][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorBase.h:277:19[m[K,
+    inlined from ‘[01m[KvctFixedSizeVector<_elementType, _size>::vctFixedSizeVector(const ThisType&) [with _elementType = double; long unsigned int _size = 3][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVector.h:80:21[m[K,
+    inlined from ‘[01m[KmtsGenericObjectProxy<_elementType>::mtsGenericObjectProxy(const value_type&) [with _elementType = vctFixedSizeVector<double, 3>][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsGenericObjectProxy.h:403:9[m[K,
+    inlined from ‘[01m[Kstatic mtsGenericObject* mtsGenericTypesImpl<T, <anonymous> >::ConditionalCreate(const T&, const string&) [with T = vctFixedSizeVector<double, 3>; bool <anonymous> = false][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsGenericObjectProxy.h:618:16[m[K,
+    inlined from ‘[01m[Kstatic mtsGenericObject* mtsGenericTypes<_elementType>::ConditionalCreate(const T&, const string&) [with T = vctFixedSizeVector<double, 3>][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsGenericObjectProxy.h:692:56[m[K,
+    inlined from ‘[01m[KmtsCommandWrite<_classType, _argumentType>::mtsCommandWrite(mtsCommandWrite<_classType, _argumentType>::ActionType, mtsCommandWrite<_classType, _argumentType>::ClassType*, const string&, const ArgumentType&) [with _classType = mtsTextToSpeech; _argumentType = vctFixedSizeVector<double, 3>][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandWrite.h:129:83[m[K,
+    inlined from ‘[01m[KmtsCommandWriteBase* mtsInterfaceProvided::AddCommandWrite(void (__classType::*)(const __argumentType&), __classType*, const string&, const __argumentType&, mtsCommandQueueingPolicy) [with __classType = mtsTextToSpeech; __argumentType = vctFixedSizeVector<double, 3>][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceProvided.h:335:38[m[K,
+    inlined from ‘[01m[KmtsCommandWriteBase* mtsInterfaceProvided::AddCommandWrite(void (__classType::*)(const __argumentType&), __classType*, const string&, mtsCommandQueueingPolicy) [with __classType = mtsTextToSpeech; __argumentType = vctFixedSizeVector<double, 3>][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceProvided.h:344:66[m[K,
+    inlined from ‘[01m[KmtsTextToSpeech::mtsTextToSpeech()[m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawTextToSpeech/components/code/mtsTextToSpeech.cpp:70:43[m[K:
+[01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctUnaryOperations.h:72:43:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(const __vector(2) double*)((char*)&<unnamed> + offsetof(vctFixedSizeVector<double, 3>,vctFixedSizeVector<double, 3>::<unnamed>.vctFixedSizeVectorBase<3, 1, double, double[3]>::<unnamed>.vctFixedSizeConstVectorBase<3, 1, double, double[3]>::Data[0]))[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   72 |             return OutputElementType(input[01;35m[K)[m[K;
+      |                                           [01;35m[K^[m[K
+In file included from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawTextToSpeech/components/code/mtsTextToSpeech.cpp:25[m[K:
+[01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceProvided.h:[m[K In constructor ‘[01m[KmtsTextToSpeech::mtsTextToSpeech()[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceProvided.h:344:108:[m[K [01;36m[Knote: [m[K‘[01m[K<anonymous>[m[K’ declared here
+  344 | AddCommandWrite<__classType, __argumentType>(method, classInstantiation, commandName, [01;36m[K__argumentType()[m[K,
+      |                                                                                       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeConstVectorBase.h:41[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorBase.h:29[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeConstVectorRef.h:30[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorRef.h:28[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVector.h:28[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorTypes.h:29[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsGenericObjectProxy.h:33[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsStateArray.h:31[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsStateTable.h:32[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTask.h:35[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTaskContinuous.h:28[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTaskFromSignal.h:30[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawTextToSpeech/components/include/sawTextToSpeech/mtsTextToSpeech.h:23[m[K,
+                 from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawTextToSpeech/components/code/mtsTextToSpeech.cpp:20[m[K:
+In static member function ‘[01m[Kstatic vctUnaryOperations<_outputElementType, _inputElementType>::OutputElementType vctUnaryOperations<_outputElementType, _inputElementType>::Identity::Operate(const InputElementType&) [with _outputElementType = double; _inputElementType = double][m[K’,
+    inlined from ‘[01m[Kstatic void vctFixedSizeVectorRecursiveEngines<_size>::VoVi<_elementOperationType>::Unfold(_outputVectorType&, const _inputVectorType&) [with _outputVectorType = vctFixedSizeVectorBase<3, 1, double, double [3]>; _inputVectorType = vctFixedSizeConstVectorBase<3, 1, double, double [3]>; _elementOperationType = vctUnaryOperations<double>::Identity; long unsigned int _size = 3][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorRecursiveEngines.h:473:67[m[K,
+    inlined from ‘[01m[KvctFixedSizeVectorBase<_size, _stride, _elementType, _dataPtrType>::ThisType& vctFixedSizeVectorBase<_size, _stride, _elementType, _dataPtrType>::Assign(const vctFixedSizeConstVectorBase<_size, __stride, __elementType, __dataPtrType>&) [with long int __stride = 1; __elementType = double; __dataPtrType = double [3]; long unsigned int _size = 3; long int _stride = 1; _elementType = double; _dataPtrType = double [3]][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorBase.h:277:19[m[K,
+    inlined from ‘[01m[KvctFixedSizeVector<_elementType, _size>::vctFixedSizeVector(const ThisType&) [with _elementType = double; long unsigned int _size = 3][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVector.h:80:21[m[K,
+    inlined from ‘[01m[KmtsGenericObjectProxy<_elementType>::mtsGenericObjectProxy(const value_type&) [with _elementType = vctFixedSizeVector<double, 3>][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsGenericObjectProxy.h:403:9[m[K,
+    inlined from ‘[01m[Kstatic mtsGenericObject* mtsGenericTypesImpl<T, <anonymous> >::ConditionalCreate(const T&, const string&) [with T = vctFixedSizeVector<double, 3>; bool <anonymous> = false][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsGenericObjectProxy.h:618:16[m[K,
+    inlined from ‘[01m[Kstatic mtsGenericObject* mtsGenericTypes<_elementType>::ConditionalCreate(const T&, const string&) [with T = vctFixedSizeVector<double, 3>][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsGenericObjectProxy.h:692:56[m[K,
+    inlined from ‘[01m[KmtsCommandWrite<_classType, _argumentType>::mtsCommandWrite(mtsCommandWrite<_classType, _argumentType>::ActionType, mtsCommandWrite<_classType, _argumentType>::ClassType*, const string&, const ArgumentType&) [with _classType = mtsTextToSpeech; _argumentType = vctFixedSizeVector<double, 3>][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandWrite.h:129:83[m[K,
+    inlined from ‘[01m[KmtsCommandWriteBase* mtsInterfaceProvided::AddCommandWrite(void (__classType::*)(const __argumentType&), __classType*, const string&, const __argumentType&, mtsCommandQueueingPolicy) [with __classType = mtsTextToSpeech; __argumentType = vctFixedSizeVector<double, 3>][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceProvided.h:335:38[m[K,
+    inlined from ‘[01m[KmtsCommandWriteBase* mtsInterfaceProvided::AddCommandWrite(void (__classType::*)(const __argumentType&), __classType*, const string&, mtsCommandQueueingPolicy) [with __classType = mtsTextToSpeech; __argumentType = vctFixedSizeVector<double, 3>][m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceProvided.h:344:66[m[K,
+    inlined from ‘[01m[KmtsTextToSpeech::mtsTextToSpeech()[m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawTextToSpeech/components/code/mtsTextToSpeech.cpp:70:43[m[K:
+[01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctUnaryOperations.h:72:43:[m[K [01;35m[Kwarning: [m[K‘[01m[K<unnamed>.vctFixedSizeVector<double, 3>::<unnamed>.vctFixedSizeVectorBase<3, 1, double, double[3]>::<unnamed>.vctFixedSizeConstVectorBase<3, 1, double, double[3]>::Data[2][m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   72 |             return OutputElementType(input[01;35m[K)[m[K;
+      |                                           [01;35m[K^[m[K
+In file included from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawTextToSpeech/components/code/mtsTextToSpeech.cpp:25[m[K:
+[01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceProvided.h:[m[K In constructor ‘[01m[KmtsTextToSpeech::mtsTextToSpeech()[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceProvided.h:344:108:[m[K [01;36m[Knote: [m[K‘[01m[K<anonymous>[m[K’ declared here
+  344 | AddCommandWrite<__classType, __argumentType>(method, classInstantiation, commandName, [01;36m[K__argumentType()[m[K,
+      |                                                                                       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+
+[ 50%] [32m[1mLinking CXX shared library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawTextToSpeech.so[0m
+[ 50%] Built target sawTextToSpeech
+[ 75%] [32mBuilding CXX object examples/keyboard/CMakeFiles/sawTextToSpeechExampleKeyboard.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sawTextToSpeechExampleKeyboard[0m
+[100%] Built target sawTextToSpeechExampleKeyboard
+-- Install configuration: "Release"
+-- Installing: /home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/share/sawTextToSpeech/sawTextToSpeechConfig.cmake
+-- Installing: /home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/share/sawTextToSpeech/sawTextToSpeechConfigVersion.cmake
+-- Installing: /home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include/sawTextToSpeech
+-- Installing: /home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include/sawTextToSpeech/mtsTextToSpeech.h
+-- Installing: /home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include/sawTextToSpeech/sawTextToSpeechExport.h
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include/sawTextToSpeech
+-- Installing: /home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include/sawTextToSpeech/sawTextToSpeechRevision.h
+-- Installing: /home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib/libsawTextToSpeech.so.1.4.0
+-- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib/libsawTextToSpeech.so.1.4.0" to ""
+-- Installing: /home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib/libsawTextToSpeech.so
+-- Installing: /home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/bin/sawTextToSpeechExampleKeyboard
+-- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/bin/sawTextToSpeechExampleKeyboard" to ""

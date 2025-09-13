@@ -1,0 +1,4 @@
+source;share/cisst_ros_bridge/local_setup.bash
+source;share/cisst_ros_bridge/local_setup.dsv
+source;share/cisst_ros_bridge/local_setup.sh
+source;share/cisst_ros_bridge/local_setup.zsh

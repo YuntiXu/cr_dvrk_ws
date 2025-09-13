@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target dvrk_arm_from_ros[0m
+[100%] Built target dvrk_arm_from_ros
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/ament_index/resource_index/package_run_dependencies/dvrk_arms_from_ros
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/ament_index/resource_index/parent_prefix_path/dvrk_arms_from_ros
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/environment/path.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/environment/path.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/local_setup.bash
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/local_setup.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/local_setup.zsh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/local_setup.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/ament_index/resource_index/packages/dvrk_arms_from_ros
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/cmake/dvrk_arms_from_rosConfig.cmake
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/cmake/dvrk_arms_from_rosConfig-version.cmake
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.xml
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/lib/libdvrk_arm_from_ros.so

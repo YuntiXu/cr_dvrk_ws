@@ -1,0 +1,4 @@
+source;share/dvrk_hrsv_widget/local_setup.bash
+source;share/dvrk_hrsv_widget/local_setup.dsv
+source;share/dvrk_hrsv_widget/local_setup.sh
+source;share/dvrk_hrsv_widget/local_setup.zsh

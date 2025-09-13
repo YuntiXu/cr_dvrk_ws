@@ -1,0 +1,791 @@
+[0.052s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/cisst': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/cisstNetlib PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/cisst -- -j12 -l12
+[0.134s] [  0%] [34m[1mGenerating /home/ytxu/cr_dvrk_ws/build/cisst/include/cisstBuildType.h from /home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstBuildType.h.in[0m
+[0.134s] [  0%] [34m[1mCopying data files from models to /home/ytxu/cr_dvrk_ws/build/cisst/share/cisst-1.3/models[0m
+[0.134s] [  0%] [34m[1mCopying data files from images to /home/ytxu/cr_dvrk_ws/build/cisst/share/cisst-1.3/images[0m
+[0.135s] [  1%] [34m[1mCopying data files from movies to /home/ytxu/cr_dvrk_ws/build/cisst/share/cisst-1.3/movies[0m
+[0.135s] [  2%] [34m[1mGenerating /home/ytxu/cr_dvrk_ws/build/cisst/include/cisstRevision.h from /home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstRevision.h.in[0m
+[0.136s] [  4%] Built target cisstReflexxesTypeIIExternal
+[0.143s] -- Build type is: Release
+[0.143s] Build suffix is: .
+[0.153s] [  4%] Built target cisstBuildType
+[0.156s] [  4%] Built target copy_data_movies
+[0.156s] -- Found Git revision: 1.3.1
+[0.167s] [  4%] Built target cisstRevision
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target cisstDataGenerator[0m
+[0.228s] [ 10%] Built target cisstDataGenerator
+[0.260s] [35m[1mConsolidate compiler generated dependencies of target cisstCommon[0m
+[0.274s] [ 10%] Built target copy_data_images
+[0.274s] [ 10%] Built target copy_data_models
+[0.290s] [ 17%] Built target cisstCommon
+[0.304s] [35m[1mConsolidate compiler generated dependencies of target cisstCommonQt[0m
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target cisstCommonXML[0m
+[0.312s] [ 17%] Built target cisstCommonPython_swig_compilation
+[0.314s] [35m[1mConsolidate compiler generated dependencies of target cisstOSAbstraction[0m
+[0.320s] [ 18%] Built target cisstCommonQt
+[0.322s] [ 19%] Built target cisstCommonXML
+[0.325s] [35m[1mConsolidate compiler generated dependencies of target cisstVector[0m
+[0.326s] [35m[1mConsolidate compiler generated dependencies of target _cisstCommonPython[0m
+[0.339s] [ 20%] Built target _cisstCommonPython
+[0.340s] [ 24%] Built target cisstOSAbstraction
+[0.355s] [ 29%] Built target cisstVector
+[0.361s] [ 29%] Built target cisstOSAbstractionPython_swig_compilation
+[0.376s] [ 30%] [34m[1mAutomatic MOC for target cisstVectorQt[0m
+[0.376s] [35m[1mConsolidate compiler generated dependencies of target _cisstOSAbstractionPython[0m
+[0.379s] [ 30%] Built target cisstVectorPython_swig_compilation
+[0.382s] [35m[1mConsolidate compiler generated dependencies of target cisstNumerical[0m
+[0.391s] [ 30%] Built target _cisstOSAbstractionPython
+[0.393s] [35m[1mConsolidate compiler generated dependencies of target _cisstVectorPython[0m
+[0.406s] [ 34%] Built target cisstNumerical
+[0.407s] [ 35%] Built target _cisstVectorPython
+[0.411s] [ 35%] Built target cisstVectorQt_autogen
+[0.419s] [35m[1mConsolidate compiler generated dependencies of target cisstMultiTask[0m
+[0.428s] [ 35%] Built target cisstNumericalPython_swig_compilation
+[0.435s] [35m[1mConsolidate compiler generated dependencies of target cisstRobot[0m
+[0.437s] [35m[1mConsolidate compiler generated dependencies of target cisstVectorQt[0m
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target _cisstNumericalPython[0m
+[0.456s] [35m[1mConsolidate compiler generated dependencies of target cisstMesh[0m
+[0.458s] [ 36%] Built target _cisstNumericalPython
+[0.471s] [ 41%] Built target cisstRobot
+[0.473s] [ 44%] Built target cisstVectorQt
+[0.495s] [ 45%] Built target cisstRobotPython_swig_compilation
+[0.503s] [ 63%] Built target cisstMultiTask
+[0.505s] [35m[1mConsolidate compiler generated dependencies of target _cisstRobotPython[0m
+[0.513s] [ 74%] Built target cisstMesh
+[0.520s] [ 74%] Built target _cisstRobotPython
+[0.524s] [ 74%] [34m[1mAutomatic MOC for target cisstMultiTaskQt[0m
+[0.524s] [ 74%] Built target cisstMultiTaskPython_swig_compilation
+[0.524s] [35m[1mConsolidate compiler generated dependencies of target cisstParameterTypes[0m
+[0.535s] [ 74%] Built target cisstMeshPython_swig_compilation
+[0.544s] [ 74%] [32mBuilding CXX object cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx.o[0m
+[0.547s] [35m[1mConsolidate compiler generated dependencies of target _cisstMeshPython[0m
+[0.560s] [ 74%] Built target cisstMultiTaskQt_autogen
+[0.564s] [ 75%] Built target _cisstMeshPython
+[0.573s] [ 90%] Built target cisstParameterTypes
+[0.580s] [35m[1mConsolidate compiler generated dependencies of target cisstMultiTaskQt[0m
+[0.593s] [ 90%] [34m[1mAutomatic MOC for target cisstParameterTypesQt[0m
+[0.594s] [ 90%] Built target cisstParameterTypesPython_swig_compilation
+[0.605s] [35m[1mConsolidate compiler generated dependencies of target _cisstParameterTypesPython[0m
+[0.621s] [ 91%] Built target _cisstParameterTypesPython
+[0.621s] [ 97%] Built target cisstMultiTaskQt
+[0.622s] [ 97%] Built target cisstParameterTypesQt_autogen
+[0.637s] [35m[1mConsolidate compiler generated dependencies of target cisstParameterTypesQt[0m
+[0.671s] [100%] Built target cisstParameterTypesQt
+[3.370s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_mtsComponent_Running(PyObject*, PyObject*)[m[K’:
+[3.370s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:28307:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool mtsComponent::Running() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.370s] 28307 |   result = (bool)[01;35m[K((mtsComponent const *)arg1)->Running()[m[K;
+[3.370s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.370s] In file included from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstMultiTask/mtsPython.h:51[m[K,
+[3.370s]                  from [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:4361[m[K:
+[3.370s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstMultiTask/mtsComponent.h:457:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.371s]   457 |     inline bool CISST_DEPRECATED [01;36m[KRunning[m[K(void) const {
+[3.371s]       |                                  [01;36m[K^~~~~~~[m[K
+[5.378s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:[m[K In function ‘[01m[Kvoid* _p_f_r_std__ios_base__r_std__basic_iosT_char_std__char_traitsT_char_t_tTo_p_f_r_std__ios_base__r_std__ios_base(void*, int*)[m[K’:
+[5.378s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:200692:21:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kstd::basic_ios<char>& (*)(std::ios_base&)[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[5.378s] 200692 |     return (void *)([01;35m[K(std::ios_base &(*)(std::ios_base &))  ((std::basic_ios< char,std::char_traits< char > > &(*)(std::ios_base &)) x)[m[K);
+[5.378s]        |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.379s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:[m[K In function ‘[01m[Kvoid* _p_f_r_std__basic_ios__char_std__char_traits__char______r_std__basic_ostreamT_char_std__char_traitsT_char_t_tTo_p_f_r_std__basic_ios__char_std__char_traits__char______r_std__basic_iosT_char_std__char_traitsT_char_t_t(void*, int*)[m[K’:
+[5.379s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:200803:21:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kstd::basic_ostream<char>& (*)(std::basic_ios<char>&)[m[K’ to ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[5.379s] 200803 |     return (void *)([01;35m[K(std::basic_ios< char,std::char_traits< char > > &(*)(std::basic_ios< char,std::char_traits< char > > &))  ((std::basic_ostream< char,std::char_traits< char > > &(*)(std::basic_ios< char,std::char_traits< char > > &)) x)[m[K);
+[5.379s]        |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.380s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:[m[K In function ‘[01m[Kvoid* _p_f_r_std__basic_ios__char_std__char_traits__char______r_std__basic_istreamT_char_std__char_traitsT_char_t_tTo_p_f_r_std__basic_ios__char_std__char_traits__char______r_std__basic_iosT_char_std__char_traitsT_char_t_t(void*, int*)[m[K’:
+[5.380s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:200806:21:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kstd::basic_istream<char>& (*)(std::basic_ios<char>&)[m[K’ to ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[5.380s] 200806 |     return (void *)([01;35m[K(std::basic_ios< char,std::char_traits< char > > &(*)(std::basic_ios< char,std::char_traits< char > > &))  ((std::basic_istream< char,std::char_traits< char > > &(*)(std::basic_ios< char,std::char_traits< char > > &)) x)[m[K);
+[5.380s]        |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.380s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:[m[K In function ‘[01m[Kvoid* _p_f_r_std__basic_ostream__char_std__char_traits__char______r_std__basic_iostreamT_char_std__char_traitsT_char_t_tTo_p_f_r_std__basic_ostream__char_std__char_traits__char______r_std__basic_ostreamT_char_std__char_traitsT_char_t_t(void*, int*)[m[K’:
+[5.380s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:200818:21:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kstd::basic_iostream<char>& (*)(std::basic_ostream<char>&)[m[K’ to ‘[01m[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[5.380s] 200818 |     return (void *)([01;35m[K(std::basic_ostream< char,std::char_traits< char > > &(*)(std::basic_ostream< char,std::char_traits< char > > &))  ((std::basic_iostream< char,std::char_traits< char > > &(*)(std::basic_ostream< char,std::char_traits< char > > &)) x)[m[K);
+[5.380s]        |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.380s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:[m[K In function ‘[01m[Kvoid* _p_f_r_std__basic_istream__char_std__char_traits__char______r_std__basic_iostreamT_char_std__char_traitsT_char_t_tTo_p_f_r_std__basic_istream__char_std__char_traits__char______r_std__basic_istreamT_char_std__char_traitsT_char_t_t(void*, int*)[m[K’:
+[5.380s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:200821:21:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kstd::basic_iostream<char>& (*)(std::basic_istream<char>&)[m[K’ to ‘[01m[Kstd::basic_istream<char>& (*)(std::basic_istream<char>&)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[5.380s] 200821 |     return (void *)([01;35m[K(std::basic_istream< char,std::char_traits< char > > &(*)(std::basic_istream< char,std::char_traits< char > > &))  ((std::basic_iostream< char,std::char_traits< char > > &(*)(std::basic_istream< char,std::char_traits< char > > &)) x)[m[K);
+[5.380s]        |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.913s] In file included from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstVector/vctDynamicVectorRef.h:30[m[K,
+[5.913s]                  from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstVector/vctDynamicConstMatrixBase.h:36[m[K,
+[5.913s]                  from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstVector/vctPythonUtilities.h:61[m[K,
+[5.913s]                  from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstVector/vctPython.h:33[m[K,
+[5.913s]                  from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstMultiTask/mtsPython.h:33[m[K,
+[5.913s]                  from [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:4361[m[K:
+[5.913s] /home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstVector/vctDynamicVectorBase.h: In instantiation of ‘[01m[Kbool vctDynamicVectorBase<_vectorOwnerType, _elementType>::Zeros() [with _vectorOwnerType = vctDynamicVectorOwner<std::__cxx11::basic_string<char> >; _elementType = std::__cxx11::basic_string<char>][m[K’:
+[5.913s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstMultiTask/mtsVector.h:57:26:[m[K   required from ‘[01m[KmtsVector<_elementType>::mtsVector(mtsVector<_elementType>::size_type) [with _elementType = std::__cxx11::basic_string<char>; mtsVector<_elementType>::size_type = long unsigned int][m[K’
+[5.913s] [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:185508:73:[m[K   required from here
+[5.913s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst/cisstVector/vctDynamicVectorBase.h:227:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of type ‘[01m[KvctDynamicVectorBase<vctDynamicVectorOwner<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’} with no trivial copy-assignment; use assignment or value-initialization instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[5.913s]   227 |             [01;35m[Kmemset(this->Pointer(), 0, this->size() * sizeof(value_type))[m[K;
+[5.914s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.914s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[5.914s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[5.914s]                  from [01m[K/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:3370[m[K:
+[5.914s] [01m[K/usr/include/c++/11/bits/basic_string.h:85:11:[m[K [01;36m[Knote: [m[K‘[01m[KvctDynamicVectorBase<vctDynamicVectorOwner<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’} declared here
+[5.914s]    85 |     class [01;36m[Kbasic_string[m[K
+[5.914s]       |           [01;36m[K^~~~~~~~~~~~[m[K
+[65.304s] [100%] [32m[1mLinking CXX shared module ../../lib/_cisstMultiTaskPython.so[0m
+[65.623s] [100%] Built target _cisstMultiTaskPython
+[65.641s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/cisst' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/cisstNetlib PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/cisst -- -j12 -l12
+[65.643s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/cisst': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/cisstNetlib PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/cisst
+[65.652s] -- Install configuration: "Release"
+[65.653s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRevision.h
+[65.653s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstBuildType.h
+[65.653s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonExternal.cmake
+[65.654s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonExternal.cmake
+[65.654s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstOSAbstractionDL.cmake
+[65.654s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstOSAbstractionExternal.cmake
+[65.654s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstInteractiveDL.cmake
+[65.655s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstInteractiveExternal.cmake
+[65.655s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisst-config-version.cmake
+[65.656s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisst-config.cmake
+[65.656s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Usecisst.cmake
+[65.657s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstSettings.cmake
+[65.657s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMacros.cmake
+[65.658s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/sawRevision.h.in
+[65.658s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/sawConfig.cmake.in
+[65.659s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstConfig.h
+[65.659s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Modules
+[65.659s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Modules/toolchains
+[65.660s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Modules/FindNumpy.cmake
+[65.660s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Modules/FindIce.cmake
+[65.661s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Modules/FindDirectShow.cmake
+[65.661s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Modules/FindDeckLink.cmake
+[65.661s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Modules/FindIceTouch.cmake
+[65.662s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Modules/FindXENOMAI.cmake
+[65.662s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Modules/FindCppUnit.cmake
+[65.662s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Modules/FindRTAI.cmake
+[65.663s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/bin/cisstvars.sh
+[65.664s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstOpenGLOpenGL.cmake
+[65.664s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstOpenGLExternal.cmake
+[65.665s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstOpenGLOpenGL.cmake
+[65.665s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstOpenGLExternal.cmake
+[65.665s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtQt5Core.cmake
+[65.665s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtExternal.cmake
+[65.666s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtQt5Xml.cmake
+[65.666s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtExternal.cmake
+[65.666s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtQt5XmlPatterns.cmake
+[65.667s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtExternal.cmake
+[65.667s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtQt5Widgets.cmake
+[65.667s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtExternal.cmake
+[65.667s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtQt5Gui.cmake
+[65.668s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtExternal.cmake
+[65.668s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtQt5OpenGL.cmake
+[65.668s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtExternal.cmake
+[65.668s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtExternal.cmake
+[65.668s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstQtBuild.cmake
+[65.669s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonSWIG.cmake
+[65.669s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonExternal.cmake
+[65.669s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonSWIG.cmake
+[65.670s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonExternal.cmake
+[65.670s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonPython.cmake
+[65.670s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonExternal.cmake
+[65.670s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonPython.cmake
+[65.670s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonExternal.cmake
+[65.670s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonNumPy.cmake
+[65.670s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonExternal.cmake
+[65.671s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstPythonBuild.cmake
+[65.671s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonJSON.cmake
+[65.671s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonExternal.cmake
+[65.671s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonJSON.cmake
+[65.671s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonExternal.cmake
+[65.671s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonJSON.cmake
+[65.672s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonExternal.cmake
+[65.672s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/bin/cisstDataGenerator
+[65.675s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstCommon.so.1.3.1
+[65.677s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstCommon.so.1.3.1" to ""
+[65.677s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstCommon.so
+[65.677s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnAccessorMacros.h
+[65.677s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnAssert.h
+[65.677s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnCallbackStreambuf.h
+[65.678s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnClassRegister.h
+[65.678s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnClassRegisterMacros.h
+[65.678s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnClassServices.h
+[65.678s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnClassServicesBase.h
+[65.678s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnCommandLineOptions.h
+[65.679s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnConstants.h
+[65.679s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFormat.h
+[65.679s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFunctions.h
+[65.679s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFunctionsArray.h
+[65.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFunctionsEnumMacros.h
+[65.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFunctionsJSON.h
+[65.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFunctionsList.h
+[65.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFunctionsMacros.h
+[65.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFunctionsMatrixHelpers.h
+[65.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFunctionsString.h
+[65.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFunctionsVector.h
+[65.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDataFunctionsVectorHelpers.h
+[65.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnDeSerializer.h
+[65.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnExport.h
+[65.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnExportMacros.h
+[65.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnForwardDeclarations.h
+[65.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnGenericObject.h
+[65.682s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnGenericObjectProxy.h
+[65.682s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnGetChar.h
+[65.682s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnKbHit.h
+[65.683s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnLODMultiplexerStreambuf.h
+[65.683s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnLODOutputMultiplexer.h
+[65.683s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnLogLoD.h
+[65.683s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnLogger.h
+[65.683s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnMultiplexerStreambuf.h
+[65.684s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnMultiplexerStreambufProxy.h
+[65.684s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnNamedMap.h
+[65.684s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnObjectRegister.h
+[65.684s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnOutputMultiplexer.h
+[65.684s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnPath.h
+[65.685s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnPortability.h
+[65.685s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnPrintf.h
+[65.685s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnRandomSequence.h
+[65.686s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnRequiresDeepCopy.h
+[65.686s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnSerializer.h
+[65.686s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnStreamRawParser.h
+[65.687s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnStrings.h
+[65.687s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnThrow.h
+[65.687s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnTokenizer.h
+[65.687s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnTypeTraits.h
+[65.688s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnUnits.h
+[65.688s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon.h
+[65.688s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnJointType.h
+[65.689s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cisstCommon.i
+[65.689s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstCommonPython.so
+[65.693s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstCommonPython.so" to ""
+[65.693s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/cisstCommonPython.py
+[65.694s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnPython.h
+[65.695s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstCommonQt.so.1.3.1
+[65.697s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstCommonQt.so.1.3.1" to ""
+[65.697s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstCommonQt.so
+[65.697s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonQtInternal.cmake
+[65.697s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonQtExternal.cmake
+[65.697s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnExportQt.h
+[65.698s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnLoggerQtWidget.h
+[65.698s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnQt.h
+[65.699s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommonQt.h
+[65.700s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonXMLLibXml2.cmake
+[65.700s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonXMLExternal.cmake
+[65.700s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonXMLExternal.cmake
+[65.700s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnConfigXML.h
+[65.701s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstCommonXML.so.1.3.1
+[65.702s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstCommonXML.so.1.3.1" to ""
+[65.702s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstCommonXML.so
+[65.702s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstCommonXMLInternal.cmake
+[65.703s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnExportXML.h
+[65.703s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommon/cmnXMLPath.h
+[65.704s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstCommonXML.h
+[65.705s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstVectorExternal.cmake
+[65.705s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstVector.so.1.3.1
+[65.707s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstVector.so.1.3.1" to ""
+[65.707s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstVector.so
+[65.707s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstVectorInternal.cmake
+[65.708s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctAngleRotation2.h
+[65.708s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctAxisAngleRotation3.h
+[65.708s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctBarycentricVector.h
+[65.708s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctBinaryOperations.h
+[65.709s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctBoundingBox3.h
+[65.709s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctContainerTraits.h
+[65.709s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDataFunctionsDynamicMatrix.h
+[65.709s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDataFunctionsDynamicMatrixJSON.h
+[65.709s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDataFunctionsDynamicVector.h
+[65.709s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDataFunctionsDynamicVectorJSON.h
+[65.710s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDataFunctionsFixedSizeMatrix.h
+[65.710s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDataFunctionsFixedSizeMatrixJSON.h
+[65.710s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDataFunctionsFixedSizeVector.h
+[65.710s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDataFunctionsFixedSizeVectorJSON.h
+[65.710s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDataFunctionsTransformations.h
+[65.710s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDataFunctionsTransformationsJSON.h
+[65.710s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDeterminant.h
+[65.711s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicCompactLoopEngines.h
+[65.711s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicConstMatrixBase.h
+[65.711s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicConstMatrixRef.h
+[65.711s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicConstNArrayBase.h
+[65.712s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicConstNArrayRef.h
+[65.712s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicConstVectorBase.h
+[65.712s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicConstVectorRef.h
+[65.712s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicMatrix.h
+[65.712s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicMatrixBase.h
+[65.713s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicMatrixLoopEngines.h
+[65.713s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicMatrixOwner.h
+[65.713s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicMatrixRef.h
+[65.713s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicMatrixRefOwner.h
+[65.713s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicMatrixTypes.h
+[65.714s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicNArray.h
+[65.714s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicNArrayBase.h
+[65.714s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicNArrayLoopEngines.h
+[65.714s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicNArrayOwner.h
+[65.714s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicNArrayRef.h
+[65.714s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicNArrayRefOwner.h
+[65.714s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicVector.h
+[65.715s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicVectorBase.h
+[65.715s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicVectorLoopEngines.h
+[65.715s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicVectorOwner.h
+[65.715s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicVectorRef.h
+[65.715s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicVectorRefOwner.h
+[65.716s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctDynamicVectorTypes.h
+[65.716s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctEulerRotation3.h
+[65.716s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctExport.h
+[65.716s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFastCopy.h
+[65.716s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeConstMatrixBase.h
+[65.716s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeConstMatrixRef.h
+[65.717s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeConstVectorBase.h
+[65.717s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeConstVectorRef.h
+[65.717s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeMatrix.h
+[65.717s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeMatrixBase.h
+[65.717s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeMatrixLoopEngines.h
+[65.718s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeMatrixRef.h
+[65.718s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeMatrixTraits.h
+[65.718s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeMatrixTypes.h
+[65.718s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVector.h
+[65.718s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorBase.h
+[65.718s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorRecursiveEngines.h
+[65.719s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorRef.h
+[65.719s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorTraits.h
+[65.719s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedSizeVectorTypes.h
+[65.719s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedStrideMatrixIterator.h
+[65.719s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFixedStrideVectorIterator.h
+[65.720s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctForwardDeclarations.h
+[65.720s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFrame4x4.h
+[65.720s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFrame4x4Base.h
+[65.720s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFrame4x4ConstBase.h
+[65.720s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctFrameBase.h
+[65.720s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctMatrixRotation2.h
+[65.721s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctMatrixRotation2Base.h
+[65.721s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctMatrixRotation3.h
+[65.721s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctMatrixRotation3Base.h
+[65.721s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctMatrixRotation3ConstBase.h
+[65.721s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctMatrixRotation3ConstRef.h
+[65.721s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctMatrixRotation3Ref.h
+[65.722s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctPlot2DBase.h
+[65.722s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctPlot2DOpenGL.h
+[65.722s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctPrintf.h
+[65.722s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctQuaternion.h
+[65.723s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctQuaternionBase.h
+[65.723s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctQuaternionRotation3.h
+[65.723s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctQuaternionRotation3Base.h
+[65.723s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctRandom.h
+[65.723s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctRandomDynamicMatrix.h
+[65.724s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctRandomDynamicNArray.h
+[65.724s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctRandomDynamicVector.h
+[65.725s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctRandomFixedSizeMatrix.h
+[65.725s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctRandomFixedSizeVector.h
+[65.725s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctRandomTransformations.h
+[65.726s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctRodriguezRotation3.h
+[65.726s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctRodriguezRotation3Base.h
+[65.726s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctStoreBackBinaryOperations.h
+[65.726s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctStoreBackUnaryOperations.h
+[65.727s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctTransformationTypes.h
+[65.727s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctTypes.h
+[65.727s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctUnaryOperations.h
+[65.727s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctVarStrideMatrixIterator.h
+[65.727s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctVarStrideNArrayIterator.h
+[65.728s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctVarStrideVectorIterator.h
+[65.728s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector.h
+[65.729s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/cisstVector.i
+[65.729s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstVectorPython.so
+[65.731s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstVectorPython.so" to ""
+[65.731s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/cisstVectorPython.py
+[65.732s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctPython.h
+[65.732s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstVectorQt.so.1.3.1
+[65.734s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstVectorQt.so.1.3.1" to ""
+[65.735s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstVectorQt.so
+[65.735s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstVectorQtInternal.cmake
+[65.735s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstVectorQtInternal.cmake
+[65.735s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstVectorQtExternal.cmake
+[65.735s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstVectorQtExternal.cmake
+[65.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctExportQt.h
+[65.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctForceTorque2DQtWidget.h
+[65.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctForceTorque3DQtWidget.h
+[65.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctForceTorqueQtWidget.h
+[65.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctForwardDeclarationsQt.h
+[65.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctPlot2DOpenGLQtWidget.h
+[65.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctPose3DQtWidget.h
+[65.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctQtWidgetDynamicMatrix.h
+[65.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctQtWidgetDynamicVector.h
+[65.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctQtWidgetFrame.h
+[65.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctQtWidgetFrame4x4.h
+[65.738s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctQtWidgetRotation.h
+[65.738s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVector/vctVector3DQtWidget.h
+[65.738s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstVectorQt.h
+[65.739s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstOSAbstractionrt.cmake
+[65.740s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstOSAbstractionExternal.cmake
+[65.740s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaConfig.h
+[65.741s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstOSAbstraction.so.1.3.1
+[65.742s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstOSAbstraction.so.1.3.1" to ""
+[65.742s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstOSAbstraction.so
+[65.743s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstOSAbstractionInternal.cmake
+[65.743s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaCPUAffinity.h
+[65.744s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaCriticalSection.h
+[65.744s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaDynamicLoader.h
+[65.745s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaDynamicLoaderAndFactory.h
+[65.745s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaExport.h
+[65.745s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaForwardDeclarations.h
+[65.745s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaGetTime.h
+[65.745s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaMutex.h
+[65.746s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaPipeExec.h
+[65.746s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaSerialPort.h
+[65.746s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaSleep.h
+[65.747s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaSocket.h
+[65.747s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaSocketServer.h
+[65.747s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaStopwatch.h
+[65.747s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaThread.h
+[65.747s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaThreadAdapter.h
+[65.747s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaThreadBuddy.h
+[65.748s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaThreadSignal.h
+[65.748s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaThreadedLogFile.h
+[65.748s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaTimeServer.h
+[65.748s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaTripleBuffer.h
+[65.749s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction.h
+[65.750s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/cisstOSAbstraction.i
+[65.750s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstOSAbstractionPython.so
+[65.752s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstOSAbstractionPython.so" to ""
+[65.752s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/cisstOSAbstractionPython.py
+[65.753s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstOSAbstraction/osaPython.h
+[65.753s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstNumericalcisstNetlib.cmake
+[65.754s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstNumericalExternal.cmake
+[65.754s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstNumericalcisstNetlib.cmake
+[65.754s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstNumericalExternal.cmake
+[65.755s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrConfig.h
+[65.756s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstNumerical.so.1.3.1
+[65.759s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstNumerical.so.1.3.1" to ""
+[65.759s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstNumerical.so
+[65.759s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstNumericalInternal.cmake
+[65.760s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstNumericalInternal.cmake
+[65.760s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrCallBack.h
+[65.760s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrConstraintOptimizer.h
+[65.761s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrExport.h
+[65.761s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrGaussJordanInverse.h
+[65.762s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrHFTISolver.h
+[65.762s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrInverse.h
+[65.762s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrInverseSPD.h
+[65.763s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrIsOrthonormal.h
+[65.763s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrLDPSolver.h
+[65.764s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrLSEISolver.h
+[65.764s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrLSMinNorm.h
+[65.764s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrLSSolver.h
+[65.764s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrLSqLin.h
+[65.766s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrLU.h
+[65.766s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrLinearRegression.h
+[65.767s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrNNLSSolver.h
+[65.767s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrNetlib.h
+[65.767s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrPInverse.h
+[65.768s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrPInverseEconomy.h
+[65.768s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrRegistrationRigid.h
+[65.768s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrSVD.h
+[65.769s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrSVDEconomy.h
+[65.769s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrSVDRSSolver.h
+[65.770s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrSavitzkyGolay.h
+[65.770s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrSymmetricEigenProblem.h
+[65.770s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical.h
+[65.771s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstNumericalBuild.cmake
+[65.771s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/cisstNumerical.i
+[65.772s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstNumericalPython.so
+[65.774s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstNumericalPython.so" to ""
+[65.774s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/cisstNumericalPython.py
+[65.774s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstNumerical/nmrPython.h
+[65.775s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsConfig.h
+[65.775s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstMultiTask.so.1.3.1
+[65.792s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstMultiTask.so.1.3.1" to ""
+[65.793s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstMultiTask.so
+[65.793s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMultiTaskInternal.cmake
+[65.793s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMultiTaskInternal.cmake
+[65.793s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMultiTaskInternal.cmake
+[65.793s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableQualifiedReadBase.h
+[65.793s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableQualifiedReadMethod.h
+[65.793s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableQualifiedReadReturnVoidMethod.h
+[65.794s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableReadBase.h
+[65.794s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableReadMethod.h
+[65.794s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableReadReturnVoidMethod.h
+[65.794s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableVoidBase.h
+[65.794s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableVoidFunction.h
+[65.794s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableVoidMethod.h
+[65.795s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableVoidReturnBase.h
+[65.795s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableVoidReturnMethod.h
+[65.795s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableWriteReturnBase.h
+[65.795s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCallableWriteReturnMethod.h
+[65.795s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCollectorBase.h
+[65.795s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCollectorEvent.h
+[65.796s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCollectorFactory.h
+[65.796s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCollectorState.h
+[65.796s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandBase.h
+[65.796s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandFilteredQueuedWrite.h
+[65.796s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandFilteredWrite.h
+[65.797s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandQualifiedRead.h
+[65.797s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandQueuedVoid.h
+[65.797s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandQueuedVoidReturn.h
+[65.797s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandQueuedWrite.h
+[65.797s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandQueuedWriteBase.h
+[65.798s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandQueuedWriteReturn.h
+[65.798s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandRead.h
+[65.798s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandVoid.h
+[65.798s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandVoidReturn.h
+[65.798s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandWrite.h
+[65.798s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandWriteBase.h
+[65.798s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCommandWriteReturn.h
+[65.799s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsComponent.h
+[65.799s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsComponentAddLatency.h
+[65.799s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsComponentGeneratorMacros.h
+[65.800s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsComponentViewer.h
+[65.800s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsConnection.h
+[65.800s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsDelayedConnections.h
+[65.800s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsEventReceiver.h
+[65.800s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsExport.h
+[65.801s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsFixedSizeVector.h
+[65.801s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsFixedSizeVectorTypes.h
+[65.801s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsForwardDeclarations.h
+[65.801s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsFunctionBase.h
+[65.802s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsFunctionQualifiedRead.h
+[65.802s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsFunctionRead.h
+[65.802s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsFunctionVoid.h
+[65.802s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsFunctionVoidReturn.h
+[65.802s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsFunctionWrite.h
+[65.802s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsFunctionWriteReturn.h
+[65.803s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsGenericObject.h
+[65.803s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsGenericObjectProxy.h
+[65.803s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterface.h
+[65.803s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceInput.h
+[65.803s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceOutput.h
+[65.803s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceProvided.h
+[65.804s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceRequired.h
+[65.804s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsIntervalStatistics.h
+[65.804s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsLODMultiplexerStreambuf.h
+[65.804s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsMacros.h
+[65.804s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsMailBox.h
+[65.804s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsManagerComponentBase.h
+[65.805s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsManagerComponentClient.h
+[65.805s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsManagerComponentServer.h
+[65.805s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsManagerComponentServices.h
+[65.805s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsManagerGlobal.h
+[65.805s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsManagerGlobalInterface.h
+[65.805s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsManagerLocal.h
+[65.806s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsManagerLocalInterface.h
+[65.806s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsMatrix.h
+[65.806s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsMulticastCommandVoid.h
+[65.806s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsMulticastCommandWrite.h
+[65.806s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsMulticastCommandWriteBase.h
+[65.806s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsParameterTypesOld.h
+[65.807s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQueue.h
+[65.807s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsSocketProxyClient.h
+[65.807s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsSocketProxyCommon.h
+[65.807s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsSocketProxyServer.h
+[65.807s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsStateArray.h
+[65.807s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsStateArrayBase.h
+[65.808s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsStateData.h
+[65.808s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsStateIndex.h
+[65.808s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsStateTable.h
+[65.808s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsStateTableFilter.h
+[65.808s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTask.h
+[65.809s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTaskContinuous.h
+[65.809s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTaskFromCallback.h
+[65.809s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTaskFromSignal.h
+[65.809s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTaskManager.h
+[65.809s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTaskPeriodic.h
+[65.809s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsTransformationTypes.h
+[65.809s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsVector.h
+[65.810s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsWatchdogClient.h
+[65.810s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsWatchdogServer.h
+[65.810s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask.h
+[65.810s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsInterfaceCommon.h
+[65.811s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsComponentState.h
+[65.811s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsExecutionResult.h
+[65.811s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsParameterTypes.h
+[65.813s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/cisstMultiTask.i
+[65.813s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstMultiTaskPython.so
+[65.821s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstMultiTaskPython.so" to ""
+[65.821s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/cisstMultiTaskPython.py
+[65.822s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsPython.h
+[65.823s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstMultiTaskQt.so.1.3.1
+[65.825s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstMultiTaskQt.so.1.3.1" to ""
+[65.825s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstMultiTaskQt.so
+[65.825s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMultiTaskQtInternal.cmake
+[65.826s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMultiTaskQtInternal.cmake
+[65.826s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMultiTaskQtInternal.cmake
+[65.826s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMultiTaskQtInternal.cmake
+[65.826s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMultiTaskQtInternal.cmake
+[65.826s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMultiTaskQtExternal.cmake
+[65.827s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCollectorQtComponent.h
+[65.827s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCollectorQtFactory.h
+[65.827s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsCollectorQtWidget.h
+[65.827s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsExportQt.h
+[65.827s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsForwardDeclarationsQt.h
+[65.827s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsIntervalStatisticsQtWidget.h
+[65.827s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsMessageQtWidget.h
+[65.828s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtApplication.h
+[65.828s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtCommandSelector.h
+[65.828s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtScaleAndSignalTool.h
+[65.828s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtVisualizerShell.h
+[65.828s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtWidgetComponent.h
+[65.828s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtWidgetEvent.h
+[65.829s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtWidgetFactory.h
+[65.829s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtWidgetFunction.h
+[65.829s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtWidgetGenericObject.h
+[65.829s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtWidgetGenericObjectProxy.h
+[65.829s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtWidgetInterfaceRequired.h
+[65.830s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsQtWidgetVectorTypes.h
+[65.830s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTask/mtsSystemQtWidget.h
+[65.830s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMultiTaskQt.h
+[65.831s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstParameterTypes.so.1.3.1
+[65.836s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstParameterTypes.so.1.3.1" to ""
+[65.836s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstParameterTypes.so
+[65.836s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesInternal.cmake
+[65.837s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesInternal.cmake
+[65.837s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesInternal.cmake
+[65.837s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesInternal.cmake
+[65.837s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmActuatorParameters.h
+[65.837s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmActuatorState.h
+[65.837s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmEventButton.h
+[65.838s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmExport.h
+[65.838s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmForceCartesianGet.h
+[65.838s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmForceCartesianSet.h
+[65.838s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmForwardDeclarations.h
+[65.838s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmGainParameters.h
+[65.838s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmInputDataConverter.h
+[65.838s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmJointType.h
+[65.839s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmMaskedVector.h
+[65.839s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmMotionBase.h
+[65.839s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmRobotState.h
+[65.839s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmVelocityCartesianSet.h
+[65.839s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmVelocityJointGet.h
+[65.840s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmVelocityJointSet.h
+[65.840s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes.h
+[65.840s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmActuatorJointCoupling.h
+[65.840s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmPositionCartesianGet.h
+[65.841s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmPositionCartesianArrayGet.h
+[65.841s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmPositionCartesianSet.h
+[65.841s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmVelocityCartesianGet.h
+[65.841s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmPositionJointGet.h
+[65.841s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmPositionJointSet.h
+[65.841s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmForceTorqueJointSet.h
+[65.841s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmCartesianImpedance.h
+[65.842s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmIMUSensors.h
+[65.842s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmStateJoint.h
+[65.842s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmConfigurationJoint.h
+[65.842s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmInputData.h
+[65.842s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmKeyValue.h
+[65.842s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmOperatingState.h
+[65.843s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmImageFrame.h
+[65.843s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmCameraInfo.h
+[65.843s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmDepthMap.h
+[65.843s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmForwardKinematicsRequest.h
+[65.843s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmForwardKinematicsResponse.h
+[65.844s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmInverseKinematicsRequest.h
+[65.844s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmInverseKinematicsResponse.h
+[65.844s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/cisstParameterTypes.i
+[65.845s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstParameterTypesPython.so
+[65.848s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstParameterTypesPython.so" to ""
+[65.848s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/cisstParameterTypesPython.py
+[65.849s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmPython.h
+[65.850s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstParameterTypesQt.so.1.3.1
+[65.851s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstParameterTypesQt.so.1.3.1" to ""
+[65.851s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstParameterTypesQt.so
+[65.851s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesQtInternal.cmake
+[65.851s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesQtInternal.cmake
+[65.851s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesQtInternal.cmake
+[65.852s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesQtInternal.cmake
+[65.852s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesQtInternal.cmake
+[65.852s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesQtInternal.cmake
+[65.852s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstParameterTypesQtExternal.cmake
+[65.852s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmEventButtonQtWidget.h
+[65.852s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmExportQt.h
+[65.853s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmForceCartesianGetQtWidget.h
+[65.853s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmForwardDeclarationsQt.h
+[65.853s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmInputDataQtWidget.h
+[65.853s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmOperatingStateQtWidget.h
+[65.853s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmPositionCartesianArrayGetQtWidget.h
+[65.853s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmPositionCartesianGetQtWidget.h
+[65.854s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmPositionCartesianGetQtWidgetFactory.h
+[65.854s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmPositionJointSetQtWidget.h
+[65.854s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmStateJointQtWidget.h
+[65.854s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypes/prmStateRobotQtWidget.h
+[65.854s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstParameterTypesQt.h
+[65.855s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstRobotcisstReflexxesTypeII.cmake
+[65.856s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstRobotExternal.cmake
+[65.856s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstRobotcisstReflexxesTypeII.cmake
+[65.856s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstRobotExternal.cmake
+[65.856s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstRobotcisstReflexxesTypeII.cmake
+[65.856s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstRobotExternal.cmake
+[65.856s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libReflexxesTypeII.so
+[65.858s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstRobot.so.1.3.1
+[65.860s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstRobot.so.1.3.1" to ""
+[65.860s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstRobot.so
+[65.860s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstRobotInternal.cmake
+[65.861s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstRobotInternal.cmake
+[65.861s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstRobotInternal.cmake
+[65.861s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robCubicSO3.h
+[65.861s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robDH.h
+[65.861s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robExport.h
+[65.862s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robFunction.h
+[65.862s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robFunctionRn.h
+[65.862s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robFunctionSE3.h
+[65.862s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robFunctionSO3.h
+[65.862s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robHayati.h
+[65.862s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robJoint.h
+[65.862s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robKinematics.h
+[65.863s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robLSPB.h
+[65.863s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robLinearRn.h
+[65.863s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robLinearSE3.h
+[65.863s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robLink.h
+[65.863s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robManipulator.h
+[65.863s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robMass.h
+[65.864s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robModifiedDH.h
+[65.864s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robModifiedHayati.h
+[65.864s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robQLQRn.h
+[65.864s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robQuintic.h
+[65.864s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robReflexxes.h
+[65.864s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robSLERP.h
+[65.864s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot.h
+[65.867s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/cisstRobot.i
+[65.868s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstRobotPython.so
+[65.870s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstRobotPython.so" to ""
+[65.870s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/cisstRobotPython.py
+[65.870s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstRobot/robPython.h
+[65.872s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/mshConfig.h
+[65.872s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstMesh.so.1.3.1
+[65.873s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstMesh.so.1.3.1" to ""
+[65.873s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/libcisstMesh.so
+[65.873s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMeshInternal.cmake
+[65.874s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMeshInternal.cmake
+[65.874s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMeshInternal.cmake
+[65.874s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/EllipsoidOBBIntersectionSolver.h
+[65.874s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/PointProjectionRoutines.h
+[65.874s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/TriangleClosestPointSolver.h
+[65.874s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2AlgDirPDTree.h
+[65.875s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2AlgDirPDTreeCP.h
+[65.875s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2AlgDirPDTreeCPEdges.h
+[65.875s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2AlgDirPDTreeCPPointCloud.h
+[65.875s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2AlgDirPDTreevonMises.h
+[65.875s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2AlgDirPDTreevonMisesEdges.h
+[65.875s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2AlgDirPDTreevonMisesPointCloud.h
+[65.875s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2BoundingBox.h
+[65.876s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2DirPDTreeBase.h
+[65.876s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2DirPDTreeEdges.h
+[65.876s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2DirPDTreeNode.h
+[65.876s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2DirPDTreePointCloud.h
+[65.876s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2Edge.h
+[65.876s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2Edges.h
+[65.877s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2PointCloud.h
+[65.877s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh2Utilities.h
+[65.877s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgDirPDTree.h
+[65.877s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgDirPDTreeBA.h
+[65.877s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgDirPDTreeBAMesh.h
+[65.877s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgDirPDTreeBAPointCloud.h
+[65.878s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgDirPDTreevonMisesProj.h
+[65.878s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgDirPDTreevonMisesProjMesh.h
+[65.878s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgPDTree.h
+[65.878s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgPDTreeCP.h
+[65.878s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgPDTreeCPMesh.h
+[65.878s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgPDTreeCPPointCloud.h
+[65.878s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgPDTreeMLP.h
+[65.878s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgPDTreeMLPMesh.h
+[65.879s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3AlgPDTreeMLPPointCloud.h
+[65.879s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3BoundingBox.h
+[65.879s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3DirPDTreeBase.h
+[65.879s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3DirPDTreeMesh.h
+[65.879s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3DirPDTreeNode.h
+[65.879s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3DirPDTreePointCloud.h
+[65.879s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3Mesh.h
+[65.880s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3PDTreeBase.h
+[65.880s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3PDTreeMesh.h
+[65.880s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3PDTreeNode.h
+[65.880s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3PDTreePointCloud.h
+[65.880s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3PointCloud.h
+[65.880s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/msh3Utilities.h
+[65.881s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/mshExport.h
+[65.881s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/mshForwardDeclarations.h
+[65.881s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh.h
+[65.882s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/cisstMesh.i
+[65.882s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstMeshPython.so
+[65.883s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/cisst/lib/_cisstMeshPython.so" to ""
+[65.883s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/lib/cisstMeshPython.py
+[65.883s] -- Installing: /home/ytxu/cr_dvrk_ws/install/cisst/include/cisstMesh/mshPython.h
+[65.886s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/cisst' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/cisstNetlib PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/cisst

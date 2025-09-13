@@ -1,0 +1,77 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"applications/data-plot/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "sawRobotIO1394::@5f76c3b237c71a93cbe5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Amp1394::@f0e46f2d6b79066f2020"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "sawRobotIO1394Qt::@c5261568d2d3cd55d28b"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "sawRobotIO1394"
+	},
+	"id" : "sawRobotIO1394QtDataPlot_autogen::@fe29c7224faaf1673b0f",
+	"isGeneratorProvided" : true,
+	"name" : "sawRobotIO1394QtDataPlot_autogen",
+	"paths" : 
+	{
+		"build" : "applications/data-plot",
+		"source" : "applications/data-plot"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core/applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core/applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

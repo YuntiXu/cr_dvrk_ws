@@ -1,0 +1,31 @@
+[100%] Built target cisst_ros_crtk
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/lib/cisst_ros_crtk/libcisst_ros_crtk.so
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/include/cisst_ros_crtk/cisst_ros_crtk.h
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/include/cisst_ros_crtk/mtsCISSTToROS.h
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/include/cisst_ros_crtk/mtsROSToCISST.h
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/include/cisst_ros_crtk/mts_ros_crtk_bridge.h
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/include/cisst_ros_crtk/mts_ros_crtk_bridge_provided.h
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/include/cisst_ros_crtk/mts_ros_crtk_bridge_required.h
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/environment/library_path.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/environment/library_path.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/ament_index/resource_index/package_run_dependencies/cisst_ros_crtk
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/ament_index/resource_index/parent_prefix_path/cisst_ros_crtk
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/environment/path.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/environment/path.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/local_setup.bash
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/local_setup.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/local_setup.zsh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/local_setup.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/package.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/ament_index/resource_index/packages/cisst_ros_crtk
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/cmake/cisst_ros_crtkConfig.cmake
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/cmake/cisst_ros_crtkConfig-version.cmake
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/package.xml
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/lib/libcisst_ros_crtk.so
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/cmake/cisst_ros_crtkExport.cmake
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/cmake/cisst_ros_crtkExport-release.cmake

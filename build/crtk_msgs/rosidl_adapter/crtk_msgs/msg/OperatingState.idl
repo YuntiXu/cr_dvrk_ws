@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from crtk_msgs/msg/OperatingState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module crtk_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "See https://github.com/collaborative-robotics/documentation/wiki/Robot-API-status" "\n"
+      "" "\n"
+      "Standard states include DISABLED, ENABLED, PAUSED and FAULT")
+    struct OperatingState {
+      std_msgs::msg::Header header;
+
+      string state;
+
+      boolean is_homed;
+
+      boolean is_busy;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+HEAD is now at 93ef9f8 disable BLAS TESTING since it requires CMake policy CMP0026 OLD which is not supported on recent CMake

@@ -1,0 +1,95 @@
+[0.752s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/sawControllersAll': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawControllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/sawControllersAll
+[1.028s] -- The C compiler identification is GNU 11.4.0
+[1.772s] -- The CXX compiler identification is GNU 11.4.0
+[2.261s] -- Detecting C compiler ABI info
+[2.684s] -- Detecting C compiler ABI info - done
+[2.702s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.712s] -- Detecting C compile features
+[2.712s] -- Detecting C compile features - done
+[2.714s] -- Detecting CXX compiler ABI info
+[3.060s] -- Detecting CXX compiler ABI info - done
+[3.076s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.076s] -- Detecting CXX compile features
+[3.077s] -- Detecting CXX compile features - done
+[3.079s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[3.160s] -- Performing Test CXX_SUPPORTS_WEXTRA
+[3.333s] -- Performing Test CXX_SUPPORTS_WEXTRA - Success
+[3.333s] -- Performing Test CXX_SUPPORTS_WALL
+[3.526s] -- Performing Test CXX_SUPPORTS_WALL - Success
+[3.700s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[3.733s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[3.733s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[3.733s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[3.736s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[3.784s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[3.784s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[3.796s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[3.854s] -- Configuring done
+[3.942s] -- Generating done
+[3.963s] -- Build files have been written to: /home/ytxu/cr_dvrk_ws/build/sawControllersAll
+[3.990s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/sawControllersAll' returned '0': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawControllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/sawControllersAll
+[3.990s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/sawControllersAll': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/sawControllersAll -- -j12 -l12
+[4.090s] [  4%] [34m[1mcisstDataGenerator for mtsPIDConfiguration[0m
+[4.094s] cisstDataGenerator: generating /home/ytxu/cr_dvrk_ws/build/sawControllersAll/components/include/sawControllers/mtsPIDConfiguration.h and /home/ytxu/cr_dvrk_ws/build/sawControllersAll/components/mtsPIDConfiguration_cdg.cpp from /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawControllers/components/code/mtsPIDConfiguration.cdg
+[4.100s] cisstDataGenerator: parse succeeded
+[4.100s] cisstDataGenerator: generating header file "/home/ytxu/cr_dvrk_ws/build/sawControllersAll/components/include/sawControllers/mtsPIDConfiguration.h"
+[4.100s] cisstDataGenerator: generating code file "/home/ytxu/cr_dvrk_ws/build/sawControllersAll/components/mtsPIDConfiguration_cdg.cpp"
+[4.171s] [  9%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/osaGravityCompensation.cpp.o[0m
+[4.179s] [ 14%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/osaPDGC.cpp.o[0m
+[4.179s] [ 19%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/osaPIDAntiWindup.cpp.o[0m
+[4.181s] [ 23%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/mtsController.cpp.o[0m
+[4.181s] [ 28%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/osaCartesianImpedanceController.cpp.o[0m
+[4.182s] [ 33%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/mtsPDGC.cpp.o[0m
+[4.182s] [ 38%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/mtsGravityCompensation.cpp.o[0m
+[4.189s] [ 42%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/mtsPID.cpp.o[0m
+[4.191s] [ 47%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/mtsPIDConfiguration_cdg.cpp.o[0m
+[14.002s] [ 52%] [32m[1mLinking CXX shared library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawControllers.so[0m
+[14.317s] [ 52%] Built target sawControllers
+[14.340s] [ 57%] [34m[1mAutomatic MOC for target sawControllersQt[0m
+[14.680s] [ 57%] Built target sawControllersQt_autogen
+[14.702s] [ 61%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawControllersQt.dir/sawControllersQt_autogen/mocs_compilation.cpp.o[0m
+[14.702s] [ 66%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawControllersQt.dir/mtsPIDQtWidget.cpp.o[0m
+[19.328s] [ 71%] [32m[1mLinking CXX shared library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawControllersQt.so[0m
+[19.983s] [ 71%] Built target sawControllersQt
+[20.012s] [ 85%] [32mBuilding CXX object examples/CMakeFiles/osaGCExample.dir/osaGCExample.cpp.o[0m
+[20.013s] [ 85%] [32mBuilding CXX object examples/CMakeFiles/mtsGCExample.dir/mtsGCExample.cpp.o[0m
+[20.013s] [ 85%] [32mBuilding CXX object examples/CMakeFiles/osaPDGCExample.dir/osaPDGCExample.cpp.o[0m
+[22.356s] [ 90%] [32m[1mLinking CXX executable osaGCExample[0m
+[22.366s] [ 95%] [32m[1mLinking CXX executable osaPDGCExample[0m
+[22.940s] [ 95%] Built target osaGCExample
+[22.963s] [ 95%] Built target osaPDGCExample
+[24.340s] [100%] [32m[1mLinking CXX executable mtsGCExample[0m
+[24.727s] [100%] Built target mtsGCExample
+[24.742s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/sawControllersAll' returned '0': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/sawControllersAll -- -j12 -l12
+[24.744s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/sawControllersAll': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/sawControllersAll
+[24.752s] -- Install configuration: "Release"
+[24.753s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/share/sawControllers/sawControllersConfig.cmake
+[24.753s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/share/sawControllers/sawControllersConfigVersion.cmake
+[24.753s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers
+[24.753s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/osaPDGC.h
+[24.754s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/mtsPDGC.h
+[24.754s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/osaPIDAntiWindup.h
+[24.754s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/mtsPIDQtWidget.h
+[24.754s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/mtsController.h
+[24.754s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/mtsGravityCompensation.h
+[24.755s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/mtsPID.h
+[24.755s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/osaCartesianImpedanceController.h
+[24.755s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/sawControllersExport.h
+[24.755s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/osaGravityCompensation.h
+[24.755s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/sawControllersQtExport.h
+[24.755s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers
+[24.755s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/mtsPIDConfiguration.h
+[24.755s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/sawControllers/sawControllersRevision.h
+[24.756s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib/libsawControllers.so.2.2.0
+[24.757s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib/libsawControllers.so.2.2.0" to ""
+[24.757s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib/libsawControllers.so
+[24.758s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib/libsawControllersQt.so.2.2.0
+[24.758s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib/libsawControllersQt.so.2.2.0" to ""
+[24.758s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib/libsawControllersQt.so
+[24.759s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin/osaGCExample
+[24.760s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin/osaGCExample" to ""
+[24.760s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin/osaPDGCExample
+[24.762s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin/osaPDGCExample" to ""
+[24.762s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin/mtsGCExample
+[24.762s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin/mtsGCExample" to ""
+[24.765s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/sawControllersAll' returned '0': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/sawControllersAll

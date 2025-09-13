@@ -1,0 +1,92 @@
+[0.275s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_python': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_python -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/dvrk_python
+[0.522s] -- The C compiler identification is GNU 11.4.0
+[0.960s] -- The CXX compiler identification is GNU 11.4.0
+[1.809s] -- Detecting C compiler ABI info
+[2.002s] -- Detecting C compiler ABI info - done
+[2.029s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.029s] -- Detecting C compile features
+[2.029s] -- Detecting C compile features - done
+[2.038s] -- Detecting CXX compiler ABI info
+[2.400s] -- Detecting CXX compiler ABI info - done
+[2.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.430s] -- Detecting CXX compile features
+[2.430s] -- Detecting CXX compile features - done
+[5.238s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.392s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.945s] -- Configuring done
+[5.957s] -- Generating done
+[5.962s] -- Build files have been written to: /home/ytxu/cr_dvrk_ws/build/dvrk_python
+[5.976s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_python' returned '0': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_python -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/dvrk_python
+[5.977s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_python': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/dvrk_python -- -j12 -l12
+[6.113s] Built target ament_cmake_python_symlink_dvrk
+[6.616s] running egg_info
+[6.617s] creating dvrk.egg-info
+[6.619s] writing dvrk.egg-info/PKG-INFO
+[6.619s] writing dependency_links to dvrk.egg-info/dependency_links.txt
+[6.620s] writing top-level names to dvrk.egg-info/top_level.txt
+[6.621s] writing manifest file 'dvrk.egg-info/SOURCES.txt'
+[6.625s] reading manifest file 'dvrk.egg-info/SOURCES.txt'
+[6.627s] writing manifest file 'dvrk.egg-info/SOURCES.txt'
+[6.678s] Built target ament_cmake_python_build_dvrk_egg
+[6.699s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_python' returned '0': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/dvrk_python -- -j12 -l12
+[6.700s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_python': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/dvrk_python
+[6.713s] -- Install configuration: "Release"
+[6.714s] -- Execute custom install script
+[6.718s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/pythonpath.sh
+[6.731s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/pythonpath.dsv
+[6.754s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.3.0-py3.10.egg-info/PKG-INFO
+[6.774s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.3.0-py3.10.egg-info/SOURCES.txt
+[6.786s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.3.0-py3.10.egg-info/dependency_links.txt
+[6.814s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.3.0-py3.10.egg-info/top_level.txt
+[6.830s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/__init__.py
+[6.856s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/arm.py
+[6.870s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/console.py
+[6.888s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/ecm.py
+[6.904s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/mtm.py
+[6.917s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/psm.py
+[6.933s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/suj.py
+[6.951s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/teleop_psm.py
+[6.968s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_arm_test.py
+[6.995s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_bag_replay.py
+[7.008s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_potentiometer_psm.py
+[7.023s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_potentiometer_psm_cv.py
+[7.050s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_potentiometers.py
+[7.082s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_suj.py
+[7.106s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_console_test.py
+[7.130s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_ecm_psm_gc_collect.py
+[7.145s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_latency_test.py
+[7.171s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_move_wait_test.py
+[7.195s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_mtm_cartesian_impedance.py
+[7.224s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_mtm_test.py
+[7.255s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_psm_ecm_registration.py
+[7.285s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_psm_effort_test.py
+[7.312s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_psm_test.py
+[7.338s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_reset_teleoperation.py
+[7.356s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_teleoperation.py
+[7.370s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/psm_calibration_cv.py
+[7.389s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/validate_psm_calibration.py
+[7.408s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/ament_index/resource_index/package_run_dependencies/dvrk_python
+[7.421s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/ament_index/resource_index/parent_prefix_path/dvrk_python
+[7.435s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/ament_prefix_path.sh
+[7.454s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/ament_prefix_path.dsv
+[7.464s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/path.sh
+[7.478s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/path.dsv
+[7.495s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/local_setup.bash
+[7.510s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/local_setup.sh
+[7.530s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/local_setup.zsh
+[7.552s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/local_setup.dsv
+[7.566s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/package.dsv
+[7.591s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/ament_index/resource_index/packages/dvrk_python
+[7.614s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/cmake/dvrk_pythonConfig.cmake
+[7.629s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/cmake/dvrk_pythonConfig-version.cmake
+[7.643s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/package.xml
+[7.735s] Listing '/home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk'...
+[7.735s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/__init__.py'...
+[7.735s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/arm.py'...
+[7.735s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/console.py'...
+[7.736s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/ecm.py'...
+[7.736s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/mtm.py'...
+[7.736s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/psm.py'...
+[7.736s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/suj.py'...
+[7.736s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/teleop_psm.py'...
+[7.748s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_python' returned '0': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/dvrk_python

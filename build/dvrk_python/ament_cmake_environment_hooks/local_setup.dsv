@@ -1,0 +1,3 @@
+source;share/dvrk_python/environment/ament_prefix_path.sh
+source;share/dvrk_python/environment/path.sh
+source;share/dvrk_python/environment/pythonpath.sh

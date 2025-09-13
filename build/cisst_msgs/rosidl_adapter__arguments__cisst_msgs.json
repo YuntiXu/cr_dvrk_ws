@@ -1,0 +1,9 @@
+{
+  "package_name": "cisst_msgs",
+  "non_idl_tuples": [
+    "/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst-ros/cisst_msgs:msg/DoubleVec.msg",
+    "/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst-ros/cisst_msgs:msg/IntervalStatistics.msg",
+    "/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst-ros/cisst_msgs:msg/BoolStamped.msg",
+    "/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst-ros/cisst_msgs:srv/ConvertFloat64Array.srv"
+  ]
+}

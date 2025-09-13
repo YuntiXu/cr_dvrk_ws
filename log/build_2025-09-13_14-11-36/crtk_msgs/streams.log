@@ -1,0 +1,230 @@
+[0.097s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/crtk_msgs': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/dvrk_robot:/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore:/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/robot_io:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/dvrk_video:/home/ytxu/cr_dvrk_ws/install/dvrk_python:/home/ytxu/cr_dvrk_ws/install/dvrk_model:/home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget:/home/ytxu/cr_dvrk_ws/install/dvrk_config_jhu:/home/ytxu/cr_dvrk_ws/install/dvrk_config:/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration:/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros:/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge:/home/ytxu/cr_dvrk_ws/install/cisst_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/crtk_msgs -- -j12 -l12
+[1.040s] [  1%] Built target crtk_msgs__cpp
+[1.042s] [ 12%] Built target crtk_msgs__rosidl_generator_c
+[1.042s] [ 12%] Built target ament_cmake_python_symlink_crtk_msgs
+[1.043s] [ 24%] Built target crtk_msgs__rosidl_typesupport_cpp
+[1.043s] [ 35%] Built target crtk_msgs__rosidl_typesupport_fastrtps_cpp
+[1.043s] [ 46%] Built target crtk_msgs__rosidl_typesupport_introspection_c
+[1.043s] [ 58%] Built target crtk_msgs__rosidl_typesupport_c
+[1.046s] [ 69%] Built target crtk_msgs__rosidl_typesupport_introspection_cpp
+[1.046s] [ 81%] Built target crtk_msgs__rosidl_typesupport_fastrtps_c
+[1.046s] [ 81%] Built target crtk_msgs
+[1.047s] [ 82%] Built target crtk_msgs__py
+[1.047s] [ 92%] Built target crtk_msgs__rosidl_generator_py
+[1.047s] [ 97%] Built target crtk_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.047s] [ 97%] Built target crtk_msgs__rosidl_typesupport_c__pyext
+[1.047s] [100%] Built target crtk_msgs__rosidl_typesupport_introspection_c__pyext
+[1.047s] running egg_info
+[1.047s] writing crtk_msgs.egg-info/PKG-INFO
+[1.047s] writing dependency_links to crtk_msgs.egg-info/dependency_links.txt
+[1.048s] writing top-level names to crtk_msgs.egg-info/top_level.txt
+[1.048s] reading manifest file 'crtk_msgs.egg-info/SOURCES.txt'
+[1.048s] writing manifest file 'crtk_msgs.egg-info/SOURCES.txt'
+[1.048s] [100%] Built target ament_cmake_python_build_crtk_msgs_egg
+[1.402s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/crtk_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/dvrk_robot:/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore:/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/robot_io:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/dvrk_video:/home/ytxu/cr_dvrk_ws/install/dvrk_python:/home/ytxu/cr_dvrk_ws/install/dvrk_model:/home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget:/home/ytxu/cr_dvrk_ws/install/dvrk_config_jhu:/home/ytxu/cr_dvrk_ws/install/dvrk_config:/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration:/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros:/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge:/home/ytxu/cr_dvrk_ws/install/cisst_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/crtk_msgs -- -j12 -l12
+[1.406s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/crtk_msgs': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/dvrk_robot:/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore:/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/robot_io:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/dvrk_video:/home/ytxu/cr_dvrk_ws/install/dvrk_python:/home/ytxu/cr_dvrk_ws/install/dvrk_model:/home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget:/home/ytxu/cr_dvrk_ws/install/dvrk_config_jhu:/home/ytxu/cr_dvrk_ws/install/dvrk_config:/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration:/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros:/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge:/home/ytxu/cr_dvrk_ws/install/cisst_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/crtk_msgs
+[1.541s] -- Install configuration: "Release"
+[1.545s] -- Execute custom install script
+[1.546s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/ament_index/resource_index/rosidl_interfaces/crtk_msgs
+[1.548s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/cartesian_impedance.h
+[1.548s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/cartesian_impedance_half_plane_gains.h
+[1.550s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__functions.h
+[1.551s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__struct.h
+[1.554s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__type_support.h
+[1.554s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__functions.h
+[1.555s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__struct.h
+[1.555s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__type_support.h
+[1.555s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__functions.h
+[1.556s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__struct.h
+[1.556s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__type_support.h
+[1.556s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__functions.h
+[1.556s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__struct.h
+[1.559s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__type_support.h
+[1.560s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/operating_state.h
+[1.561s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.563s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/string_stamped.h
+[1.563s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__functions.h
+[1.564s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__struct.h
+[1.565s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__type_support.h
+[1.565s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__functions.h
+[1.566s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__struct.h
+[1.566s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__type_support.h
+[1.569s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__functions.h
+[1.569s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__struct.h
+[1.569s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__type_support.h
+[1.570s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/query_forward_kinematics.h
+[1.571s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/query_inverse_kinematics.h
+[1.571s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/trigger_operating_state.h
+[1.575s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/environment/library_path.sh
+[1.575s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/environment/library_path.dsv
+[1.576s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__rosidl_typesupport_fastrtps_c.h
+[1.577s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__rosidl_typesupport_fastrtps_c.h
+[1.577s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__rosidl_typesupport_fastrtps_c.h
+[1.577s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__rosidl_typesupport_fastrtps_c.h
+[1.577s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.583s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__rosidl_typesupport_fastrtps_c.h
+[1.583s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__rosidl_typesupport_fastrtps_c.h
+[1.586s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__rosidl_typesupport_fastrtps_c.h
+[1.588s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/cartesian_impedance.hpp
+[1.589s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/cartesian_impedance_half_plane_gains.hpp
+[1.589s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__builder.hpp
+[1.589s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__struct.hpp
+[1.593s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__traits.hpp
+[1.597s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__type_support.hpp
+[1.598s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__builder.hpp
+[1.598s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__struct.hpp
+[1.599s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__traits.hpp
+[1.600s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__type_support.hpp
+[1.600s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__builder.hpp
+[1.604s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__struct.hpp
+[1.610s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__traits.hpp
+[1.610s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__type_support.hpp
+[1.610s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__builder.hpp
+[1.611s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__struct.hpp
+[1.611s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__traits.hpp
+[1.611s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__type_support.hpp
+[1.611s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/operating_state.hpp
+[1.611s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.612s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/string_stamped.hpp
+[1.612s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__builder.hpp
+[1.612s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__struct.hpp
+[1.613s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__traits.hpp
+[1.614s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__type_support.hpp
+[1.614s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__builder.hpp
+[1.617s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__struct.hpp
+[1.617s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__traits.hpp
+[1.617s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__type_support.hpp
+[1.618s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__builder.hpp
+[1.619s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__struct.hpp
+[1.619s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__traits.hpp
+[1.621s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__type_support.hpp
+[1.621s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/query_forward_kinematics.hpp
+[1.623s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/query_inverse_kinematics.hpp
+[1.624s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/trigger_operating_state.hpp
+[1.625s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__rosidl_typesupport_fastrtps_cpp.hpp
+[1.625s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__rosidl_typesupport_fastrtps_cpp.hpp
+[1.625s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.626s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.626s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.627s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__rosidl_typesupport_fastrtps_cpp.hpp
+[1.628s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__rosidl_typesupport_fastrtps_cpp.hpp
+[1.630s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.631s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__rosidl_typesupport_introspection_c.h
+[1.632s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__rosidl_typesupport_introspection_c.h
+[1.632s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__rosidl_typesupport_introspection_c.h
+[1.634s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__rosidl_typesupport_introspection_c.h
+[1.634s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.634s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__rosidl_typesupport_introspection_c.h
+[1.635s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__rosidl_typesupport_introspection_c.h
+[1.635s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__rosidl_typesupport_introspection_c.h
+[1.636s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance__rosidl_typesupport_introspection_cpp.hpp
+[1.636s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/cartesian_impedance_half_plane_gains__rosidl_typesupport_introspection_cpp.hpp
+[1.638s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/operating_state__rosidl_typesupport_introspection_cpp.hpp
+[1.639s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/msg/detail/string_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.640s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_forward_kinematics__rosidl_typesupport_introspection_cpp.hpp
+[1.643s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/query_inverse_kinematics__rosidl_typesupport_introspection_cpp.hpp
+[1.643s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/include/crtk_msgs/crtk_msgs/srv/detail/trigger_operating_state__rosidl_typesupport_introspection_cpp.hpp
+[1.644s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/environment/pythonpath.sh
+[1.644s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/environment/pythonpath.dsv
+[1.646s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[1.647s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[1.647s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[1.649s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[1.649s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/__init__.py
+[1.649s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/_crtk_msgs_s.ep.rosidl_typesupport_c.c
+[1.649s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/_crtk_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.650s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/_crtk_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.650s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/crtk_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.650s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/crtk_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.650s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/crtk_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.651s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/libcrtk_msgs__rosidl_generator_py.so
+[1.651s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/msg/__init__.py
+[1.651s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/msg/_cartesian_impedance.py
+[1.651s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/msg/_cartesian_impedance_half_plane_gains.py
+[1.651s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/msg/_cartesian_impedance_half_plane_gains_s.c
+[1.657s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/msg/_cartesian_impedance_s.c
+[1.658s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/msg/_operating_state.py
+[1.658s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/msg/_operating_state_s.c
+[1.659s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/msg/_string_stamped.py
+[1.659s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/msg/_string_stamped_s.c
+[1.659s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/srv/__init__.py
+[1.660s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/srv/_query_forward_kinematics.py
+[1.660s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/srv/_query_forward_kinematics_s.c
+[1.661s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/srv/_query_inverse_kinematics.py
+[1.661s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/srv/_query_inverse_kinematics_s.c
+[1.662s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/srv/_trigger_operating_state.py
+[1.663s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/srv/_trigger_operating_state_s.c
+[1.664s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/crtk_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.667s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/crtk_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.667s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/crtk_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.667s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/msg/OperatingState.idl
+[1.670s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/msg/StringStamped.idl
+[1.670s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/msg/CartesianImpedanceHalfPlaneGains.idl
+[1.671s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/msg/CartesianImpedance.idl
+[1.672s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/TriggerOperatingState.idl
+[1.672s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/QueryForwardKinematics.idl
+[1.672s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/QueryInverseKinematics.idl
+[1.673s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/msg/OperatingState.msg
+[1.674s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/msg/StringStamped.msg
+[1.674s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/msg/CartesianImpedanceHalfPlaneGains.msg
+[1.674s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/msg/CartesianImpedance.msg
+[1.675s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/TriggerOperatingState.srv
+[1.675s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/TriggerOperatingState_Request.msg
+[1.676s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/TriggerOperatingState_Response.msg
+[1.676s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/QueryForwardKinematics.srv
+[1.677s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/QueryForwardKinematics_Request.msg
+[1.677s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/QueryForwardKinematics_Response.msg
+[1.677s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/QueryInverseKinematics.srv
+[1.677s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/QueryInverseKinematics_Request.msg
+[1.678s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/srv/QueryInverseKinematics_Response.msg
+[1.678s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/ament_index/resource_index/package_run_dependencies/crtk_msgs
+[1.678s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/ament_index/resource_index/parent_prefix_path/crtk_msgs
+[1.679s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/environment/ament_prefix_path.sh
+[1.680s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/environment/ament_prefix_path.dsv
+[1.680s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/environment/path.sh
+[1.681s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/environment/path.dsv
+[1.681s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/local_setup.bash
+[1.681s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/local_setup.sh
+[1.682s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/local_setup.zsh
+[1.682s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/local_setup.dsv
+[1.682s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/package.dsv
+[1.683s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/ament_index/resource_index/packages/crtk_msgs
+[1.683s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/rosidl_cmake-extras.cmake
+[1.683s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.683s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.683s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.683s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.684s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.684s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.684s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/crtk_msgsConfig.cmake
+[1.684s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/crtk_msgsConfig-version.cmake
+[1.684s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/package.xml
+[1.684s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib/libcrtk_msgs__rosidl_generator_c.so
+[1.685s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib/libcrtk_msgs__rosidl_typesupport_fastrtps_c.so
+[1.685s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib/libcrtk_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.685s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib/libcrtk_msgs__rosidl_typesupport_introspection_c.so
+[1.685s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib/libcrtk_msgs__rosidl_typesupport_c.so
+[1.686s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib/libcrtk_msgs__rosidl_typesupport_introspection_cpp.so
+[1.686s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib/libcrtk_msgs__rosidl_typesupport_cpp.so
+[1.694s] Listing '/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs'...
+[1.694s] Listing '/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/msg'...
+[1.694s] Listing '/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages/crtk_msgs/srv'...
+[1.695s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib/libcrtk_msgs__rosidl_generator_py.so
+[1.695s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/export_crtk_msgs__rosidl_generator_cExport.cmake
+[1.695s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/export_crtk_msgs__rosidl_generator_cExport-release.cmake
+[1.695s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/export_crtk_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.695s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/export_crtk_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.696s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/export_crtk_msgs__rosidl_generator_cppExport.cmake
+[1.696s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/export_crtk_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.696s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/export_crtk_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.696s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/crtk_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.697s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/crtk_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.697s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/crtk_msgs__rosidl_typesupport_cExport.cmake
+[1.697s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/crtk_msgs__rosidl_typesupport_cExport-release.cmake
+[1.697s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/crtk_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.698s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/crtk_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.698s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/crtk_msgs__rosidl_typesupport_cppExport.cmake
+[1.698s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/crtk_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.698s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/export_crtk_msgs__rosidl_generator_pyExport.cmake
+[1.698s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake/export_crtk_msgs__rosidl_generator_pyExport-release.cmake
+[1.808s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/crtk_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/dvrk_robot:/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore:/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/robot_io:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/dvrk_video:/home/ytxu/cr_dvrk_ws/install/dvrk_python:/home/ytxu/cr_dvrk_ws/install/dvrk_model:/home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget:/home/ytxu/cr_dvrk_ws/install/dvrk_config_jhu:/home/ytxu/cr_dvrk_ws/install/dvrk_config:/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration:/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros:/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge:/home/ytxu/cr_dvrk_ws/install/cisst_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/crtk_msgs

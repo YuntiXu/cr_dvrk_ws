@@ -1,0 +1,1 @@
+/home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration/ament_cmake_python/dvrk_camera_registration/dvrk_camera_registration.egg-info/SOURCES.txt

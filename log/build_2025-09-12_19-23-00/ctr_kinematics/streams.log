@@ -1,0 +1,23 @@
+[1.839s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/ctr_kinematics': PYTHONPATH=/home/ytxu/cr_dvrk_ws/build/ctr_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ytxu/cr_dvrk_ws/install/ctr_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ytxu/cr_dvrk_ws/build/ctr_kinematics/build --no-deps symlink_data
+[2.170s] running develop
+[2.404s] running egg_info
+[2.404s] creating ctr_kinematics.egg-info
+[2.404s] writing ctr_kinematics.egg-info/PKG-INFO
+[2.405s] writing dependency_links to ctr_kinematics.egg-info/dependency_links.txt
+[2.405s] writing entry points to ctr_kinematics.egg-info/entry_points.txt
+[2.405s] writing requirements to ctr_kinematics.egg-info/requires.txt
+[2.405s] writing top-level names to ctr_kinematics.egg-info/top_level.txt
+[2.405s] writing manifest file 'ctr_kinematics.egg-info/SOURCES.txt'
+[2.409s] reading manifest file 'ctr_kinematics.egg-info/SOURCES.txt'
+[2.410s] writing manifest file 'ctr_kinematics.egg-info/SOURCES.txt'
+[2.411s] running build_ext
+[2.412s] Creating /home/ytxu/cr_dvrk_ws/install/ctr_kinematics/lib/python3.10/site-packages/ctr-kinematics.egg-link (link to .)
+[2.412s] 
+[2.412s] Installed /home/ytxu/cr_dvrk_ws/build/ctr_kinematics
+[2.412s] running symlink_data
+[2.413s] creating /home/ytxu/cr_dvrk_ws/install/ctr_kinematics/share/ament_index
+[2.413s] creating /home/ytxu/cr_dvrk_ws/install/ctr_kinematics/share/ament_index/resource_index
+[2.413s] creating /home/ytxu/cr_dvrk_ws/install/ctr_kinematics/share/ament_index/resource_index/packages
+[2.414s] symbolically linking /home/ytxu/cr_dvrk_ws/build/ctr_kinematics/resource/ctr_kinematics -> /home/ytxu/cr_dvrk_ws/install/ctr_kinematics/share/ament_index/resource_index/packages
+[2.414s] symbolically linking /home/ytxu/cr_dvrk_ws/build/ctr_kinematics/package.xml -> /home/ytxu/cr_dvrk_ws/install/ctr_kinematics/share/ctr_kinematics
+[2.494s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/ctr_kinematics' returned '0': PYTHONPATH=/home/ytxu/cr_dvrk_ws/build/ctr_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ytxu/cr_dvrk_ws/install/ctr_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ytxu/cr_dvrk_ws/build/ctr_kinematics/build --no-deps symlink_data

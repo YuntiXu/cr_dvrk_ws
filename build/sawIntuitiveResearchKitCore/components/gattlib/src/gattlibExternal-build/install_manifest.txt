@@ -1,0 +1,3 @@
+/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/gattlib.h
+/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib/pkgconfig/gattlib.pc
+/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib/libgattlib.so

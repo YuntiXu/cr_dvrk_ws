@@ -1,0 +1,234 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-59ebff819e1f845677c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "hanson-haskell",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hanson-haskell-Release-d59d2313ee3d47e25bd9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "hanson-haskell"
+				},
+				{
+					"build" : "hanson-haskell/fortran-f2c",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hanson-haskell.fortran-f2c-Release-a36abfe99fec6f8119e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "hanson-haskell/fortran-f2c",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lawson-hanson",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lawson-hanson-Release-8a407c80d2d77d5154cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lawson-hanson"
+				},
+				{
+					"build" : "lawson-hanson/fortran-f2c",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lawson-hanson.fortran-f2c-Release-07ef25b5952d8112b365.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "lawson-hanson/fortran-f2c",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "cisstNetlib-wrappers",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-cisstNetlib-wrappers-Release-6675a9073f71d3f0efdf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "cisstNetlib-wrappers",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cisstNetlib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "cisstNetlib_hanson_haskell",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "cisstNetlib_hanson_haskell_C",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "cisstNetlib_lawson_hanson",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "cisstNetlib_lawson_hanson_C",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "cisstNetlib-wrappers",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "cisstNetlib::@3ec27c9e1c7999e825fa",
+					"jsonFile" : "target-cisstNetlib-Release-e5478de5e2710ccdc13e.json",
+					"name" : "cisstNetlib",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cisstNetlib_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cisstNetlib_C-Release-adb9b41302bb28fc9303.json",
+					"name" : "cisstNetlib_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cisstNetlib_hanson_haskell::@6934a23f17657b7d4040",
+					"jsonFile" : "target-cisstNetlib_hanson_haskell-Release-e684c6b41d132293db8e.json",
+					"name" : "cisstNetlib_hanson_haskell",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "cisstNetlib_lawson_hanson::@16c5264f48f93ec8b081",
+					"jsonFile" : "target-cisstNetlib_lawson_hanson-Release-92150d7abb3f91c1870e.json",
+					"name" : "cisstNetlib_lawson_hanson",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ytxu/cr_dvrk_ws/build/cisstNetlib",
+		"source" : "/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisstNetlib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

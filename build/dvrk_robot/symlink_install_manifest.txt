@@ -1,0 +1,15 @@
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/ament_index/resource_index/package_run_dependencies/dvrk_robot
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/ament_index/resource_index/parent_prefix_path/dvrk_robot
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/ament_prefix_path.sh
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/ament_prefix_path.dsv
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/path.sh
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/path.dsv
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.bash
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.sh
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.zsh
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.dsv
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/package.dsv
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/ament_index/resource_index/packages/dvrk_robot
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/cmake/dvrk_robotConfig.cmake
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/cmake/dvrk_robotConfig-version.cmake
+/home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/package.xml

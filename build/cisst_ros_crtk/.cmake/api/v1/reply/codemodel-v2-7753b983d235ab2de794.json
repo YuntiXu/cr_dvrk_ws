@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-9d7f4b73de5203a200c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cisst_ros_crtk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cisst_ros_crtk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cisst_ros_crtk-Release-8659681aae322333afac.json",
+					"name" : "cisst_ros_crtk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cisst_ros_crtk_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cisst_ros_crtk_uninstall-Release-6ab91a4bfe93d9eae690.json",
+					"name" : "cisst_ros_crtk_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-efe3b92f9311223bc9f9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ytxu/cr_dvrk_ws/build/cisst_ros_crtk",
+		"source" : "/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst-ros/cisst_ros_crtk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,16 @@
+[1.982s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/joint_space_ctrl': PYTHONPATH=/home/ytxu/cr_dvrk_ws/build/joint_space_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ytxu/cr_dvrk_ws/install/joint_space_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ytxu/cr_dvrk_ws/build/joint_space_ctrl/build --no-deps symlink_data
+[2.298s] running develop
+[2.539s] running egg_info
+[2.539s] writing joint_space_ctrl.egg-info/PKG-INFO
+[2.540s] writing dependency_links to joint_space_ctrl.egg-info/dependency_links.txt
+[2.540s] writing entry points to joint_space_ctrl.egg-info/entry_points.txt
+[2.541s] writing requirements to joint_space_ctrl.egg-info/requires.txt
+[2.541s] writing top-level names to joint_space_ctrl.egg-info/top_level.txt
+[2.543s] reading manifest file 'joint_space_ctrl.egg-info/SOURCES.txt'
+[2.545s] writing manifest file 'joint_space_ctrl.egg-info/SOURCES.txt'
+[2.547s] running build_ext
+[2.547s] Creating /home/ytxu/cr_dvrk_ws/install/joint_space_ctrl/lib/python3.10/site-packages/joint-space-ctrl.egg-link (link to .)
+[2.549s] 
+[2.549s] Installed /home/ytxu/cr_dvrk_ws/build/joint_space_ctrl
+[2.550s] running symlink_data
+[2.612s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/joint_space_ctrl' returned '0': PYTHONPATH=/home/ytxu/cr_dvrk_ws/build/joint_space_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ytxu/cr_dvrk_ws/install/joint_space_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ytxu/cr_dvrk_ws/build/joint_space_ctrl/build --no-deps symlink_data

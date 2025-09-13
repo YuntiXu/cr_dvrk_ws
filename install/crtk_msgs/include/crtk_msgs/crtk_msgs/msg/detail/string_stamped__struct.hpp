@@ -1,0 +1,1 @@
+/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_generator_cpp/crtk_msgs/msg/detail/string_stamped__struct.hpp

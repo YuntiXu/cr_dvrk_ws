@@ -1,0 +1,15 @@
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/ament_index/resource_index/package_run_dependencies/dvrk_arms_from_ros
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/ament_index/resource_index/parent_prefix_path/dvrk_arms_from_ros
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/environment/ament_prefix_path.sh
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/environment/ament_prefix_path.dsv
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/environment/path.sh
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/environment/path.dsv
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/local_setup.bash
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/local_setup.sh
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/local_setup.zsh
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/local_setup.dsv
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.dsv
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/ament_index/resource_index/packages/dvrk_arms_from_ros
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/cmake/dvrk_arms_from_rosConfig.cmake
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/cmake/dvrk_arms_from_rosConfig-version.cmake
+/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.xml

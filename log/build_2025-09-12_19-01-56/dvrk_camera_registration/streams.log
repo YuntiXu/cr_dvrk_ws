@@ -1,0 +1,71 @@
+[0.223s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_camera_registration -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration
+[0.435s] -- The C compiler identification is GNU 11.4.0
+[0.981s] -- The CXX compiler identification is GNU 11.4.0
+[1.612s] -- Detecting C compiler ABI info
+[1.872s] -- Detecting C compiler ABI info - done
+[1.895s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.895s] -- Detecting C compile features
+[1.895s] -- Detecting C compile features - done
+[1.901s] -- Detecting CXX compiler ABI info
+[2.242s] -- Detecting CXX compiler ABI info - done
+[2.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.256s] -- Detecting CXX compile features
+[2.257s] -- Detecting CXX compile features - done
+[4.206s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.357s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.725s] -- Configuring done
+[4.738s] -- Generating done
+[4.746s] -- Build files have been written to: /home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration
+[4.748s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration' returned '0': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_camera_registration -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration
+[4.749s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration -- -j12 -l12
+[4.918s] Built target ament_cmake_python_symlink_dvrk_camera_registration
+[5.497s] running egg_info
+[5.502s] creating dvrk_camera_registration.egg-info
+[5.506s] writing dvrk_camera_registration.egg-info/PKG-INFO
+[5.510s] writing dependency_links to dvrk_camera_registration.egg-info/dependency_links.txt
+[5.510s] writing top-level names to dvrk_camera_registration.egg-info/top_level.txt
+[5.510s] writing manifest file 'dvrk_camera_registration.egg-info/SOURCES.txt'
+[5.515s] reading manifest file 'dvrk_camera_registration.egg-info/SOURCES.txt'
+[5.516s] writing manifest file 'dvrk_camera_registration.egg-info/SOURCES.txt'
+[5.576s] Built target ament_cmake_python_build_dvrk_camera_registration_egg
+[5.601s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration' returned '0': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration -- -j12 -l12
+[5.602s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration
+[5.618s] -- Install configuration: "Release"
+[5.618s] -- Execute custom install script
+[5.619s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/pythonpath.sh
+[5.638s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/pythonpath.dsv
+[5.685s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration-1.0.0-py3.10.egg-info/PKG-INFO
+[5.710s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration-1.0.0-py3.10.egg-info/SOURCES.txt
+[5.748s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration-1.0.0-py3.10.egg-info/dependency_links.txt
+[5.776s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration-1.0.0-py3.10.egg-info/top_level.txt
+[5.808s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/__init__.py
+[5.831s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/arm.py
+[5.851s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/camera.py
+[5.876s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/convex_hull.py
+[5.901s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/pose_generator.py
+[5.917s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/vision_tracking.py
+[5.932s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/lib/dvrk_camera_registration/camera_registration.py
+[5.945s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/lib/dvrk_camera_registration/vis_gripper_pose.py
+[5.972s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/ament_index/resource_index/package_run_dependencies/dvrk_camera_registration
+[5.986s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/ament_index/resource_index/parent_prefix_path/dvrk_camera_registration
+[6.015s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/ament_prefix_path.sh
+[6.035s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/ament_prefix_path.dsv
+[6.054s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/path.sh
+[6.067s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/path.dsv
+[6.081s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/local_setup.bash
+[6.102s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/local_setup.sh
+[6.132s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/local_setup.zsh
+[6.150s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/local_setup.dsv
+[6.172s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/package.dsv
+[6.185s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/ament_index/resource_index/packages/dvrk_camera_registration
+[6.199s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/cmake/dvrk_camera_registrationConfig.cmake
+[6.218s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/cmake/dvrk_camera_registrationConfig-version.cmake
+[6.254s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/share/dvrk_camera_registration/package.xml
+[6.368s] Listing '/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration'...
+[6.368s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/__init__.py'...
+[6.368s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/arm.py'...
+[6.368s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/camera.py'...
+[6.368s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/convex_hull.py'...
+[6.368s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/pose_generator.py'...
+[6.368s] Compiling '/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/vision_tracking.py'...
+[6.379s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration' returned '0': AMENT_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/ytxu/cr_dvrk_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/dvrk_camera_registration

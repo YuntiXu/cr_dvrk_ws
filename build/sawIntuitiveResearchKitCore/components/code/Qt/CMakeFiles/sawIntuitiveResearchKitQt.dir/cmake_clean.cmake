@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/sawIntuitiveResearchKitQt_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/sawIntuitiveResearchKitQt_autogen.dir/ParseCache.txt"
+  "sawIntuitiveResearchKitQt_autogen"
+  "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawIntuitiveResearchKitQt.pdb"
+  "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawIntuitiveResearchKitQt.so"
+  "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawIntuitiveResearchKitQt.so.2.3.1"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsDaVinciEndoscopeFocusQtWidget.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsDaVinciEndoscopeFocusQtWidget.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitArmQtWidget.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitArmQtWidget.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitConsoleQt.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitConsoleQt.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitConsoleQtWidget.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitConsoleQtWidget.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitECMQtWidget.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitECMQtWidget.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitMTMQtWidget.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitMTMQtWidget.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitPSMQtWidget.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitPSMQtWidget.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitSUJQtWidget.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitSUJQtWidget.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsSocketBaseQtWidget.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsSocketBaseQtWidget.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsTeleOperationECMQtWidget.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsTeleOperationECMQtWidget.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsTeleOperationPSMQtWidget.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsTeleOperationPSMQtWidget.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/qrc_logo.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/qrc_logo.cpp.o.d"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/sawIntuitiveResearchKitQt_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/sawIntuitiveResearchKitQt.dir/sawIntuitiveResearchKitQt_autogen/mocs_compilation.cpp.o.d"
+  "qrc_logo.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/sawIntuitiveResearchKitQt.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

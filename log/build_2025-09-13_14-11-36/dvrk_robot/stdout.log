@@ -1,0 +1,21 @@
+[ 50%] Built target dvrk_utilities
+[100%] Built target dvrk_console_json
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/ament_index/resource_index/package_run_dependencies/dvrk_robot
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/ament_index/resource_index/parent_prefix_path/dvrk_robot
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/path.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/path.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.bash
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.zsh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/package.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/ament_index/resource_index/packages/dvrk_robot
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/cmake/dvrk_robotConfig.cmake
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/cmake/dvrk_robotConfig-version.cmake
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/package.xml
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/lib/libdvrk_utilities.so
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/lib/dvrk_robot/dvrk_console_json

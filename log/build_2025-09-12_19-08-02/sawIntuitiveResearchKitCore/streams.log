@@ -1,0 +1,333 @@
+[0.385s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/bin:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore
+[0.475s] -- The C compiler identification is GNU 11.4.0
+[0.697s] -- The CXX compiler identification is GNU 11.4.0
+[0.823s] -- Detecting C compiler ABI info
+[0.928s] -- Detecting C compiler ABI info - done
+[0.934s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.934s] -- Detecting C compile features
+[0.934s] -- Detecting C compile features - done
+[0.937s] -- Detecting CXX compiler ABI info
+[1.043s] -- Detecting CXX compiler ABI info - done
+[1.049s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.050s] -- Detecting CXX compile features
+[1.050s] -- Detecting CXX compile features - done
+[1.052s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.074s] -- Performing Test CXX_SUPPORTS_WEXTRA
+[1.180s] -- Performing Test CXX_SUPPORTS_WEXTRA - Success
+[1.181s] -- Performing Test CXX_SUPPORTS_WALL
+[1.289s] -- Performing Test CXX_SUPPORTS_WALL - Success
+[1.393s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.414s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.414s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.414s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.437s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.465s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.465s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.473s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.491s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.491s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.495s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.513s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.513s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.517s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.536s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.536s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.536s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.537s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.556s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.557s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.557s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.558s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.577s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.577s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.577s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.579s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.597s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.598s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.598s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.598s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.620s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.620s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.638s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.657s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.657s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.657s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.668s] -- Configuring done
+[1.737s] -- Generating done
+[1.748s] -- Build files have been written to: /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore
+[1.759s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore' returned '0': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/bin:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore
+[1.760s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/bin:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore -- -j12 -l12
+[1.811s] [  1%] [32mBuilding CXX object applications/gripper-calibration/CMakeFiles/sawIntuitiveResearchKitGripperCalibration.dir/GripperCalibration.cpp.o[0m
+[1.814s] [  2%] [32mBuilding CXX object applications/s-potentiometers-calibration/CMakeFiles/sawIntuitiveResearchKitSPotentiometersCalibration.dir/SPotentiometersCalibration.cpp.o[0m
+[1.814s] [  4%] [34m[1mCreating directories for 'gattlibExternal'[0m
+[1.824s] [  4%] Built target sawIntuitiveResearchKitSDCardUpdater
+[1.824s] [  4%] Built target sawIntuitiveResearchKitRemoveLogs
+[1.824s] [  4%] Built target sawIntuitiveResearchKitSUJBluetoothReset
+[1.832s] [  4%] Built target sawIntuitiveResearchKitConfigGenerator
+[1.898s] [  5%] [34m[1mPerforming download step (git clone) for 'gattlibExternal'[0m
+[1.919s] Cloning into 'gattlibExternal'...
+[2.747s] HEAD is now at 33a8a27 gattlib-py: Fix/Handle returned error code
+[2.808s] [  6%] [34m[1mNo update step for 'gattlibExternal'[0m
+[2.837s] [  8%] [34m[1mNo patch step for 'gattlibExternal'[0m
+[2.866s] [  9%] [34m[1mPerforming configure step for 'gattlibExternal'[0m
+[2.875s] loading initial cache file /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/tmp/gattlibExternal-cache-Release.cmake
+[2.960s] -- The C compiler identification is GNU 11.4.0
+[3.184s] -- The CXX compiler identification is GNU 11.4.0
+[3.320s] -- Detecting C compiler ABI info
+[3.357s] [ 11%] [32m[1mLinking CXX executable sawIntuitiveResearchKitGripperCalibration[0m
+[3.431s] -- Detecting C compiler ABI info - done
+[3.437s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.437s] -- Detecting C compile features
+[3.438s] -- Detecting C compile features - done
+[3.441s] -- Detecting CXX compiler ABI info
+[3.558s] -- Detecting CXX compiler ABI info - done
+[3.560s] [ 11%] Built target sawIntuitiveResearchKitGripperCalibration
+[3.564s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.564s] -- Detecting CXX compile features
+[3.565s] -- Detecting CXX compile features - done
+[3.569s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.616s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[3.616s] -- Checking for one of the modules 'bluez'
+[3.669s] -- Checking for one of the modules 'glib-2.0'
+[3.715s] -- Checking for one of the modules 'gio-unix-2.0'
+[3.774s] [0mBuild DBus gattlib for Bluez v5.64[0m
+[3.777s] [0mPackage Gattlib for development version [0m
+[3.787s] -- Configuring done
+[3.795s] -- Generating done
+[3.796s] -- Build files have been written to: /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal-build
+[3.817s] [ 12%] [34m[1mPerforming build step for 'gattlibExternal'[0m
+[3.852s] [  8%] [34m[1mGenerate D-Bus 'org.bluez.Battery1.xml'[0m
+[3.852s] [  8%] [34m[1mGenerate D-Bus 'org.bluez.GattCharacteristic1.xml'[0m
+[3.853s] [ 13%] [34m[1mGenerate D-Bus 'org.bluez.GattService1.xml'[0m
+[3.853s] [ 17%] [34m[1mGenerate D-Bus 'org.bluez.Adapter1.xml'[0m
+[3.854s] [ 21%] [34m[1mGenerate D-Bus 'org.bluez.Device1.xml'[0m
+[3.855s] [ 26%] [34m[1mGenerate D-Bus 'org.bluez.GattDescriptor1.xml'[0m
+[3.936s] [ 34%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib_char.c.o[0m
+[3.937s] [ 34%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib.c.o[0m
+[3.937s] [ 43%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib_advertisement.c.o[0m
+[3.937s] [ 47%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib_adapter.c.o[0m
+[3.937s] [ 52%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/__/common/gattlib_common.c.o[0m
+[3.938s] [ 56%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib_stream.c.o[0m
+[3.940s] [ 60%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/__/common/gattlib_eddystone.c.o[0m
+[3.940s] [ 60%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib_notification.c.o[0m
+[3.940s] [ 65%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/bluez5/lib/uuid.c.o[0m
+[3.942s] [ 69%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/__/common/logging_backend/syslog/gattlib_logging.c.o[0m
+[3.948s] [ 73%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-adaptater1.c.o[0m
+[4.089s] [ 78%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-device1.c.o[0m
+[4.194s] [ 13%] [32m[1mLinking CXX executable sawIntuitiveResearchKitSPotentiometersCalibration[0m
+[4.242s] [01m[K/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal/dbus/gattlib_stream.c:[m[K In function ‘[01m[Kgattlib_write_char_stream_write[m[K’:
+[4.242s] [01m[K/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal/dbus/gattlib_stream.c:72:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kwrite[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[4.242s]    72 |         [01;35m[Kwrite((unsigned long)stream, buffer, buffer_len)[m[K;
+[4.242s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.255s] [ 82%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-gattcharacteristic1.c.o[0m
+[4.265s] In file included from [01m[K/usr/include/string.h:535[m[K,
+[4.265s]                  from [01m[K/usr/include/glib-2.0/glib/galloca.h:33[m[K,
+[4.265s]                  from [01m[K/usr/include/glib-2.0/glib.h:30[m[K,
+[4.266s]                  from [01m[K/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal/dbus/gattlib.c:7[m[K:
+[4.266s] In function ‘[01m[Kstrncpy[m[K’,
+[4.266s]     inlined from ‘[01m[Kget_device_path_from_mac_with_adapter[m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal/dbus/gattlib.c:70:2[m[K:
+[4.266s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:10:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 21 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+[4.266s]    95 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len,[m[K
+[4.266s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.266s]    96 | [01;35m[K                                  __glibc_objsize (__dest))[m[K;
+[4.266s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.272s] In function ‘[01m[Kstrncpy[m[K’,
+[4.272s]     inlined from ‘[01m[Kget_device_path_from_mac[m[K’ at [01m[K/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal/dbus/gattlib.c:97:2[m[K:
+[4.272s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:10:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 21 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+[4.272s]    95 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len,[m[K
+[4.272s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.272s]    96 | [01;35m[K                                  __glibc_objsize (__dest))[m[K;
+[4.273s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.280s] [ 86%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-gattdescriptor1.c.o[0m
+[4.288s] [ 91%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-gattservice1.c.o[0m
+[4.290s] [ 95%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-battery1.c.o[0m
+[4.514s] [ 13%] Built target sawIntuitiveResearchKitSPotentiometersCalibration
+[4.762s] [100%] [32m[1mLinking C shared library libgattlib.so[0m
+[4.840s] [100%] Built target gattlib
+[4.868s] [ 15%] [34m[1mPerforming install step for 'gattlibExternal'[0m
+[4.905s] [35m[1mConsolidate compiler generated dependencies of target gattlib[0m
+[4.934s] [100%] Built target gattlib
+[4.953s] [36mInstall the project...[0m
+[4.962s] -- Install configuration: "Release"
+[4.963s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/gattlib.h
+[4.964s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib/pkgconfig/gattlib.pc
+[4.964s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib/libgattlib.so
+[4.986s] [ 16%] [34m[1mCompleted 'gattlibExternal'[0m
+[5.024s] [ 16%] Built target gattlibExternal
+[5.036s] [ 18%] [34m[1mcisstDataGenerator for socketMessages[0m
+[5.036s] [ 19%] [34m[1mcisstDataGenerator for mtsIntuitiveResearchKitArmTypes[0m
+[5.038s] [ 20%] [34m[1mcisstDataGenerator for mtsHIDHeadSensorConfiguration[0m
+[5.039s] [ 22%] [34m[1mcisstDataGenerator for mtsIntuitiveResearchKitEndoscopeTypes[0m
+[5.040s] [ 23%] [34m[1mcisstDataGenerator for mtsIntuitiveResearchKitToolTypes[0m
+[5.040s] cisstDataGenerator: generating /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitArmTypes.h and /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitArmTypes_cdg.cpp from /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsIntuitiveResearchKitArmTypes.cdg
+[5.041s] cisstDataGenerator: generating /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/socketMessages.h and /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/socketMessages_cdg.cpp from /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/socketMessages.cdg
+[5.041s] cisstDataGenerator: parse succeeded
+[5.041s] cisstDataGenerator: generating header file "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitArmTypes.h"
+[5.041s] cisstDataGenerator: parse succeeded
+[5.042s] cisstDataGenerator: generating header file "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/socketMessages.h"
+[5.042s] cisstDataGenerator: generating code file "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitArmTypes_cdg.cpp"
+[5.042s] cisstDataGenerator: generating code file "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/socketMessages_cdg.cpp"
+[5.043s] cisstDataGenerator: generating /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsHIDHeadSensorConfiguration.h and /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/mtsHIDHeadSensorConfiguration_cdg.cpp from /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsHIDHeadSensorConfiguration.cdg
+[5.043s] cisstDataGenerator: generating /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitEndoscopeTypes.h and /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitEndoscopeTypes_cdg.cpp from /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsIntuitiveResearchKitEndoscopeTypes.cdg
+[5.044s] cisstDataGenerator: parse succeeded
+[5.044s] cisstDataGenerator: generating header file "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsHIDHeadSensorConfiguration.h"
+[5.044s] cisstDataGenerator: generating code file "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/mtsHIDHeadSensorConfiguration_cdg.cpp"
+[5.044s] cisstDataGenerator: parse succeeded
+[5.045s] cisstDataGenerator: generating header file "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitEndoscopeTypes.h"
+[5.045s] cisstDataGenerator: generating /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitToolTypes.h and /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitToolTypes_cdg.cpp from /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsIntuitiveResearchKitToolTypes.cdg
+[5.045s] cisstDataGenerator: generating code file "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitEndoscopeTypes_cdg.cpp"
+[5.045s] cisstDataGenerator: parse succeeded
+[5.046s] cisstDataGenerator: generating header file "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitToolTypes.h"
+[5.046s] cisstDataGenerator: generating code file "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitToolTypes_cdg.cpp"
+[5.083s] [ 25%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsStateMachine.cpp.o[0m
+[5.083s] [ 26%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitArm.cpp.o[0m
+[5.083s] [ 27%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitMTM.cpp.o[0m
+[5.084s] [ 29%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitPSM.cpp.o[0m
+[5.084s] [ 30%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKit.cpp.o[0m
+[5.084s] [ 31%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitECM.cpp.o[0m
+[5.084s] [ 33%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitSUJSi.cpp.o[0m
+[5.086s] [ 34%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitSUJFixed.cpp.o[0m
+[5.086s] [ 36%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsTeleOperationECM.cpp.o[0m
+[5.089s] [ 37%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitSUJ.cpp.o[0m
+[5.094s] [ 40%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitConsole.cpp.o[0m
+[5.094s] [ 40%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsTeleOperationPSM.cpp.o[0m
+[6.239s] [ 41%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsDaVinciHeadSensor.cpp.o[0m
+[7.268s] [ 43%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsDaVinciEndoscopeFocus.cpp.o[0m
+[22.704s] [ 44%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitUDPStreamer.cpp.o[0m
+[23.215s] [ 45%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsSocketBasePSM.cpp.o[0m
+[23.747s] [ 47%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsSocketClientPSM.cpp.o[0m
+[23.929s] [ 48%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsSocketServerPSM.cpp.o[0m
+[24.481s] [ 50%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsToolList.cpp.o[0m
+[26.043s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsSocketClientPSM.cpp:[m[K In member function ‘[01m[Kvoid mtsSocketClientPSM::ReceivePSMStateData()[m[K’:
+[26.043s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsSocketClientPSM.cpp:141:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[26.043s]   141 |         if ([01;35m[KbytesRead != State.Data.Header.Size[m[K){
+[26.044s]       |             [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.267s] [ 51%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/robManipulatorECM.cpp.o[0m
+[27.011s] [ 52%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/robManipulatorMTM.cpp.o[0m
+[27.698s] [ 54%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/robManipulatorPSMSnake.cpp.o[0m
+[27.741s] [ 55%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsPSMCompensation.cpp.o[0m
+[28.155s] [ 56%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/prmActuatorJointCouplingCheck.cpp.o[0m
+[28.187s] [ 58%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/prmConfigurationJointFromManipulator.cpp.o[0m
+[28.333s] [ 59%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/robGravityCompensationMTM.cpp.o[0m
+[28.567s] [ 61%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsHIDHeadSensor.cpp.o[0m
+[28.718s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:[m[K In member function ‘[01m[Kdouble robManipulatorMTM::ComputeGimbalIK(vctDynamicVector<double>&, const vctFrame4x4<double, true>&) const[m[K’:
+[28.719s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:156:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kq3[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[28.719s]   156 |     double [01;35m[Kq3[m[K, q4, q5, q6;
+[28.719s]       |            [01;35m[K^~[m[K
+[28.719s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:254:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[28.719s]   254 | [01;35m[K}[m[K
+[28.719s]       | [01;35m[K^[m[K
+[28.726s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:[m[K In member function ‘[01m[Kdouble robManipulatorMTM::FindOptimalPlatformAngle(const vctDynamicVector<double>&, const vctFrame4x4<double, true>&) const[m[K’:
+[28.726s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:422:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ke[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[28.726s]   422 |         double [01;35m[Ke[m[K;
+[28.726s]       |                [01;35m[K^[m[K
+[29.081s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:450:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[29.081s]   450 | [01;35m[K}[m[K
+[29.081s]       | [01;35m[K^[m[K
+[29.083s] [ 62%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/mtsIntuitiveResearchKitArmTypes_cdg.cpp.o[0m
+[29.822s] [ 63%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/mtsIntuitiveResearchKitToolTypes_cdg.cpp.o[0m
+[30.082s] [ 65%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/mtsIntuitiveResearchKitEndoscopeTypes_cdg.cpp.o[0m
+[30.162s] [ 66%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/socketMessages_cdg.cpp.o[0m
+[30.173s] [ 68%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/mtsHIDHeadSensorConfiguration_cdg.cpp.o[0m
+[33.479s] [ 69%] [32m[1mLinking CXX shared library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawIntuitiveResearchKit.so[0m
+[33.901s] [ 69%] Built target sawIntuitiveResearchKit
+[33.923s] [ 70%] [34m[1mAutomatic MOC for target sawIntuitiveResearchKitQt[0m
+[36.205s] [ 70%] Built target sawIntuitiveResearchKitQt_autogen
+[36.219s] [ 72%] [34m[1mGenerating qrc_logo.cpp[0m
+[36.260s] [ 73%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/sawIntuitiveResearchKitQt_autogen/mocs_compilation.cpp.o[0m
+[36.260s] [ 76%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitConsoleQtWidget.cpp.o[0m
+[36.261s] [ 76%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitConsoleQt.cpp.o[0m
+[36.261s] [ 77%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitArmQtWidget.cpp.o[0m
+[36.261s] [ 79%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitECMQtWidget.cpp.o[0m
+[36.264s] [ 80%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitSUJQtWidget.cpp.o[0m
+[36.264s] [ 81%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitPSMQtWidget.cpp.o[0m
+[36.264s] [ 83%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsTeleOperationECMQtWidget.cpp.o[0m
+[36.264s] [ 84%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsTeleOperationPSMQtWidget.cpp.o[0m
+[36.265s] [ 86%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsDaVinciEndoscopeFocusQtWidget.cpp.o[0m
+[36.267s] [ 87%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsIntuitiveResearchKitMTMQtWidget.cpp.o[0m
+[36.284s] [ 88%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/mtsSocketBaseQtWidget.cpp.o[0m
+[41.626s] [ 90%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/qrc_logo.cpp.o[0m
+[48.460s] [ 91%] [32m[1mLinking CXX shared library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawIntuitiveResearchKitQt.so[0m
+[49.516s] [ 91%] Built target sawIntuitiveResearchKitQt
+[49.543s] [ 94%] [32mBuilding CXX object examples/derivedTeleOperationPSM/components/CMakeFiles/sawIntuitiveResearchKitDerivedTeleOperationPSM.dir/code/mtsDerivedTeleOperationPSM.cpp.o[0m
+[49.543s] [ 94%] [32mBuilding CXX object applications/CMakeFiles/sawIntuitiveResearchKitQtPID.dir/mainQtPID.cpp.o[0m
+[49.546s] [ 95%] [32mBuilding CXX object applications/CMakeFiles/sawIntuitiveResearchKitQtConsoleJSON.dir/mainQtConsoleJSON.cpp.o[0m
+[51.604s] [ 97%] [32m[1mLinking CXX shared library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so[0m
+[52.028s] [ 97%] Built target sawIntuitiveResearchKitDerivedTeleOperationPSM
+[52.722s] [ 98%] [32m[1mLinking CXX executable sawIntuitiveResearchKitQtConsoleJSON[0m
+[53.525s] [ 98%] Built target sawIntuitiveResearchKitQtConsoleJSON
+[54.026s] [100%] [32m[1mLinking CXX executable sawIntuitiveResearchKitQtPID[0m
+[54.708s] [100%] Built target sawIntuitiveResearchKitQtPID
+[54.723s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore' returned '0': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/bin:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore -- -j12 -l12
+[54.726s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/bin:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore
+[54.734s] -- Install configuration: "Release"
+[54.735s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/share/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfig.cmake
+[54.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/share/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfigVersion.cmake
+[54.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit
+[54.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitConsoleQtWidget.h
+[54.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitArmQtWidget.h
+[54.736s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/prmConfigurationJointFromManipulator.h
+[54.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robManipulatorECM.h
+[54.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitECM.h
+[54.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsPSMCompensation.h
+[54.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitQtExport.h
+[54.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsToolList.h
+[54.737s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationECMQtWidget.h
+[54.738s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitPSM.h
+[54.738s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationPSMQtWidget.h
+[54.738s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsStateMachine.h
+[54.738s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/prmActuatorJointCouplingCheck.h
+[54.739s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitConsoleQt.h
+[54.739s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitPSMQtWidget.h
+[54.739s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robManipulatorPSMSnake.h
+[54.739s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsSocketServerPSM.h
+[54.739s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitMTMQtWidget.h
+[54.739s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robManipulatorMTM.h
+[54.739s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJSi.h
+[54.740s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitConsole.h
+[54.740s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsDaVinciHeadSensor.h
+[54.740s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsDaVinciEndoscopeFocus.h
+[54.740s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsSocketBaseQtWidget.h
+[54.740s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationECM.h
+[54.740s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitUDPStreamer.h
+[54.741s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJ.h
+[54.741s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJQtWidget.h
+[54.741s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationPSM.h
+[54.741s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsSocketBasePSM.h
+[54.741s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJFixed.h
+[54.741s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitArm.h
+[54.741s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitExport.h
+[54.742s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsHIDHeadSensor.h
+[54.742s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKit.h
+[54.742s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitECMQtWidget.h
+[54.742s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsSocketClientPSM.h
+[54.742s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitMTM.h
+[54.743s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsDaVinciEndoscopeFocusQtWidget.h
+[54.743s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit
+[54.743s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/socketMessages.h
+[54.743s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitArmTypes.h
+[54.743s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitToolTypes.h
+[54.743s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitRevision.h
+[54.744s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitEndoscopeTypes.h
+[54.744s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsHIDHeadSensorConfiguration.h
+[54.744s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfig.h
+[54.744s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKit.so.2.3.1
+[54.748s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKit.so.2.3.1" to ""
+[54.748s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKit.so
+[54.749s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKitQt.so.2.3.1
+[54.751s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKitQt.so.2.3.1" to ""
+[54.751s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKitQt.so
+[54.753s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitQtPID
+[54.753s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitQtPID" to ""
+[54.753s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitQtConsoleJSON
+[54.754s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitQtConsoleJSON" to ""
+[54.755s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitGripperCalibration
+[54.756s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitGripperCalibration" to ""
+[54.757s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitSPotentiometersCalibration
+[54.759s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitSPotentiometersCalibration" to ""
+[54.759s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/calParser.py
+[54.760s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/dvrk-config-generator.py
+[54.761s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/dvrk-sd-card-updater.py
+[54.762s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/dvrk-remove-logs.py
+[54.763s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/bin/dvrk-suj-bluetooth-reset.py
+[54.766s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore' returned '0': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/lib:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/lib:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/bin:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/bin:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore

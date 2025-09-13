@@ -1,0 +1,73 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"components/code/Qt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "sawRobotIO1394::@5f76c3b237c71a93cbe5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Amp1394::@f0e46f2d6b79066f2020"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "sawRobotIO1394"
+	},
+	"id" : "sawRobotIO1394Qt_autogen::@c5261568d2d3cd55d28b",
+	"isGeneratorProvided" : true,
+	"name" : "sawRobotIO1394Qt_autogen",
+	"paths" : 
+	{
+		"build" : "components/code/Qt",
+		"source" : "components/code/Qt"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core/components/code/Qt/CMakeFiles/sawRobotIO1394Qt_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core/components/code/Qt/CMakeFiles/sawRobotIO1394Qt_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

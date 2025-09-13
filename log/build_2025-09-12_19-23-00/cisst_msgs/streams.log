@@ -1,0 +1,175 @@
+[0.086s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/cisst_msgs': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/dvrk_robot:/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore:/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/robot_io:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/dvrk_video:/home/ytxu/cr_dvrk_ws/install/dvrk_python:/home/ytxu/cr_dvrk_ws/install/dvrk_model:/home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget:/home/ytxu/cr_dvrk_ws/install/dvrk_config_jhu:/home/ytxu/cr_dvrk_ws/install/dvrk_config:/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration:/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros:/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge:/home/ytxu/cr_dvrk_ws/install/cisst_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/cisst_msgs -- -j12 -l12
+[0.979s] [  1%] Built target cisst_msgs__cpp
+[0.979s] [ 12%] Built target cisst_msgs__rosidl_generator_c
+[0.979s] [ 12%] Built target ament_cmake_python_symlink_cisst_msgs
+[0.979s] [ 23%] Built target cisst_msgs__rosidl_typesupport_introspection_cpp
+[0.979s] [ 34%] Built target cisst_msgs__rosidl_typesupport_cpp
+[0.980s] [ 45%] Built target cisst_msgs__rosidl_typesupport_fastrtps_cpp
+[0.980s] [ 56%] Built target cisst_msgs__rosidl_typesupport_fastrtps_c
+[0.980s] [ 67%] Built target cisst_msgs__rosidl_typesupport_c
+[0.980s] [ 78%] Built target cisst_msgs__rosidl_typesupport_introspection_c
+[0.980s] [ 78%] Built target cisst_msgs
+[0.980s] [ 80%] Built target cisst_msgs__py
+[0.980s] [ 89%] Built target cisst_msgs__rosidl_generator_py
+[0.980s] [ 92%] Built target cisst_msgs__rosidl_typesupport_c__pyext
+[0.981s] [ 96%] Built target cisst_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.981s] [100%] Built target cisst_msgs__rosidl_typesupport_introspection_c__pyext
+[0.981s] running egg_info
+[0.981s] writing cisst_msgs.egg-info/PKG-INFO
+[0.981s] writing dependency_links to cisst_msgs.egg-info/dependency_links.txt
+[0.981s] writing top-level names to cisst_msgs.egg-info/top_level.txt
+[0.981s] reading manifest file 'cisst_msgs.egg-info/SOURCES.txt'
+[0.982s] writing manifest file 'cisst_msgs.egg-info/SOURCES.txt'
+[0.982s] [100%] Built target ament_cmake_python_build_cisst_msgs_egg
+[1.004s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/cisst_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/dvrk_robot:/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore:/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/robot_io:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/dvrk_video:/home/ytxu/cr_dvrk_ws/install/dvrk_python:/home/ytxu/cr_dvrk_ws/install/dvrk_model:/home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget:/home/ytxu/cr_dvrk_ws/install/dvrk_config_jhu:/home/ytxu/cr_dvrk_ws/install/dvrk_config:/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration:/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros:/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge:/home/ytxu/cr_dvrk_ws/install/cisst_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/cisst_msgs -- -j12 -l12
+[1.008s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/cisst_msgs': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/dvrk_robot:/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore:/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/robot_io:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/dvrk_video:/home/ytxu/cr_dvrk_ws/install/dvrk_python:/home/ytxu/cr_dvrk_ws/install/dvrk_model:/home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget:/home/ytxu/cr_dvrk_ws/install/dvrk_config_jhu:/home/ytxu/cr_dvrk_ws/install/dvrk_config:/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration:/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros:/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge:/home/ytxu/cr_dvrk_ws/install/cisst_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/cisst_msgs
+[1.390s] -- Install configuration: "Release"
+[1.391s] -- Execute custom install script
+[1.391s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/ament_index/resource_index/rosidl_interfaces/cisst_msgs
+[1.391s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/bool_stamped.h
+[1.391s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__functions.h
+[1.391s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__struct.h
+[1.392s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__type_support.h
+[1.392s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__functions.h
+[1.392s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__struct.h
+[1.392s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__type_support.h
+[1.392s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__functions.h
+[1.392s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__struct.h
+[1.393s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__type_support.h
+[1.393s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/double_vec.h
+[1.393s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/interval_statistics.h
+[1.393s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.394s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/convert_float64_array.h
+[1.394s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__functions.h
+[1.395s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__struct.h
+[1.395s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__type_support.h
+[1.395s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/environment/library_path.sh
+[1.395s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/environment/library_path.dsv
+[1.396s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_c.h
+[1.396s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__rosidl_typesupport_fastrtps_c.h
+[1.396s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__rosidl_typesupport_fastrtps_c.h
+[1.396s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.397s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__rosidl_typesupport_fastrtps_c.h
+[1.397s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/bool_stamped.hpp
+[1.397s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__builder.hpp
+[1.397s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__struct.hpp
+[1.397s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__traits.hpp
+[1.397s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__type_support.hpp
+[1.406s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__builder.hpp
+[1.407s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__struct.hpp
+[1.407s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__traits.hpp
+[1.407s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__type_support.hpp
+[1.407s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__builder.hpp
+[1.407s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__struct.hpp
+[1.408s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__traits.hpp
+[1.408s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__type_support.hpp
+[1.408s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/double_vec.hpp
+[1.409s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/interval_statistics.hpp
+[1.409s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.409s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/convert_float64_array.hpp
+[1.409s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__builder.hpp
+[1.409s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__struct.hpp
+[1.409s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__traits.hpp
+[1.409s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__type_support.hpp
+[1.410s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.410s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[1.410s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[1.410s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.411s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.411s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_c.h
+[1.411s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__rosidl_typesupport_introspection_c.h
+[1.411s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__rosidl_typesupport_introspection_c.h
+[1.411s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.411s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__rosidl_typesupport_introspection_c.h
+[1.411s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.412s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__rosidl_typesupport_introspection_cpp.hpp
+[1.425s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__rosidl_typesupport_introspection_cpp.hpp
+[1.425s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__rosidl_typesupport_introspection_cpp.hpp
+[1.426s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/environment/pythonpath.sh
+[1.426s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/environment/pythonpath.dsv
+[1.426s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs-3.0.0-py3.10.egg-info/PKG-INFO
+[1.426s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs-3.0.0-py3.10.egg-info/SOURCES.txt
+[1.426s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs-3.0.0-py3.10.egg-info/dependency_links.txt
+[1.427s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs-3.0.0-py3.10.egg-info/top_level.txt
+[1.427s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/__init__.py
+[1.427s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/_cisst_msgs_s.ep.rosidl_typesupport_c.c
+[1.427s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/_cisst_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.428s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/_cisst_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.428s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.428s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.428s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.429s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/libcisst_msgs__rosidl_generator_py.so
+[1.430s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/__init__.py
+[1.430s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_bool_stamped.py
+[1.430s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_bool_stamped_s.c
+[1.430s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_double_vec.py
+[1.430s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_double_vec_s.c
+[1.430s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_interval_statistics.py
+[1.431s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_interval_statistics_s.c
+[1.431s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/srv/__init__.py
+[1.431s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/srv/_convert_float64_array.py
+[1.431s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/srv/_convert_float64_array_s.c
+[1.431s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.431s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.432s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.432s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/msg/DoubleVec.idl
+[1.432s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/msg/IntervalStatistics.idl
+[1.432s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/msg/BoolStamped.idl
+[1.433s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/srv/ConvertFloat64Array.idl
+[1.433s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/msg/DoubleVec.msg
+[1.433s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/msg/IntervalStatistics.msg
+[1.433s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/msg/BoolStamped.msg
+[1.434s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/srv/ConvertFloat64Array.srv
+[1.434s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/srv/ConvertFloat64Array_Request.msg
+[1.434s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/srv/ConvertFloat64Array_Response.msg
+[1.434s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/ament_index/resource_index/package_run_dependencies/cisst_msgs
+[1.435s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/ament_index/resource_index/parent_prefix_path/cisst_msgs
+[1.435s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/environment/ament_prefix_path.sh
+[1.435s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/environment/ament_prefix_path.dsv
+[1.435s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/environment/path.sh
+[1.435s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/environment/path.dsv
+[1.436s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/local_setup.bash
+[1.436s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/local_setup.sh
+[1.436s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/local_setup.zsh
+[1.437s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/local_setup.dsv
+[1.437s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/package.dsv
+[1.437s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/ament_index/resource_index/packages/cisst_msgs
+[1.437s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/rosidl_cmake-extras.cmake
+[1.437s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.437s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.438s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.438s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.438s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.438s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.438s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgsConfig.cmake
+[1.439s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgsConfig-version.cmake
+[1.439s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/package.xml
+[1.439s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/lib/libcisst_msgs__rosidl_generator_c.so
+[1.439s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_fastrtps_c.so
+[1.441s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.441s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_introspection_c.so
+[1.441s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_c.so
+[1.441s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_introspection_cpp.so
+[1.441s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_cpp.so
+[1.441s] Listing '/home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs'...
+[1.442s] Listing '/home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg'...
+[1.442s] Listing '/home/ytxu/cr_dvrk_ws/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/srv'...
+[1.442s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/lib/libcisst_msgs__rosidl_generator_py.so
+[1.442s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_generator_cExport.cmake
+[1.442s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_generator_cExport-release.cmake
+[1.443s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.443s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.443s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_generator_cppExport.cmake
+[1.443s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.443s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.444s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.444s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.444s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_cExport.cmake
+[1.444s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_cExport-release.cmake
+[1.444s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.445s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.445s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_cppExport.cmake
+[1.445s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.445s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_generator_pyExport.cmake
+[1.446s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_generator_pyExport-release.cmake
+[1.512s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/cisst_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/dvrk_robot:/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore:/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll:/home/ytxu/cr_dvrk_ws/install/robot_io:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core:/home/ytxu/cr_dvrk_ws/install/sawControllersAll:/home/ytxu/cr_dvrk_ws/install/sawKeyboardAll:/home/ytxu/cr_dvrk_ws/install/dvrk_video:/home/ytxu/cr_dvrk_ws/install/dvrk_python:/home/ytxu/cr_dvrk_ws/install/dvrk_model:/home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget:/home/ytxu/cr_dvrk_ws/install/dvrk_config_jhu:/home/ytxu/cr_dvrk_ws/install/dvrk_config:/home/ytxu/cr_dvrk_ws/install/dvrk_camera_registration:/home/ytxu/cr_dvrk_ws/install/dvrk_arms_from_ros:/home/ytxu/cr_dvrk_ws/install/crtk_python_client:/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk:/home/ytxu/cr_dvrk_ws/install/crtk_msgs:/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge:/home/ytxu/cr_dvrk_ws/install/cisst_msgs:/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble:/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/cisst_msgs

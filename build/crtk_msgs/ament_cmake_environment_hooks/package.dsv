@@ -1,0 +1,4 @@
+source;share/crtk_msgs/local_setup.bash
+source;share/crtk_msgs/local_setup.dsv
+source;share/crtk_msgs/local_setup.sh
+source;share/crtk_msgs/local_setup.zsh

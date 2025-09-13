@@ -1,0 +1,1 @@
+/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_generator_py/crtk_msgs/srv/_trigger_operating_state_s.c

@@ -1,0 +1,12 @@
+{
+  "package_name": "crtk_msgs",
+  "non_idl_tuples": [
+    "/home/ytxu/cr_dvrk_ws/src/crtk/crtk_msgs:msg/OperatingState.msg",
+    "/home/ytxu/cr_dvrk_ws/src/crtk/crtk_msgs:msg/StringStamped.msg",
+    "/home/ytxu/cr_dvrk_ws/src/crtk/crtk_msgs:msg/CartesianImpedanceHalfPlaneGains.msg",
+    "/home/ytxu/cr_dvrk_ws/src/crtk/crtk_msgs:msg/CartesianImpedance.msg",
+    "/home/ytxu/cr_dvrk_ws/src/crtk/crtk_msgs:srv/TriggerOperatingState.srv",
+    "/home/ytxu/cr_dvrk_ws/src/crtk/crtk_msgs:srv/QueryForwardKinematics.srv",
+    "/home/ytxu/cr_dvrk_ws/src/crtk/crtk_msgs:srv/QueryInverseKinematics.srv"
+  ]
+}

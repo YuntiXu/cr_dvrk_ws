@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cisst_msgs/msg/IntervalStatistics.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module cisst_msgs {
+  module msg {
+    struct IntervalStatistics {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "average period")
+      double period_avg;
+
+      @verbatim (language="comment", text=
+        "deviation on periodicity")
+      double period_std_dev;
+
+      @verbatim (language="comment", text=
+        "min and max time between")
+      double period_min;
+
+      double period_max;
+
+      @verbatim (language="comment", text=
+        "same 4 values for compute time")
+      double compute_time_avg;
+
+      double compute_time_std_dev;
+
+      double compute_time_min;
+
+      double compute_time_max;
+
+      @verbatim (language="comment", text=
+        "number of samples used to compute these status")
+      int64 number_of_samples;
+
+      @verbatim (language="comment", text=
+        "number of overruns base on previous interval average")
+      int64 number_of_overruns;
+
+      @verbatim (language="comment", text=
+        "time window covered by these stats")
+      double statistics_interval;
+
+      @verbatim (language="comment", text=
+        "user data")
+      int64 user_data;
+    };
+  };
+};

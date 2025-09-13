@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"components/code/Qt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "sawRobotIO1394-Qt",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawRobotIO1394Qt.so.2.3.0"
+			],
+			"targetId" : "sawRobotIO1394Qt::@c5261568d2d3cd55d28b",
+			"targetIndex" : 21,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "sawRobotIO1394-Qt",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawRobotIO1394Qt.so"
+			],
+			"targetId" : "sawRobotIO1394Qt::@c5261568d2d3cd55d28b",
+			"targetIndex" : 21,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "components/code/Qt",
+		"source" : "components/code/Qt"
+	}
+}

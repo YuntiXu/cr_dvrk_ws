@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cisstCommon/applications/cisstDataGenerator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "cisstCommon",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/cisstDataGenerator"
+			],
+			"targetId" : "cisstDataGenerator::@c8c1df58f162dec6a5d0",
+			"targetIndex" : 13,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cisstCommon/applications/cisstDataGenerator",
+		"source" : "cisstCommon/applications/cisstDataGenerator"
+	}
+}

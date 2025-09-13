@@ -1,0 +1,70 @@
+Determining if size_t is a native type passed with the following output:
+Change Dir: /home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da797/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da797.dir/build.make CMakeFiles/cmTC_da797.dir/build
+gmake[1]: Entering directory '/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da797.dir/test_size_t_int.cpp.o
+/usr/bin/c++   -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_da797.dir/test_size_t_int.cpp.o -c /home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(unsigned int)’:
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:2:36: warning: unused parameter ‘p’ [-Wunused-parameter]
+    2 |           char method(unsigned int p) {
+      |                       ~~~~~~~~~~~~~^
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(long long unsigned int)’:
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:5:46: warning: unused parameter ‘p’ [-Wunused-parameter]
+    5 |           char method(unsigned long long int p) {
+      |                       ~~~~~~~~~~~~~~~~~~~~~~~^
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: At global scope:
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:8:23: error: ‘char method’ redeclared as different kind of entity
+    8 |           char method(size_t p) {
+      |                       ^~~~~~
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:5:16: note: previous declaration ‘char method(long long unsigned int)’
+    5 |           char method(unsigned long long int p) {
+      |                ^~~~~~
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:8:23: error: ‘size_t’ was not declared in this scope; did you mean ‘std::size_t’?
+    8 |           char method(size_t p) {
+      |                       ^~~~~~
+      |                       std::size_t
+In file included from /usr/include/c++/11/bits/stl_algobase.h:59,
+                 from /usr/include/c++/11/vector:60,
+                 from /home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:1:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:280:33: note: ‘std::size_t’ declared here
+  280 |   typedef __SIZE_TYPE__         size_t;
+      |                                 ^~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_da797.dir/build.make:78: CMakeFiles/cmTC_da797.dir/test_size_t_int.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_da797/fast] Error 2
+
+
+Change Dir: /home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_01eaa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_01eaa.dir/build.make CMakeFiles/cmTC_01eaa.dir/build
+gmake[1]: Entering directory '/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01eaa.dir/test_size_t_long.cpp.o
+/usr/bin/c++   -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_01eaa.dir/test_size_t_long.cpp.o -c /home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp: In function ‘char method(long unsigned int)’:
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:2:41: warning: unused parameter ‘p’ [-Wunused-parameter]
+    2 |           char method(unsigned long int p) {
+      |                       ~~~~~~~~~~~~~~~~~~^
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp: At global scope:
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:5:23: error: ‘char method’ redeclared as different kind of entity
+    5 |           char method(size_t p) {
+      |                       ^~~~~~
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:2:16: note: previous declaration ‘char method(long unsigned int)’
+    2 |           char method(unsigned long int p) {
+      |                ^~~~~~
+/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:5:23: error: ‘size_t’ was not declared in this scope; did you mean ‘std::size_t’?
+    5 |           char method(size_t p) {
+      |                       ^~~~~~
+      |                       std::size_t
+In file included from /usr/include/c++/11/bits/stl_algobase.h:59,
+                 from /usr/include/c++/11/vector:60,
+                 from /home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:1:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:280:33: note: ‘std::size_t’ declared here
+  280 |   typedef __SIZE_TYPE__         size_t;
+      |                                 ^~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_01eaa.dir/build.make:78: CMakeFiles/cmTC_01eaa.dir/test_size_t_long.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/ytxu/cr_dvrk_ws/build/cisst/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_01eaa/fast] Error 2
+
+
+

@@ -1,0 +1,16 @@
+[1.977s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/tdcr_psm_kinematics': PYTHONPATH=/home/ytxu/cr_dvrk_ws/build/tdcr_psm_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ytxu/cr_dvrk_ws/install/tdcr_psm_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ytxu/cr_dvrk_ws/build/tdcr_psm_kinematics/build --no-deps symlink_data
+[2.369s] running develop
+[2.636s] running egg_info
+[2.637s] writing tdcr_psm_kinematics.egg-info/PKG-INFO
+[2.637s] writing dependency_links to tdcr_psm_kinematics.egg-info/dependency_links.txt
+[2.637s] writing entry points to tdcr_psm_kinematics.egg-info/entry_points.txt
+[2.637s] writing requirements to tdcr_psm_kinematics.egg-info/requires.txt
+[2.638s] writing top-level names to tdcr_psm_kinematics.egg-info/top_level.txt
+[2.639s] reading manifest file 'tdcr_psm_kinematics.egg-info/SOURCES.txt'
+[2.641s] writing manifest file 'tdcr_psm_kinematics.egg-info/SOURCES.txt'
+[2.642s] running build_ext
+[2.643s] Creating /home/ytxu/cr_dvrk_ws/install/tdcr_psm_kinematics/lib/python3.10/site-packages/tdcr-psm-kinematics.egg-link (link to .)
+[2.645s] 
+[2.645s] Installed /home/ytxu/cr_dvrk_ws/build/tdcr_psm_kinematics
+[2.645s] running symlink_data
+[2.701s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/tdcr_psm_kinematics' returned '0': PYTHONPATH=/home/ytxu/cr_dvrk_ws/build/tdcr_psm_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ytxu/cr_dvrk_ws/install/tdcr_psm_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ytxu/cr_dvrk_ws/build/tdcr_psm_kinematics/build --no-deps symlink_data

@@ -1,0 +1,59 @@
+Built target ament_cmake_python_symlink_dvrk
+running egg_info
+writing dvrk.egg-info/PKG-INFO
+writing dependency_links to dvrk.egg-info/dependency_links.txt
+writing top-level names to dvrk.egg-info/top_level.txt
+reading manifest file 'dvrk.egg-info/SOURCES.txt'
+writing manifest file 'dvrk.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_dvrk_egg
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/pythonpath.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.3.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.3.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.3.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.3.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/__init__.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/arm.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/console.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/ecm.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/mtm.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/psm.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/suj.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/teleop_psm.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_arm_test.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_bag_replay.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_potentiometer_psm.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_potentiometer_psm_cv.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_potentiometers.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_suj.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_console_test.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_ecm_psm_gc_collect.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_latency_test.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_move_wait_test.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_mtm_cartesian_impedance.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_mtm_test.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_psm_ecm_registration.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_psm_effort_test.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_psm_test.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_reset_teleoperation.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/dvrk_teleoperation.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/psm_calibration_cv.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/lib/dvrk_python/validate_psm_calibration.py
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/ament_index/resource_index/package_run_dependencies/dvrk_python
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/ament_index/resource_index/parent_prefix_path/dvrk_python
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/path.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/environment/path.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/local_setup.bash
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/local_setup.sh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/local_setup.zsh
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/local_setup.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/package.dsv
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/ament_index/resource_index/packages/dvrk_python
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/cmake/dvrk_pythonConfig.cmake
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/cmake/dvrk_pythonConfig-version.cmake
+-- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_python/share/dvrk_python/package.xml
+Listing '/home/ytxu/cr_dvrk_ws/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk'...

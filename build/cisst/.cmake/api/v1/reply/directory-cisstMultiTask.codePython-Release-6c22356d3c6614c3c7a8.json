@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"cisst_add_swig_module"
+		],
+		"files" : 
+		[
+			"cmake/cisstMacros.cmake",
+			"cisstMultiTask/codePython/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 600,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 605,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 609,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 615,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "cisstMultiTask",
+			"destination" : "include/cisstMultiTask",
+			"paths" : 
+			[
+				"cisstMultiTask/codePython/../cisstMultiTask.i"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "cisstMultiTask",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/_cisstMultiTaskPython.so"
+			],
+			"targetId" : "_cisstMultiTaskPython::@439344d23c0cee0df613",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "cisstMultiTask",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/build/cisst/cisstMultiTask/codePython/cisstMultiTaskPython.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cisstMultiTask",
+			"destination" : "include/cisstMultiTask",
+			"paths" : 
+			[
+				"cisstMultiTask/codePython/../mtsPython.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cisstMultiTask/codePython",
+		"source" : "cisstMultiTask/codePython"
+	}
+}

@@ -1,0 +1,3 @@
+repository='https://github.com/jhu-cisst-external/gattlib'
+module=''
+tag='origin'

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"applications/xml-to-json/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "sawRobotIO1394-Applications",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/install/cisst/bin/sawRobotIO1394XMLtoJSON"
+			],
+			"targetId" : "sawRobotIO1394XMLtoJSON::@2a55ff06b86ea86121b3",
+			"targetIndex" : 26,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/xml-to-json",
+		"source" : "applications/xml-to-json"
+	}
+}

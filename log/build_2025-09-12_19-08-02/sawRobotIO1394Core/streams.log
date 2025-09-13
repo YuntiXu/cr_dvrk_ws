@@ -1,0 +1,352 @@
+[0.120s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core
+[0.250s] -- The C compiler identification is GNU 11.4.0
+[0.455s] -- The CXX compiler identification is GNU 11.4.0
+[0.590s] -- Detecting C compiler ABI info
+[0.694s] -- Detecting C compiler ABI info - done
+[0.700s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.701s] -- Detecting C compile features
+[0.701s] -- Detecting C compile features - done
+[0.703s] -- Detecting CXX compiler ABI info
+[0.816s] -- Detecting CXX compiler ABI info - done
+[0.823s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.823s] -- Detecting CXX compile features
+[0.823s] -- Detecting CXX compile features - done
+[0.825s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[0.851s] -- Performing Test CXX_SUPPORTS_WEXTRA
+[0.951s] -- Performing Test CXX_SUPPORTS_WEXTRA - Success
+[0.951s] -- Performing Test CXX_SUPPORTS_WALL
+[1.049s] -- Performing Test CXX_SUPPORTS_WALL - Success
+[1.148s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.168s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.168s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.168s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.279s] -- Found Curses: /usr/lib/x86_64-linux-gnu/libcurses.so  
+[1.281s] -- Performing Test CXX_SUPPORTS_FPIC
+[1.394s] -- Performing Test CXX_SUPPORTS_FPIC - Success
+[1.419s] -- Found SWIG: /usr/bin/swig4.0 (found version "4.0.2")  
+[1.562s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[1.584s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[1.850s] [0mCMake Deprecation Warning at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:734 (message):
+[1.850s]   SWIG_ADD_MODULE is deprecated.  Use SWIG_ADD_LIBRARY instead.
+[1.851s] Call Stack (most recent call first):
+[1.851s]   components/code/Amp1394/lib/CMakeLists.txt:81 (swig_add_module)
+[1.851s] 
+[1.851s] [0m
+[1.851s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:775 (message):
+[1.851s]   Policy CMP0078 is not set: UseSWIG generates standard target names.  Run
+[1.851s]   "cmake --help-policy CMP0078" for policy details.  Use the cmake_policy
+[1.851s]   command to set the policy and suppress this warning.
+[1.852s] 
+[1.852s] Call Stack (most recent call first):
+[1.852s]   /usr/share/cmake-3.22/Modules/UseSWIG.cmake:735 (swig_add_library)
+[1.852s]   components/code/Amp1394/lib/CMakeLists.txt:81 (swig_add_module)
+[1.852s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.853s] [0m
+[1.853s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:617 (message):
+[1.853s]   Policy CMP0086 is not set: UseSWIG honors SWIG_MODULE_NAME via -module
+[1.853s]   flag.  Run "cmake --help-policy CMP0086" for policy details.  Use the
+[1.853s]   cmake_policy command to set the policy and suppress this warning.
+[1.853s] 
+[1.853s] Call Stack (most recent call first):
+[1.853s]   /usr/share/cmake-3.22/Modules/UseSWIG.cmake:888 (SWIG_ADD_SOURCE_TO_MODULE)
+[1.853s]   /usr/share/cmake-3.22/Modules/UseSWIG.cmake:735 (swig_add_library)
+[1.853s]   components/code/Amp1394/lib/CMakeLists.txt:81 (swig_add_module)
+[1.853s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.853s] [0m
+[1.857s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.857s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.857s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.858s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.888s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.888s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.892s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.914s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.937s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.937s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.937s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.944s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.964s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.964s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.964s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.968s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[1.988s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[1.988s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[1.988s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[1.995s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[2.027s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[2.028s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[2.028s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[2.034s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[2.061s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[2.061s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[2.062s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[2.065s] -- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+[2.065s] [33mCMake Warning at /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisst-config.cmake:143 (message):
+[2.066s]   find_package: cisst library "cisstTestsDriver" doesn't exist or hasn't been
+[2.066s]   compiled
+[2.066s] Call Stack (most recent call first):
+[2.066s]   tests/CMakeLists.txt:27 (find_package)
+[2.066s] 
+[2.066s] [0m
+[2.074s] -- Configuring done
+[2.164s] -- Generating done
+[2.182s] -- Build files have been written to: /home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core
+[2.195s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core' returned '0': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core
+[2.196s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core -- -j12 -l12
+[2.243s] [35m[1mScanning dependencies of target Amp1394Python_swig_compilation[0m
+[2.261s] [  1%] [32mBuilding C object components/code/Amp1394/util/CMakeFiles/block1394.dir/block1394.c.o[0m
+[2.261s] [  3%] [32mBuilding C object components/code/Amp1394/util/CMakeFiles/time1394.dir/time1394.c.o[0m
+[2.261s] [  3%] [32mBuilding C object components/code/Amp1394/util/CMakeFiles/info1394.dir/info1394.c.o[0m
+[2.261s] [  4%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394.dir/code/BoardIO.cpp.o[0m
+[2.261s] [  5%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394.dir/code/AmpIO.cpp.o[0m
+[2.261s] [  6%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394Console.dir/code/Amp1394Console.cpp.o[0m
+[2.261s] [  8%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394.dir/code/FpgaIO.cpp.o[0m
+[2.264s] [  9%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394.dir/code/Amp1394Time.cpp.o[0m
+[2.266s] [ 10%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394.dir/code/EncoderVelocity.cpp.o[0m
+[2.270s] [ 12%] [34m[1mSwig compile Amp1394.i for python[0m
+[2.271s] [ 12%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394.dir/code/BasePort.cpp.o[0m
+[2.274s] [ 13%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394.dir/code/EthBasePort.cpp.o[0m
+[2.333s] [ 15%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394.dir/code/EthUdpPort.cpp.o[0m
+[2.377s] [ 16%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394.dir/code/PortFactory.cpp.o[0m
+[2.393s] [ 17%] [32m[1mLinking C executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/info1394[0m
+[2.445s] [ 18%] [32m[1mLinking C executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/time1394[0m
+[2.454s] [ 19%] [32m[1mLinking C executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/block1394[0m
+[2.577s] [34m[1mGenerating quad1394[0m
+[2.580s] [ 19%] Built target time1394
+[2.590s] [ 19%] Built target info1394
+[2.604s] [ 20%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/Amp1394.dir/code/FirewirePort.cpp.o[0m
+[2.608s] [ 20%] Built target block1394
+[2.695s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/Amp1394Console.cpp:[m[K In static member function ‘[01m[Kstatic void Amp1394Console::Print(int, int, const char*, ...)[m[K’:
+[2.695s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/Amp1394Console.cpp:64:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint vwprintw(WINDOW*, const char*, __va_list_tag*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.695s]    64 |     [01;35m[Kvwprintw(stdscr, cstr, args)[m[K;
+[2.695s]       |     [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.696s] In file included from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/Amp1394Console.cpp:29[m[K:
+[2.696s] [01m[K/usr/include/curses.h:819:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.696s]   819 | extern NCURSES_EXPORT(int) [01;36m[Kvwprintw[m[K (WINDOW *, const char *, va_list) GCC_DEPRECATED(use vw_printw)     /* implemented */
+[2.696s]       |                            [01;36m[K^~~~~~~~[m[K
+[2.794s] [ 22%] [32m[1mLinking CXX static library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libAmp1394Console.a[0m
+[2.842s] /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/BoardIO.h:42: Warning 362: operator= ignored
+[2.898s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic void EthBasePort::PrintDebugData(std::ostream&, const quadlet_t*, double)[m[K’:
+[2.899s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:323:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KclockPeriod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.899s]   323 | void EthBasePort::PrintDebugData(std::ostream &debugStream, const quadlet_t *data, [01;35m[Kdouble clockPeriod[m[K)
+[2.899s]       |                                                                                    [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[2.912s] /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/BasePort.h:130: Warning 325: Nested struct not currently supported (BroadcastReadInfo ignored)
+[2.927s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic void EthBasePort::PrintEthernetPacket(std::ostream&, const quadlet_t*, unsigned int)[m[K’:
+[2.927s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:536:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_quads[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.927s]   536 | void EthBasePort::PrintEthernetPacket(std::ostream &out, const quadlet_t *packet, [01;35m[Kunsigned int max_quads[m[K)
+[2.927s]       |                                                                                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.937s] /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/EthBasePort.h:69: Warning 325: Nested struct not currently supported (FPGA_Status ignored)
+[2.940s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic bool EthBasePort::checkCRC(const unsigned char*)[m[K’:
+[2.940s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:1108:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.940s]  1108 | bool EthBasePort::checkCRC([01;35m[Kconst unsigned char *packet[m[K)
+[2.940s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.155s] [ 22%] Built target Amp1394Console
+[3.651s] [ 22%] Built target Amp1394Python_swig_compilation
+[3.681s] [ 23%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/code/BoardIO.cpp.o[0m
+[3.681s] [ 24%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/code/AmpIO.cpp.o[0m
+[3.681s] [ 25%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/CMakeFiles/_Amp1394Python.dir/Amp1394PYTHON_wrap.cxx.o[0m
+[3.681s] [ 26%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/code/Amp1394Time.cpp.o[0m
+[3.681s] [ 27%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/code/BasePort.cpp.o[0m
+[3.681s] [ 29%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/code/EncoderVelocity.cpp.o[0m
+[3.683s] [ 30%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/code/FpgaIO.cpp.o[0m
+[3.687s] [ 31%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/code/EthBasePort.cpp.o[0m
+[3.690s] [ 32%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/code/EthUdpPort.cpp.o[0m
+[3.760s] [ 33%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/code/PortFactory.cpp.o[0m
+[3.770s] [ 34%] [32mBuilding CXX object components/code/Amp1394/lib/CMakeFiles/_Amp1394Python.dir/code/FirewirePort.cpp.o[0m
+[3.936s] [ 36%] [32m[1mLinking CXX static library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libAmp1394.a[0m
+[4.047s] [ 36%] Built target Amp1394
+[4.067s] [ 37%] [34m[1mcisstDataGenerator for osaConfiguration1394[0m
+[4.071s] cisstDataGenerator: generating /home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core/components/include/sawRobotIO1394/osaConfiguration1394.h and /home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core/components/osaConfiguration1394_cdg.cpp from /home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/osaConfiguration1394.cdg
+[4.076s] cisstDataGenerator: parse succeeded
+[4.076s] cisstDataGenerator: generating header file "/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core/components/include/sawRobotIO1394/osaConfiguration1394.h"
+[4.080s] cisstDataGenerator: generating code file "/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core/components/osaConfiguration1394_cdg.cpp"
+[4.089s] [ 38%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/qlatest.dir/qlatest.cpp.o[0m
+[4.103s] [ 39%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/qladisp.dir/qladisp.cpp.o[0m
+[4.141s] [ 40%] [32mBuilding CXX object components/CMakeFiles/sawRobotIO1394.dir/code/osaXML1394.cpp.o[0m
+[4.208s] [ 41%] [32mBuilding CXX object components/CMakeFiles/sawRobotIO1394.dir/code/mtsRobot1394.cpp.o[0m
+[4.233s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic void EthBasePort::PrintDebugData(std::ostream&, const quadlet_t*, double)[m[K’:
+[4.233s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:323:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KclockPeriod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.234s]   323 | void EthBasePort::PrintDebugData(std::ostream &debugStream, const quadlet_t *data, [01;35m[Kdouble clockPeriod[m[K)
+[4.234s]       |                                                                                    [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[4.255s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic void EthBasePort::PrintEthernetPacket(std::ostream&, const quadlet_t*, unsigned int)[m[K’:
+[4.255s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:536:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_quads[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.255s]   536 | void EthBasePort::PrintEthernetPacket(std::ostream &out, const quadlet_t *packet, [01;35m[Kunsigned int max_quads[m[K)
+[4.255s]       |                                                                                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[4.270s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic bool EthBasePort::checkCRC(const unsigned char*)[m[K’:
+[4.270s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:1108:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.270s]  1108 | bool EthBasePort::checkCRC([01;35m[Kconst unsigned char *packet[m[K)
+[4.270s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.297s] [ 43%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/fwPortTest.dir/fwPortTest.cpp.o[0m
+[4.735s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:[m[K In function ‘[01m[Kbool TestEthernetV2(int, AmpIO&, BasePort*, std::ofstream&)[m[K’:
+[4.735s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:851:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcurLine[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.735s]   851 | bool TestEthernetV2([01;35m[Kint curLine[m[K, AmpIO &Board, BasePort *Port, std::ofstream &logFile)
+[4.735s]       |                     [01;35m[K~~~~^~~~~~~[m[K
+[4.736s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:851:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPort[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.736s]   851 | bool TestEthernetV2(int curLine, AmpIO &Board, [01;35m[KBasePort *Port[m[K, std::ofstream &logFile)
+[4.736s]       |                                                [01;35m[K~~~~~~~~~~^~~~[m[K
+[4.739s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:[m[K In function ‘[01m[Kbool TestEthernetV3(int, AmpIO&, BasePort*, std::ofstream&)[m[K’:
+[4.739s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:918:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcurLine[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.739s]   918 | bool TestEthernetV3([01;35m[Kint curLine[m[K, AmpIO &Board, BasePort *Port, std::ofstream &logFile)
+[4.739s]       |                     [01;35m[K~~~~^~~~~~~[m[K
+[4.740s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:918:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPort[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.740s]   918 | bool TestEthernetV3(int curLine, AmpIO &Board, [01;35m[KBasePort *Port[m[K, std::ofstream &logFile)
+[4.740s]       |                                                [01;35m[K~~~~~~~~~~^~~~[m[K
+[4.896s] [ 44%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/qlacloserelays.dir/qlacloserelays.cpp.o[0m
+[4.947s] [ 45%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/qlacommand.dir/qlacommand.cpp.o[0m
+[4.952s] [ 46%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/eth1394Test.dir/mainEth1394.cpp.o[0m
+[5.115s] [ 47%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/fwPortTest[0m
+[5.404s] [ 48%] [32mBuilding CXX object components/CMakeFiles/sawRobotIO1394.dir/code/mtsDigitalInput1394.cpp.o[0m
+[5.440s] [ 50%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/qlacloserelays[0m
+[5.443s] [ 50%] Built target fwPortTest
+[5.459s] [ 51%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/eth1394Test.dir/MotorVoltage.cpp.o[0m
+[5.512s] [ 52%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/qlacommand[0m
+[5.601s] [ 53%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/instrument.dir/instrument.cpp.o[0m
+[5.612s] [ 54%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/block1394eth.dir/block1394eth.cpp.o[0m
+[5.661s] [ 54%] Built target qlacloserelays
+[5.673s] [ 55%] [32mBuilding CXX object components/CMakeFiles/sawRobotIO1394.dir/code/mtsDigitalOutput1394.cpp.o[0m
+[5.733s] [ 55%] Built target qlacommand
+[5.771s] [ 56%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/enctest.dir/enctest.cpp.o[0m
+[5.875s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/mainEth1394.cpp:[m[K In function ‘[01m[Kbool QLA_IOExp_Check(AmpIO&, long unsigned int)[m[K’:
+[5.875s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/mainEth1394.cpp:1002:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kchan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.875s]  1002 | bool QLA_IOExp_Check(AmpIO &Board, [01;35m[Kunsigned long chan = 0[m[K)
+[5.875s]       |                                    [01;35m[K~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.040s] [ 58%] [32mBuilding CXX object components/CMakeFiles/sawRobotIO1394.dir/code/mtsDallasChip1394.cpp.o[0m
+[6.064s] [ 59%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/qlatest[0m
+[6.292s] [ 60%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/instrument[0m
+[6.297s] [ 61%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/qladisp[0m
+[6.363s] [ 61%] Built target qlatest
+[6.397s] [ 62%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/ethswitch.dir/ethswitch.cpp.o[0m
+[6.453s] [ 63%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/block1394eth[0m
+[6.509s] [ 63%] Built target instrument
+[6.532s] [ 63%] Built target qladisp
+[6.542s] [ 65%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/dvrktest.dir/dvrktest.cpp.o[0m
+[6.576s] [ 66%] [32mBuilding CXX object components/code/Amp1394/programmer/CMakeFiles/pgm1394.dir/pgm1394.cpp.o[0m
+[6.830s] [34m[1mGenerating quad1394eth[0m
+[6.890s] [ 66%] Built target block1394eth
+[6.917s] [ 67%] [32mBuilding CXX object components/code/Amp1394/tests/CMakeFiles/dvrktest.dir/MotorVoltage.cpp.o[0m
+[7.298s] [ 68%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/ethswitch[0m
+[7.334s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/dvrktest.cpp:[m[K In function ‘[01m[KResult TestDallas(AmpIO**, BasePort*)[m[K’:
+[7.334s] [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/dvrktest.cpp:494:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPort[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.335s]   494 | Result TestDallas(AmpIO **Board, [01;35m[KBasePort *Port[m[K) {
+[7.335s]       |                                  [01;35m[K~~~~~~~~~~^~~~[m[K
+[7.458s] [ 69%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/enctest[0m
+[7.484s] [ 70%] [32mBuilding CXX object components/code/Amp1394/programmer/CMakeFiles/pgm1394.dir/mcsFile.cpp.o[0m
+[7.583s] [ 70%] Built target ethswitch
+[7.598s] [ 72%] [32mBuilding CXX object components/CMakeFiles/sawRobotIO1394.dir/code/mtsRobotIO1394.cpp.o[0m
+[7.798s] [ 72%] Built target enctest
+[7.825s] [ 73%] [32mBuilding CXX object components/CMakeFiles/sawRobotIO1394.dir/osaConfiguration1394_cdg.cpp.o[0m
+[8.101s] [ 74%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/eth1394Test[0m
+[8.332s] [ 74%] Built target eth1394Test
+[8.419s] [ 75%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/pgm1394[0m
+[8.481s] [ 76%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/dvrktest[0m
+[8.691s] [ 76%] Built target pgm1394
+[8.746s] [ 76%] Built target dvrktest
+[13.159s] [ 77%] [32m[1mLinking CXX shared module /home/ytxu/cr_dvrk_ws/install/cisst/lib/_Amp1394Python.so[0m
+[13.424s] [34m[1mCopying Python files to /home/ytxu/cr_dvrk_ws/install/cisst//lib[0m
+[13.484s] [ 77%] Built target _Amp1394Python
+[19.083s] [ 79%] [32m[1mLinking CXX shared library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawRobotIO1394.so[0m
+[19.352s] [ 79%] Built target sawRobotIO1394
+[19.372s] [ 80%] [34m[1mAutomatic MOC for target sawRobotIO1394Qt[0m
+[19.786s] [ 80%] Built target sawRobotIO1394Qt_autogen
+[19.807s] [ 81%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawRobotIO1394Qt.dir/mtsRobot1394QtWidget.cpp.o[0m
+[19.807s] [ 83%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawRobotIO1394Qt.dir/mtsRobotIO1394QtWidgetFactory.cpp.o[0m
+[19.807s] [ 83%] [32mBuilding CXX object components/code/Qt/CMakeFiles/sawRobotIO1394Qt.dir/sawRobotIO1394Qt_autogen/mocs_compilation.cpp.o[0m
+[24.720s] [ 84%] [32m[1mLinking CXX shared library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawRobotIO1394Qt.so[0m
+[25.514s] [ 84%] Built target sawRobotIO1394Qt
+[25.541s] [ 86%] [32mBuilding CXX object applications/current-calibration/CMakeFiles/sawRobotIO1394CurrentCalibration.dir/main.cpp.o[0m
+[25.542s] [ 89%] [34m[1mAutomatic MOC for target sawRobotIO1394QtDataPlot[0m
+[25.543s] [ 89%] [32mBuilding CXX object applications/Qt/CMakeFiles/sawRobotIO1394QtConsole.dir/mainQt.cpp.o[0m
+[25.543s] [ 89%] [32mBuilding CXX object applications/xml-to-json/CMakeFiles/sawRobotIO1394XMLtoJSON.dir/main.cpp.o[0m
+[25.543s] [ 90%] [32mBuilding CXX object applications/data-collection/CMakeFiles/sawRobotIO1394DataCollection.dir/main.cpp.o[0m
+[26.377s] [ 90%] Built target sawRobotIO1394QtDataPlot_autogen
+[26.416s] [ 91%] [32mBuilding CXX object applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.o[0m
+[26.416s] [ 93%] [32mBuilding CXX object applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/main.cpp.o[0m
+[26.422s] [ 94%] [32mBuilding CXX object applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/plotObject.cpp.o[0m
+[28.314s] [ 95%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/sawRobotIO1394XMLtoJSON[0m
+[28.715s] [ 95%] Built target sawRobotIO1394XMLtoJSON
+[28.864s] [ 96%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/sawRobotIO1394DataCollection[0m
+[29.331s] [ 97%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/sawRobotIO1394CurrentCalibration[0m
+[29.332s] [ 97%] Built target sawRobotIO1394DataCollection
+[29.694s] [ 97%] Built target sawRobotIO1394CurrentCalibration
+[30.337s] [ 98%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/sawRobotIO1394QtDataPlot[0m
+[30.926s] [ 98%] Built target sawRobotIO1394QtDataPlot
+[31.131s] [100%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/sawRobotIO1394QtConsole[0m
+[31.646s] [100%] Built target sawRobotIO1394QtConsole
+[31.660s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core' returned '0': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core -- -j12 -l12
+[31.661s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core
+[31.668s] -- Install configuration: "Release"
+[31.670s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/share/sawRobotIO1394/sawRobotIO1394Config.cmake
+[31.670s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/share/sawRobotIO1394/sawRobotIO1394ConfigVersion.cmake
+[31.670s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394
+[31.671s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/mtsRobotIO1394QtWidgetFactory.h
+[31.671s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/mtsDigitalOutput1394.h
+[31.671s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/mtsRobotIO1394.h
+[31.671s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/mtsDallasChip1394.h
+[31.672s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/mtsDigitalInput1394.h
+[31.672s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/osaXML1394.h
+[31.672s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/mtsRobot1394.h
+[31.672s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/sawRobotIO1394Export.h
+[31.673s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/mtsRobot1394QtWidget.h
+[31.673s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/sawRobotIO1394ForwardDeclarations.h
+[31.673s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/sawRobotIO1394ExportQt.h
+[31.673s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394
+[31.673s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/sawRobotIO1394Revision.h
+[31.673s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/sawRobotIO1394/osaConfiguration1394.h
+[31.674s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/libsawRobotIO1394.so.2.3.0
+[31.676s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/libsawRobotIO1394.so.2.3.0" to ""
+[31.676s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/libsawRobotIO1394.so
+[31.677s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/_Amp1394Python.so
+[31.678s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/_Amp1394Python.so" to ""
+[31.678s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/Amp1394Python.py
+[31.679s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/libAmp1394.a
+[31.679s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/libAmp1394Console.a
+[31.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/BoardIO.h
+[31.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/FpgaIO.h
+[31.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/AmpIO.h
+[31.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/Amp1394Types.h
+[31.680s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/Amp1394Time.h
+[31.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/Amp1394BSwap.h
+[31.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/EncoderVelocity.h
+[31.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/BasePort.h
+[31.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/EthBasePort.h
+[31.681s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/EthUdpPort.h
+[31.682s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/PortFactory.h
+[31.682s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/FirewirePort.h
+[31.682s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/Amp1394/Amp1394Console.h
+[31.683s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/qladisp
+[31.683s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/qladisp" to ""
+[31.683s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/qlatest
+[31.684s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/qlatest" to ""
+[31.684s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/fwPortTest
+[31.685s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/fwPortTest" to ""
+[31.685s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/quad1394eth
+[31.685s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/qlacloserelays
+[31.686s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/qlacloserelays" to ""
+[31.686s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/qlacommand
+[31.686s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/qlacommand" to ""
+[31.686s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/eth1394Test
+[31.687s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/eth1394Test" to ""
+[31.687s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/instrument
+[31.688s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/instrument" to ""
+[31.688s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/block1394eth
+[31.689s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/block1394eth" to ""
+[31.689s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/enctest
+[31.690s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/enctest" to ""
+[31.690s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/ethswitch
+[31.690s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/ethswitch" to ""
+[31.691s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/dvrktest
+[31.691s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/dvrktest" to ""
+[31.691s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/pgm1394
+[31.692s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/pgm1394" to ""
+[31.692s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/pgm1394multi.bash
+[31.693s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/qlareloadfw.bash
+[31.693s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/libsawRobotIO1394Qt.so.2.3.0
+[31.693s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/libsawRobotIO1394Qt.so.2.3.0" to ""
+[31.693s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/lib/libsawRobotIO1394Qt.so
+[31.694s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/sawRobotIO1394QtConsole
+[31.694s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/sawRobotIO1394QtConsole" to ""
+[31.695s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/sawRobotIO1394CurrentCalibration
+[31.695s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/sawRobotIO1394CurrentCalibration" to ""
+[31.695s] -- Installing: /home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/sawRobotIO1394XMLtoJSON
+[31.696s] -- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/bin/sawRobotIO1394XMLtoJSON" to ""
+[31.699s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core' returned '0': CISST_ROOT=/home/ytxu/cr_dvrk_ws/install/cisst CMAKE_PREFIX_PATH=/home/ytxu/cr_dvrk_ws/install/cisst:/home/ytxu/cr_dvrk_ws/install/cisstNetlib LD_LIBRARY_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/ytxu/cr_dvrk_ws/install/cisst/bin:/home/ytxu/cr_dvrk_ws/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisst/lib/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/ytxu/cr_dvrk_ws/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ytxu/cr_dvrk_ws/install/cisst/share /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/sawRobotIO1394Core

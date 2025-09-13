@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found cisst_msgs: 3.0.0 (/home/ytxu/cr_dvrk_ws/install/cisst_msgs/share/cisst_msgs/cmake)
+-- Found crtk_msgs: 1.2.0 (/home/ytxu/cr_dvrk_ws/install/crtk_msgs/share/crtk_msgs/cmake)
+-- Found cisst_ros_bridge: 3.0.0 (/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge/share/cisst_ros_bridge/cmake)
+-- Found cisst_ros_crtk: 3.0.0 (/home/ytxu/cr_dvrk_ws/install/cisst_ros_crtk/share/cisst_ros_crtk/cmake)
+-- Information: cisst has been found in "/home/ytxu/cr_dvrk_ws/install/cisst/", headers are in "/home/ytxu/cr_dvrk_ws/install/cisst//include"
+-- Performing Test CXX_SUPPORTS_WEXTRA
+-- Performing Test CXX_SUPPORTS_WEXTRA - Success
+-- Performing Test CXX_SUPPORTS_WALL
+-- Performing Test CXX_SUPPORTS_WALL - Success
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ytxu/cr_dvrk_ws/build/dvrk_robot
+[ 25%] [32mBuilding CXX object CMakeFiles/dvrk_utilities.dir/src/dvrk_console.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/ytxu/cr_dvrk_ws/install/cisst/lib/libdvrk_utilities.so[0m
+[ 50%] Built target dvrk_utilities
+[ 75%] [32mBuilding CXX object CMakeFiles/dvrk_console_json.dir/src/dvrk_console_json.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ytxu/cr_dvrk_ws/install/cisst/bin/dvrk_console_json[0m
+[100%] Built target dvrk_console_json
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/ament_index/resource_index/package_run_dependencies/dvrk_robot
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/ament_index/resource_index/parent_prefix_path/dvrk_robot
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/path.sh
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/environment/path.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.bash
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.sh
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.zsh
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/local_setup.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/package.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/ament_index/resource_index/packages/dvrk_robot
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/cmake/dvrk_robotConfig.cmake
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/cmake/dvrk_robotConfig-version.cmake
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/share/dvrk_robot/package.xml
+-- Installing: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/lib/libdvrk_utilities.so
+-- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/dvrk_robot/lib/libdvrk_utilities.so" to ""
+-- Installing: /home/ytxu/cr_dvrk_ws/install/dvrk_robot/lib/dvrk_robot/dvrk_console_json
+-- Set runtime path of "/home/ytxu/cr_dvrk_ws/install/dvrk_robot/lib/dvrk_robot/dvrk_console_json" to ""

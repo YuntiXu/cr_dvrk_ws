@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from crtk_msgs/srv/QueryInverseKinematics.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module crtk_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request needs" "\n"
+      "- cp: cartesian pose" "\n"
+      "- jp: reference joint position")
+    struct QueryInverseKinematics_Request {
+      geometry_msgs::msg::Pose cp;
+
+      sequence<double> jp;
+    };
+    struct QueryInverseKinematics_Response {
+      sequence<double> jp;
+
+      boolean result;
+
+      string message;
+    };
+  };
+};

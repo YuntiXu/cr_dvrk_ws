@@ -1,0 +1,8 @@
+source;share/crtk_python_client/hook/cmake_prefix_path.ps1
+source;share/crtk_python_client/hook/cmake_prefix_path.dsv
+source;share/crtk_python_client/hook/cmake_prefix_path.sh
+source;share/crtk_python_client/local_setup.bash
+source;share/crtk_python_client/local_setup.dsv
+source;share/crtk_python_client/local_setup.ps1
+source;share/crtk_python_client/local_setup.sh
+source;share/crtk_python_client/local_setup.zsh

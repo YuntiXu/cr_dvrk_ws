@@ -1,0 +1,163 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"cisst_add_library"
+		],
+		"files" : 
+		[
+			"cmake/cisstMacros.cmake",
+			"cisstCommon/code/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 329,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 377,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 380,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 121,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "cisstCommon",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libcisstCommon.so.1.3.1"
+			],
+			"targetId" : "cisstCommon::@c4454b6c853ded827738",
+			"targetIndex" : 9,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "cisstCommon",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libcisstCommon.so"
+			],
+			"targetId" : "cisstCommon::@c4454b6c853ded827738",
+			"targetIndex" : 9,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "cisstCommon-dev",
+			"destination" : "include/cisstCommon",
+			"paths" : 
+			[
+				"cisstCommon/cmnAccessorMacros.h",
+				"cisstCommon/cmnAssert.h",
+				"cisstCommon/cmnCallbackStreambuf.h",
+				"cisstCommon/cmnClassRegister.h",
+				"cisstCommon/cmnClassRegisterMacros.h",
+				"cisstCommon/cmnClassServices.h",
+				"cisstCommon/cmnClassServicesBase.h",
+				"cisstCommon/cmnCommandLineOptions.h",
+				"cisstCommon/cmnConstants.h",
+				"cisstCommon/cmnDataFormat.h",
+				"cisstCommon/cmnDataFunctions.h",
+				"cisstCommon/cmnDataFunctionsArray.h",
+				"cisstCommon/cmnDataFunctionsEnumMacros.h",
+				"cisstCommon/cmnDataFunctionsJSON.h",
+				"cisstCommon/cmnDataFunctionsList.h",
+				"cisstCommon/cmnDataFunctionsMacros.h",
+				"cisstCommon/cmnDataFunctionsMatrixHelpers.h",
+				"cisstCommon/cmnDataFunctionsString.h",
+				"cisstCommon/cmnDataFunctionsVector.h",
+				"cisstCommon/cmnDataFunctionsVectorHelpers.h",
+				"cisstCommon/cmnDeSerializer.h",
+				"cisstCommon/cmnExport.h",
+				"cisstCommon/cmnExportMacros.h",
+				"cisstCommon/cmnForwardDeclarations.h",
+				"cisstCommon/cmnGenericObject.h",
+				"cisstCommon/cmnGenericObjectProxy.h",
+				"cisstCommon/cmnGetChar.h",
+				"cisstCommon/cmnKbHit.h",
+				"cisstCommon/cmnLODMultiplexerStreambuf.h",
+				"cisstCommon/cmnLODOutputMultiplexer.h",
+				"cisstCommon/cmnLogLoD.h",
+				"cisstCommon/cmnLogger.h",
+				"cisstCommon/cmnMultiplexerStreambuf.h",
+				"cisstCommon/cmnMultiplexerStreambufProxy.h",
+				"cisstCommon/cmnNamedMap.h",
+				"cisstCommon/cmnObjectRegister.h",
+				"cisstCommon/cmnOutputMultiplexer.h",
+				"cisstCommon/cmnPath.h",
+				"cisstCommon/cmnPortability.h",
+				"cisstCommon/cmnPrintf.h",
+				"cisstCommon/cmnRandomSequence.h",
+				"cisstCommon/cmnRequiresDeepCopy.h",
+				"cisstCommon/cmnSerializer.h",
+				"cisstCommon/cmnStreamRawParser.h",
+				"cisstCommon/cmnStrings.h",
+				"cisstCommon/cmnThrow.h",
+				"cisstCommon/cmnTokenizer.h",
+				"cisstCommon/cmnTypeTraits.h",
+				"cisstCommon/cmnUnits.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "cisstCommon-dev",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/build/cisst/include/cisstCommon.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/cisstCommon",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/build/cisst/include/cisstCommon/cmnJointType.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cisstCommon/code",
+		"source" : "cisstCommon/code"
+	}
+}

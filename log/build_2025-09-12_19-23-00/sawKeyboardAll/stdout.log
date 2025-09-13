@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target sawKeyboard[0m
+[100%] Built target sawKeyboard
+-- Install configuration: "Release"
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/share/sawKeyboard/sawKeyboardConfig.cmake
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/share/sawKeyboard/sawKeyboardConfigVersion.cmake
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/include/sawKeyboard
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/include/sawKeyboard/mtsKeyboard.h
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/include/sawKeyboard/sawKeyboardExport.h
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/include/sawKeyboard
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/include/sawKeyboard/sawKeyboardRevision.h
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib/libsawKeyboard.so.1.4.0
+-- Up-to-date: /home/ytxu/cr_dvrk_ws/install/sawKeyboardAll/lib/libsawKeyboard.so

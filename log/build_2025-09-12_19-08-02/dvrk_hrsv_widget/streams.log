@@ -1,0 +1,26 @@
+[0.035s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_hrsv_widget': CMAKE_PREFIX_PATH=/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/dvrk_hrsv_widget -- -j12 -l12
+[0.197s] [ 20%] [34m[1mAutomatic MOC for target hrsv_widget[0m
+[0.244s] [ 20%] Built target hrsv_widget_autogen
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target hrsv_widget[0m
+[0.293s] [100%] Built target hrsv_widget
+[0.343s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_hrsv_widget' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/dvrk_hrsv_widget -- -j12 -l12
+[0.346s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_hrsv_widget': CMAKE_PREFIX_PATH=/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/dvrk_hrsv_widget
+[0.357s] -- Install configuration: "Release"
+[0.358s] -- Execute custom install script
+[0.360s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/ament_index/resource_index/package_run_dependencies/dvrk_hrsv_widget
+[0.360s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/ament_index/resource_index/parent_prefix_path/dvrk_hrsv_widget
+[0.362s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/ament_prefix_path.sh
+[0.363s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/ament_prefix_path.dsv
+[0.363s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/path.sh
+[0.364s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/path.dsv
+[0.364s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.bash
+[0.365s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.sh
+[0.365s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.zsh
+[0.365s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.dsv
+[0.366s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/package.dsv
+[0.377s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/ament_index/resource_index/packages/dvrk_hrsv_widget
+[0.377s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/cmake/dvrk_hrsv_widgetConfig.cmake
+[0.377s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/cmake/dvrk_hrsv_widgetConfig-version.cmake
+[0.377s] -- Up-to-date symlink: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/package.xml
+[0.379s] -- Up-to-date: /home/ytxu/cr_dvrk_ws/install/dvrk_hrsv_widget/lib/dvrk_hrsv_widget/hrsv_widget
+[0.381s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_hrsv_widget' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/dvrk_hrsv_widget

@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"cisst_add_swig_module"
+		],
+		"files" : 
+		[
+			"cmake/cisstMacros.cmake",
+			"cisstParameterTypes/codePython/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 600,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 605,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 609,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 615,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "cisstParameterTypes",
+			"destination" : "include/cisstParameterTypes",
+			"paths" : 
+			[
+				"cisstParameterTypes/codePython/../cisstParameterTypes.i"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "cisstParameterTypes",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/_cisstParameterTypesPython.so"
+			],
+			"targetId" : "_cisstParameterTypesPython::@f65ab37509bd16e42458",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "cisstParameterTypes",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/build/cisst/cisstParameterTypes/codePython/cisstParameterTypesPython.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cisstParameterTypes",
+			"destination" : "include/cisstParameterTypes",
+			"paths" : 
+			[
+				"cisstParameterTypes/codePython/../prmPython.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cisstParameterTypes/codePython",
+		"source" : "cisstParameterTypes/codePython"
+	}
+}

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating task_space_ctrl.egg-info
+writing task_space_ctrl.egg-info/PKG-INFO
+writing dependency_links to task_space_ctrl.egg-info/dependency_links.txt
+writing entry points to task_space_ctrl.egg-info/entry_points.txt
+writing requirements to task_space_ctrl.egg-info/requires.txt
+writing top-level names to task_space_ctrl.egg-info/top_level.txt
+writing manifest file 'task_space_ctrl.egg-info/SOURCES.txt'
+reading manifest file 'task_space_ctrl.egg-info/SOURCES.txt'
+writing manifest file 'task_space_ctrl.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ytxu/cr_dvrk_ws/install/task_space_ctrl/lib/python3.10/site-packages/task-space-ctrl.egg-link (link to .)
+
+Installed /home/ytxu/cr_dvrk_ws/build/task_space_ctrl
+running symlink_data
+creating /home/ytxu/cr_dvrk_ws/install/task_space_ctrl/share/ament_index
+creating /home/ytxu/cr_dvrk_ws/install/task_space_ctrl/share/ament_index/resource_index
+creating /home/ytxu/cr_dvrk_ws/install/task_space_ctrl/share/ament_index/resource_index/packages
+symbolically linking /home/ytxu/cr_dvrk_ws/build/task_space_ctrl/resource/task_space_ctrl -> /home/ytxu/cr_dvrk_ws/install/task_space_ctrl/share/ament_index/resource_index/packages
+symbolically linking /home/ytxu/cr_dvrk_ws/build/task_space_ctrl/package.xml -> /home/ytxu/cr_dvrk_ws/install/task_space_ctrl/share/task_space_ctrl

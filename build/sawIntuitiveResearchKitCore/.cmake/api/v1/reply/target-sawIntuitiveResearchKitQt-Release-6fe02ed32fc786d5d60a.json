@@ -1,0 +1,997 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawIntuitiveResearchKitQt.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"link_directories",
+			"include",
+			"cisst_link_directories",
+			"cisst_set_directories",
+			"target_link_libraries",
+			"cisst_target_link_libraries",
+			"cisst_target_link_package_libraries",
+			"target_compile_definitions",
+			"include_directories",
+			"cisst_include_directories"
+		],
+		"files" : 
+		[
+			"components/code/Qt/CMakeLists.txt",
+			"/home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/Usecisst.cmake",
+			"CMakeLists.txt",
+			"/home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisstMacros.cmake",
+			"components/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 180,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 125,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 101,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 109,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 479,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 480,
+				"parent" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 418,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 418,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 425,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 418,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 418,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 418,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 418,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 425,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 407,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 407,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 407,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 407,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 407,
+				"parent" : 23
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 483,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 130,
+				"parent" : 10
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 5
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 102,
+				"parent" : 33
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 102,
+				"parent" : 33
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 102,
+				"parent" : 33
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 100,
+				"parent" : 10
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 105,
+				"parent" : 10
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -Wextra -Wall -fPIC -Wextra -Wall -fPIC -Wextra -Wall -O3 -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 29,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 30,
+					"define" : "LIBRARY_NAME_FOR_CISST_REGISTER=\"sawIntuitiveResearchKitQt\""
+				},
+				{
+					"backtrace" : 29,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_XMLPATTERNS_LIB"
+				},
+				{
+					"define" : "sawIntuitiveResearchKitQt_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/code/Qt/sawIntuitiveResearchKitQt_autogen/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawIntuitiveResearchKit/core/components/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/ytxu/cr_dvrk_ws/install/cisst/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/ytxu/cr_dvrk_ws/build/cisst/cisstReflexxesTypeII/include/ReflexxesTypeII"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/usr/include/jsoncpp"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/ytxu/cr_dvrk_ws/install/sawControllersAll/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/code/Qt"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"
+				},
+				{
+					"backtrace" : 25,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtXmlPatterns"
+				},
+				{
+					"backtrace" : 25,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				23
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 26,
+			"id" : "sawIntuitiveResearchKit::@5f76c3b237c71a93cbe5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "sawIntuitiveResearchKitQt_autogen::@c5261568d2d3cd55d28b"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "sawIntuitiveResearchKit"
+	},
+	"id" : "sawIntuitiveResearchKitQt::@c5261568d2d3cd55d28b",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-L/home/ytxu/cr_dvrk_ws/install/cisst/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-L/home/ytxu/cr_dvrk_ws/build/cisst/cisstReflexxesTypeII/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "-L/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "-L/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include/../lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "-L/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/../lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "-L/home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/../lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/build/cisst/cisstReflexxesTypeII/lib:/home/ytxu/cr_dvrk_ws/install/sawIntuitiveResearchKitCore/lib:/home/ytxu/cr_dvrk_ws/install/sawTextToSpeechAll/include/../lib:/home/ytxu/cr_dvrk_ws/install/sawRobotIO1394Core/include/../lib:/home/ytxu/cr_dvrk_ws/install/sawControllersAll/include/../lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstCommonXML",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstParameterTypesQt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstParameterTypes",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstMultiTaskQt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstMultiTask",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstNumerical",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstOSAbstraction",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstVectorQt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstVector",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstCommon",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-ljsoncpp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLU.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLU.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_lapack.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_blas.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_f2c.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.15.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5XmlPatterns.so.5.15.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawIntuitiveResearchKit.so.2.3.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstCommonXML",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcisstRobot",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstParameterTypes",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstMultiTask",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstNumerical",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstOSAbstraction",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstVector",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lcisstCommon",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-ljsoncpp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLU.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lReflexxesTypeII",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_lapack.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_blas.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_f2c.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lsawTextToSpeech",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lsawRobotIO1394",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lAmp1394",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lraw1394",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lsawRobotIO1394Qt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lsawControllers",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lsawControllersQt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgattlib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lhidapi-hidraw",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sawIntuitiveResearchKitQt",
+	"nameOnDisk" : "libsawIntuitiveResearchKitQt.so",
+	"paths" : 
+	{
+		"build" : "components/code/Qt",
+		"source" : "components/code/Qt"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				23
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				24
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/code/Qt/sawIntuitiveResearchKitQt_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitConsoleQt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsIntuitiveResearchKitConsoleQt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitConsoleQtWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsIntuitiveResearchKitConsoleQtWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsTeleOperationPSMQtWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsTeleOperationPSMQtWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsTeleOperationECMQtWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsTeleOperationECMQtWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitArmQtWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsIntuitiveResearchKitArmQtWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitECMQtWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsIntuitiveResearchKitECMQtWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitMTMQtWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsIntuitiveResearchKitMTMQtWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitPSMQtWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsIntuitiveResearchKitPSMQtWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJQtWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsIntuitiveResearchKitSUJQtWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsDaVinciEndoscopeFocusQtWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsDaVinciEndoscopeFocusQtWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "components/include/sawIntuitiveResearchKit/mtsSocketBaseQtWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "components/code/Qt/mtsSocketBaseQtWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/code/Qt/qrc_logo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "components/code/Qt/logo.qrc",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"components/code/Qt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "sawIntuitiveResearchKit-Qt",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawIntuitiveResearchKitQt.so.2.3.1"
+			],
+			"targetId" : "sawIntuitiveResearchKitQt::@c5261568d2d3cd55d28b",
+			"targetIndex" : 5,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "sawIntuitiveResearchKit-Qt",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/install/cisst/lib/libsawIntuitiveResearchKitQt.so"
+			],
+			"targetId" : "sawIntuitiveResearchKitQt::@c5261568d2d3cd55d28b",
+			"targetIndex" : 5,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "components/code/Qt",
+		"source" : "components/code/Qt"
+	}
+}

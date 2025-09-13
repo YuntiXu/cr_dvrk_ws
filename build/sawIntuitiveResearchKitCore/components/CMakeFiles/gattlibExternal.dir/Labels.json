@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/CMakeFiles/gattlibExternal"
+		},
+		{
+			"file" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/CMakeFiles/gattlibExternal.rule"
+		},
+		{
+			"file" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/CMakeFiles/gattlibExternal-complete.rule"
+		},
+		{
+			"file" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal-stamp/gattlibExternal-build.rule"
+		},
+		{
+			"file" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal-stamp/gattlibExternal-configure.rule"
+		},
+		{
+			"file" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal-stamp/gattlibExternal-download.rule"
+		},
+		{
+			"file" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal-stamp/gattlibExternal-install.rule"
+		},
+		{
+			"file" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal-stamp/gattlibExternal-mkdir.rule"
+		},
+		{
+			"file" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal-stamp/gattlibExternal-patch.rule"
+		},
+		{
+			"file" : "/home/ytxu/cr_dvrk_ws/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal-stamp/gattlibExternal-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gattlibExternal"
+		],
+		"name" : "gattlibExternal"
+	}
+}

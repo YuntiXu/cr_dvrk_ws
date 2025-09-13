@@ -1,0 +1,1 @@
+/home/ytxu/cr_dvrk_ws/build/cisst_msgs/rosidl_typesupport_fastrtps_c/cisst_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_c.h

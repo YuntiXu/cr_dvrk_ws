@@ -1,0 +1,4 @@
+source;share/dvrk_arms_from_ros/local_setup.bash
+source;share/dvrk_arms_from_ros/local_setup.dsv
+source;share/dvrk_arms_from_ros/local_setup.sh
+source;share/dvrk_arms_from_ros/local_setup.zsh

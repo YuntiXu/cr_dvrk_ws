@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"applications/s-potentiometers-calibration/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "sawIntuitiveResearchKit-Applications",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"applications/s-potentiometers-calibration/sawIntuitiveResearchKitSPotentiometersCalibration"
+			],
+			"targetId" : "sawIntuitiveResearchKitSPotentiometersCalibration::@02592a87881a19f34058",
+			"targetIndex" : 11,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/s-potentiometers-calibration",
+		"source" : "applications/s-potentiometers-calibration"
+	}
+}

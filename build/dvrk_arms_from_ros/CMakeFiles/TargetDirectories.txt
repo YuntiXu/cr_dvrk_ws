@@ -1,0 +1,10 @@
+/home/ytxu/cr_dvrk_ws/build/dvrk_arms_from_ros/CMakeFiles/uninstall.dir
+/home/ytxu/cr_dvrk_ws/build/dvrk_arms_from_ros/CMakeFiles/dvrk_arms_from_ros_uninstall.dir
+/home/ytxu/cr_dvrk_ws/build/dvrk_arms_from_ros/CMakeFiles/dvrk_arm_from_ros.dir
+/home/ytxu/cr_dvrk_ws/build/dvrk_arms_from_ros/CMakeFiles/test.dir
+/home/ytxu/cr_dvrk_ws/build/dvrk_arms_from_ros/CMakeFiles/edit_cache.dir
+/home/ytxu/cr_dvrk_ws/build/dvrk_arms_from_ros/CMakeFiles/rebuild_cache.dir
+/home/ytxu/cr_dvrk_ws/build/dvrk_arms_from_ros/CMakeFiles/list_install_components.dir
+/home/ytxu/cr_dvrk_ws/build/dvrk_arms_from_ros/CMakeFiles/install.dir
+/home/ytxu/cr_dvrk_ws/build/dvrk_arms_from_ros/CMakeFiles/install/local.dir
+/home/ytxu/cr_dvrk_ws/build/dvrk_arms_from_ros/CMakeFiles/install/strip.dir

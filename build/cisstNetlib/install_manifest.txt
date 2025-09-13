@@ -1,0 +1,12 @@
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/include/cisstNetlib.h
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/include/cisstNetlib/cisstNetlib-types.h
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/include/cisstNetlib/cisstNetlib-lapack.h
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/include/cisstNetlib/cisstNetlib-hanson-haskell.h
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/include/cisstNetlib/cisstNetlib-lawson-hanson.h
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_lapack.a
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_blas.a
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/share/cisstNetlib/CisstNetlibConfig.cmake
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a
+/home/ytxu/cr_dvrk_ws/install/cisstNetlib/lib/libcisstNetlib.a

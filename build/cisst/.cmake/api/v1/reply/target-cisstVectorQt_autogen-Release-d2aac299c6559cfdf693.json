@@ -1,0 +1,73 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"cisstVector/codeQt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "cisstCommon::@c4454b6c853ded827738"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "cisstVector::@625dffff8027608c7d59"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "cisstVector"
+	},
+	"id" : "cisstVectorQt_autogen::@3a7487b48f517df790a0",
+	"isGeneratorProvided" : true,
+	"name" : "cisstVectorQt_autogen",
+	"paths" : 
+	{
+		"build" : "cisstVector/codeQt",
+		"source" : "cisstVector/codeQt"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ytxu/cr_dvrk_ws/build/cisst/cisstVector/codeQt/CMakeFiles/cisstVectorQt_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ytxu/cr_dvrk_ws/build/cisst/cisstVector/codeQt/CMakeFiles/cisstVectorQt_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,12 @@
+source;share/sawControllersAll/hook/cmake_prefix_path.ps1
+source;share/sawControllersAll/hook/cmake_prefix_path.dsv
+source;share/sawControllersAll/hook/cmake_prefix_path.sh
+source;share/sawControllersAll/hook/ld_library_path_lib.ps1
+source;share/sawControllersAll/hook/ld_library_path_lib.dsv
+source;share/sawControllersAll/hook/ld_library_path_lib.sh
+source;share/sawControllersAll/hook/path.ps1
+source;share/sawControllersAll/hook/path.dsv
+source;share/sawControllersAll/hook/path.sh
+source;share/sawControllersAll/hook/pythonscriptspath.ps1
+source;share/sawControllersAll/hook/pythonscriptspath.dsv
+source;share/sawControllersAll/hook/pythonscriptspath.sh

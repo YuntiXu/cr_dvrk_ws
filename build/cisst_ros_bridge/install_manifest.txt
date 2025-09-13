@@ -1,0 +1,3 @@
+/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge/lib/libcisst_ros_bridge.so
+/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge/share/cisst_ros_bridge/cmake/cisst_ros_bridgeExport.cmake
+/home/ytxu/cr_dvrk_ws/install/cisst_ros_bridge/share/cisst_ros_bridge/cmake/cisst_ros_bridgeExport-release.cmake

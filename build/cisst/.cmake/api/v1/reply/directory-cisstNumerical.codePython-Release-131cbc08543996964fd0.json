@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"cisst_add_swig_module"
+		],
+		"files" : 
+		[
+			"cmake/cisstMacros.cmake",
+			"cisstNumerical/codePython/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 600,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 605,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 609,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 615,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "cisstNumerical",
+			"destination" : "include/cisstNumerical",
+			"paths" : 
+			[
+				"cisstNumerical/codePython/../cisstNumerical.i"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "cisstNumerical",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/_cisstNumericalPython.so"
+			],
+			"targetId" : "_cisstNumericalPython::@4f79d98dbea662fe53f6",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "cisstNumerical",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/build/cisst/cisstNumerical/codePython/cisstNumericalPython.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cisstNumerical",
+			"destination" : "include/cisstNumerical",
+			"paths" : 
+			[
+				"cisstNumerical/codePython/../nmrPython.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cisstNumerical/codePython",
+		"source" : "cisstNumerical/codePython"
+	}
+}

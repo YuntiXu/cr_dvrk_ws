@@ -1,0 +1,1 @@
+['-DCMAKE_BUILD_TYPE=Release', '-DcisstNetlib_LANGUAGE=C']

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cisst_msgs/srv/ConvertFloat64Array.srv
+// generated code does not contain a copyright notice
+
+
+module cisst_msgs {
+  module srv {
+    struct ConvertFloat64Array_Request {
+      sequence<double> input;
+    };
+    struct ConvertFloat64Array_Response {
+      sequence<double> output;
+    };
+  };
+};

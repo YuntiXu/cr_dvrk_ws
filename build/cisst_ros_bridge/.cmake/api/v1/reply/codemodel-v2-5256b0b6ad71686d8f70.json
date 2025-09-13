@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-858ea892c669d45a8c57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cisst_ros_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cisst_ros_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cisst_ros_bridge-Release-51a4b81ccafd58c66978.json",
+					"name" : "cisst_ros_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cisst_ros_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cisst_ros_bridge_uninstall-Release-6a2e79331bad6052f0b9.json",
+					"name" : "cisst_ros_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_bridge-Release-e3e7a93539b903719b8a.json",
+					"name" : "example_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-426834c2c162e32c9e21.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ytxu/cr_dvrk_ws/build/cisst_ros_bridge",
+		"source" : "/home/ytxu/cr_dvrk_ws/src/cisst-saw/cisst-ros/cisst_ros_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

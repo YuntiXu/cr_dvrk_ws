@@ -1,0 +1,45 @@
+[0.044s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_video': CMAKE_PREFIX_PATH=/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_video -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/dvrk_video
+[0.305s] -- The C compiler identification is GNU 11.4.0
+[0.575s] -- The CXX compiler identification is GNU 11.4.0
+[0.705s] -- Detecting C compiler ABI info
+[0.818s] -- Detecting C compiler ABI info - done
+[0.829s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.829s] -- Detecting C compile features
+[0.830s] -- Detecting C compile features - done
+[0.834s] -- Detecting CXX compiler ABI info
+[0.982s] -- Detecting CXX compiler ABI info - done
+[0.989s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.990s] -- Detecting CXX compile features
+[0.991s] -- Detecting CXX compile features - done
+[1.555s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.633s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.744s] -- Configuring done
+[1.749s] -- Generating done
+[1.752s] -- Build files have been written to: /home/ytxu/cr_dvrk_ws/build/dvrk_video
+[1.756s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_video' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble /usr/bin/cmake /home/ytxu/cr_dvrk_ws/src/dvrk/dvrk_video -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ytxu/cr_dvrk_ws/install/dvrk_video
+[1.758s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_video': CMAKE_PREFIX_PATH=/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/dvrk_video -- -j12 -l12
+[1.804s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_video' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble /usr/bin/cmake --build /home/ytxu/cr_dvrk_ws/build/dvrk_video -- -j12 -l12
+[1.805s] Invoking command in '/home/ytxu/cr_dvrk_ws/build/dvrk_video': CMAKE_PREFIX_PATH=/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/dvrk_video
+[1.814s] -- Install configuration: "Release"
+[1.814s] -- Execute custom install script
+[1.815s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/launch/decklink_stereo_1280x1024.launch.py
+[1.827s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/launch/decklink_stereo_goovis.launch.py
+[1.836s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/launch/gscam_decklink.launch.py
+[1.844s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/launch/gscam_decklink_stereo.launch.py
+[1.855s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/launch/gscam_v4l.launch.py
+[1.869s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/ament_index/resource_index/package_run_dependencies/dvrk_video
+[1.881s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/ament_index/resource_index/parent_prefix_path/dvrk_video
+[1.891s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/environment/ament_prefix_path.sh
+[1.900s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/environment/ament_prefix_path.dsv
+[1.910s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/environment/path.sh
+[1.919s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/environment/path.dsv
+[1.928s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/local_setup.bash
+[1.937s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/local_setup.sh
+[1.946s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/local_setup.zsh
+[1.956s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/local_setup.dsv
+[1.966s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/package.dsv
+[1.976s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/ament_index/resource_index/packages/dvrk_video
+[1.985s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/cmake/dvrk_videoConfig.cmake
+[1.993s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/cmake/dvrk_videoConfig-version.cmake
+[2.002s] -- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/package.xml
+[2.015s] Invoked command in '/home/ytxu/cr_dvrk_ws/build/dvrk_video' returned '0': CMAKE_PREFIX_PATH=/home/ytxu/cr-dvrk-rviz/install/test_scripts:/home/ytxu/cr-dvrk-rviz/install/teleop_cr_psm:/home/ytxu/cr-dvrk-rviz/install/cr_dvrk_kinematics:/home/ytxu/ctr_tr_model/install/pub_ctr_kinematics:/opt/ros/humble /usr/bin/cmake --install /home/ytxu/cr_dvrk_ws/build/dvrk_video

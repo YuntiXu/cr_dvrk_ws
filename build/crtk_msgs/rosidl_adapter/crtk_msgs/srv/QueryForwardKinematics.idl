@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from crtk_msgs/srv/QueryForwardKinematics.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module crtk_msgs {
+  module srv {
+    struct QueryForwardKinematics_Request {
+      sequence<double> jp;
+
+      geometry_msgs::msg::Pose cp;
+    };
+    struct QueryForwardKinematics_Response {
+      geometry_msgs::msg::Pose cp;
+
+      boolean result;
+
+      string message;
+    };
+  };
+};

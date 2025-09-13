@@ -1,0 +1,58 @@
+// generated from rosidl_generator_c/resource/idl__type_support.h.em
+// with input from crtk_msgs:srv/QueryForwardKinematics.idl
+// generated code does not contain a copyright notice
+
+#ifndef CRTK_MSGS__SRV__DETAIL__QUERY_FORWARD_KINEMATICS__TYPE_SUPPORT_H_
+#define CRTK_MSGS__SRV__DETAIL__QUERY_FORWARD_KINEMATICS__TYPE_SUPPORT_H_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "crtk_msgs/msg/rosidl_generator_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_crtk_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  crtk_msgs,
+  srv,
+  QueryForwardKinematics_Request
+)();
+
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_crtk_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  crtk_msgs,
+  srv,
+  QueryForwardKinematics_Response
+)();
+
+#include "rosidl_runtime_c/service_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_crtk_msgs
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  crtk_msgs,
+  srv,
+  QueryForwardKinematics
+)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // CRTK_MSGS__SRV__DETAIL__QUERY_FORWARD_KINEMATICS__TYPE_SUPPORT_H_

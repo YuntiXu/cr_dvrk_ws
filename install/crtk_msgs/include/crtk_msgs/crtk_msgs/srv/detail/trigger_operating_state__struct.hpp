@@ -1,0 +1,1 @@
+/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_generator_cpp/crtk_msgs/srv/detail/trigger_operating_state__struct.hpp

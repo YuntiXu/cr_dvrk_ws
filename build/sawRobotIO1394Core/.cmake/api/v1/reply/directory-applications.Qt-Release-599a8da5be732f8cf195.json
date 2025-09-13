@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"applications/Qt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "sawRobotIO1394-Applications",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/install/cisst/bin/sawRobotIO1394QtConsole"
+			],
+			"targetId" : "sawRobotIO1394QtConsole::@a5d4118030978f169114",
+			"targetIndex" : 22,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/Qt",
+		"source" : "applications/Qt"
+	}
+}

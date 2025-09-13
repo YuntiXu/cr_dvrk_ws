@@ -1,0 +1,39 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ytxu/cr_dvrk_ws/build/dvrk_video
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/launch/decklink_stereo_1280x1024.launch.py
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/launch/decklink_stereo_goovis.launch.py
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/launch/gscam_decklink.launch.py
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/launch/gscam_decklink_stereo.launch.py
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/launch/gscam_v4l.launch.py
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/ament_index/resource_index/package_run_dependencies/dvrk_video
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/ament_index/resource_index/parent_prefix_path/dvrk_video
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/environment/ament_prefix_path.sh
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/environment/path.sh
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/environment/path.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/local_setup.bash
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/local_setup.sh
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/local_setup.zsh
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/local_setup.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/package.dsv
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/ament_index/resource_index/packages/dvrk_video
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/cmake/dvrk_videoConfig.cmake
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/cmake/dvrk_videoConfig-version.cmake
+-- Symlinking: /home/ytxu/cr_dvrk_ws/install/dvrk_video/share/dvrk_video/package.xml

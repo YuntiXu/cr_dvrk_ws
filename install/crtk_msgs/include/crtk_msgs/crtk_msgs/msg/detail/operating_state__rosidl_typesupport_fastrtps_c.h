@@ -1,0 +1,1 @@
+/home/ytxu/cr_dvrk_ws/build/crtk_msgs/rosidl_typesupport_fastrtps_c/crtk_msgs/msg/detail/operating_state__rosidl_typesupport_fastrtps_c.h

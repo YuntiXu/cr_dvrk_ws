@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"cisst_add_swig_module"
+		],
+		"files" : 
+		[
+			"cmake/cisstMacros.cmake",
+			"cisstOSAbstraction/codePython/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 600,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 605,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 609,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 615,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "cisstOSAbstraction",
+			"destination" : "include/cisstOSAbstraction",
+			"paths" : 
+			[
+				"cisstOSAbstraction/codePython/../cisstOSAbstraction.i"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "cisstOSAbstraction",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/_cisstOSAbstractionPython.so"
+			],
+			"targetId" : "_cisstOSAbstractionPython::@655e4ed2cb9c5aedaab1",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "cisstOSAbstraction",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/ytxu/cr_dvrk_ws/build/cisst/cisstOSAbstraction/codePython/cisstOSAbstractionPython.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cisstOSAbstraction",
+			"destination" : "include/cisstOSAbstraction",
+			"paths" : 
+			[
+				"cisstOSAbstraction/codePython/../osaPython.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cisstOSAbstraction/codePython",
+		"source" : "cisstOSAbstraction/codePython"
+	}
+}

@@ -1,0 +1,91 @@
+[0mCMake Deprecation Warning at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:734 (message):
+  SWIG_ADD_MODULE is deprecated.  Use SWIG_ADD_LIBRARY instead.
+Call Stack (most recent call first):
+  components/code/Amp1394/lib/CMakeLists.txt:81 (swig_add_module)
+
+[0m
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:775 (message):
+  Policy CMP0078 is not set: UseSWIG generates standard target names.  Run
+  "cmake --help-policy CMP0078" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/UseSWIG.cmake:735 (swig_add_library)
+  components/code/Amp1394/lib/CMakeLists.txt:81 (swig_add_module)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:617 (message):
+  Policy CMP0086 is not set: UseSWIG honors SWIG_MODULE_NAME via -module
+  flag.  Run "cmake --help-policy CMP0086" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/UseSWIG.cmake:888 (SWIG_ADD_SOURCE_TO_MODULE)
+  /usr/share/cmake-3.22/Modules/UseSWIG.cmake:735 (swig_add_library)
+  components/code/Amp1394/lib/CMakeLists.txt:81 (swig_add_module)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning at /home/ytxu/cr_dvrk_ws/install/cisst/share/cisst-1.3/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstTestsDriver" doesn't exist or hasn't been
+  compiled
+Call Stack (most recent call first):
+  tests/CMakeLists.txt:27 (find_package)
+
+[0m
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/Amp1394Console.cpp:[m[K In static member function ‘[01m[Kstatic void Amp1394Console::Print(int, int, const char*, ...)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/Amp1394Console.cpp:64:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint vwprintw(WINDOW*, const char*, __va_list_tag*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   64 |     [01;35m[Kvwprintw(stdscr, cstr, args)[m[K;
+      |     [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/Amp1394Console.cpp:29[m[K:
+[01m[K/usr/include/curses.h:819:28:[m[K [01;36m[Knote: [m[Kdeclared here
+  819 | extern NCURSES_EXPORT(int) [01;36m[Kvwprintw[m[K (WINDOW *, const char *, va_list) GCC_DEPRECATED(use vw_printw)     /* implemented */
+      |                            [01;36m[K^~~~~~~~[m[K
+/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/BoardIO.h:42: Warning 362: operator= ignored
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic void EthBasePort::PrintDebugData(std::ostream&, const quadlet_t*, double)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:323:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KclockPeriod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  323 | void EthBasePort::PrintDebugData(std::ostream &debugStream, const quadlet_t *data, [01;35m[Kdouble clockPeriod[m[K)
+      |                                                                                    [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/BasePort.h:130: Warning 325: Nested struct not currently supported (BroadcastReadInfo ignored)
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic void EthBasePort::PrintEthernetPacket(std::ostream&, const quadlet_t*, unsigned int)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:536:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_quads[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  536 | void EthBasePort::PrintEthernetPacket(std::ostream &out, const quadlet_t *packet, [01;35m[Kunsigned int max_quads[m[K)
+      |                                                                                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/EthBasePort.h:69: Warning 325: Nested struct not currently supported (FPGA_Status ignored)
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic bool EthBasePort::checkCRC(const unsigned char*)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:1108:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1108 | bool EthBasePort::checkCRC([01;35m[Kconst unsigned char *packet[m[K)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic void EthBasePort::PrintDebugData(std::ostream&, const quadlet_t*, double)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:323:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KclockPeriod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  323 | void EthBasePort::PrintDebugData(std::ostream &debugStream, const quadlet_t *data, [01;35m[Kdouble clockPeriod[m[K)
+      |                                                                                    [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic void EthBasePort::PrintEthernetPacket(std::ostream&, const quadlet_t*, unsigned int)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:536:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_quads[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  536 | void EthBasePort::PrintEthernetPacket(std::ostream &out, const quadlet_t *packet, [01;35m[Kunsigned int max_quads[m[K)
+      |                                                                                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:[m[K In static member function ‘[01m[Kstatic bool EthBasePort::checkCRC(const unsigned char*)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/lib/code/EthBasePort.cpp:1108:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1108 | bool EthBasePort::checkCRC([01;35m[Kconst unsigned char *packet[m[K)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:[m[K In function ‘[01m[Kbool TestEthernetV2(int, AmpIO&, BasePort*, std::ofstream&)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:851:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcurLine[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  851 | bool TestEthernetV2([01;35m[Kint curLine[m[K, AmpIO &Board, BasePort *Port, std::ofstream &logFile)
+      |                     [01;35m[K~~~~^~~~~~~[m[K
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:851:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPort[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  851 | bool TestEthernetV2(int curLine, AmpIO &Board, [01;35m[KBasePort *Port[m[K, std::ofstream &logFile)
+      |                                                [01;35m[K~~~~~~~~~~^~~~[m[K
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:[m[K In function ‘[01m[Kbool TestEthernetV3(int, AmpIO&, BasePort*, std::ofstream&)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:918:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcurLine[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  918 | bool TestEthernetV3([01;35m[Kint curLine[m[K, AmpIO &Board, BasePort *Port, std::ofstream &logFile)
+      |                     [01;35m[K~~~~^~~~~~~[m[K
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/qlatest.cpp:918:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPort[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  918 | bool TestEthernetV3(int curLine, AmpIO &Board, [01;35m[KBasePort *Port[m[K, std::ofstream &logFile)
+      |                                                [01;35m[K~~~~~~~~~~^~~~[m[K
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/mainEth1394.cpp:[m[K In function ‘[01m[Kbool QLA_IOExp_Check(AmpIO&, long unsigned int)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/mainEth1394.cpp:1002:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kchan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1002 | bool QLA_IOExp_Check(AmpIO &Board, [01;35m[Kunsigned long chan = 0[m[K)
+      |                                    [01;35m[K~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/dvrktest.cpp:[m[K In function ‘[01m[KResult TestDallas(AmpIO**, BasePort*)[m[K’:
+[01m[K/home/ytxu/cr_dvrk_ws/src/cisst-saw/sawRobotIO1394/core/components/code/Amp1394/tests/dvrktest.cpp:494:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPort[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  494 | Result TestDallas(AmpIO **Board, [01;35m[KBasePort *Port[m[K) {
+      |                                  [01;35m[K~~~~~~~~~~^~~~[m[K

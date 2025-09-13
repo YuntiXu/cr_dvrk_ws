@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/time1394.dir/time1394.c.o -o /home/ytxu/cr_dvrk_ws/install/cisst/bin/time1394   -L/home/ytxu/cr_dvrk_ws/install/cisst/lib  -L/home/ytxu/cr_dvrk_ws/build/cisst/cisstReflexxesTypeII/lib  -Wl,-rpath,/home/ytxu/cr_dvrk_ws/install/cisst/lib:/home/ytxu/cr_dvrk_ws/build/cisst/cisstReflexxesTypeII/lib -lraw1394 
