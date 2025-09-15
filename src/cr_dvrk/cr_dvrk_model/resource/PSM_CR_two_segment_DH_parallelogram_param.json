@@ -1,0 +1,106 @@
+{
+    "DH": {
+        "convention": "modified",
+        "joints": [
+            {
+                "name": "outeryaw",
+                "alpha":  1.5708, "A":  0.0000, "theta":  0.0000, "D":  0.0000,
+                "type": "revolute",
+                "mode": "active",
+                "offset":  1.5708, 
+                "min": -1.588,
+                "max":  1.588, 
+                "ftmax": 3.316101, 
+                "unit": "rad"
+            },
+            {
+                "name": "outerpitch",
+                "alpha": -1.5708, "A":  0.0000, "theta":  0.0000, "D":  0.0000,
+                "type": "revolute",
+                "mode": "active",
+                "offset": -1.5708,
+                "min": -0.925025, 
+                "max":  0.925025, 
+                "ftmax": 3.316101,
+                "unit": "rad"
+            },
+            {
+                "name": "counterweight",
+                "alpha": 0.0000, "A":  0.04009, "theta":  0.0000, "D":  0.0000,
+                "type": "revolute",
+                "mode": "passive",
+                "offset": 1.5708,
+                "min": 0.0000,
+                "max": 0.0000, 
+                "ftmax": 0.0000,
+                "unit": "rad"
+            },
+            {
+                "name": "parallelogramcorner1",
+                "alpha": 0, "A":  0.14454, "theta":  0.0000, "D":  0.0000,
+                "type": "revolute",
+                "mode": "passive",
+                "offset": 1.5708,
+                "min": 0.0000,
+                "max": 0.0000, 
+                "ftmax": 0.0000,
+                "unit": "rad"
+            },
+            {
+                "name": "parallelogramcorner3",
+                "alpha": 0, "A":  0.516, "theta":  0.0000, "D":  0.0000,
+                "type": "revolute",
+                "mode": "passive",
+                "offset": 0.0000,
+                "min": 0.0000,
+                "max": 0.0000, 
+                "ftmax": 0.0000,
+                "unit": "rad"
+            },
+            {
+                "name": "insertion",
+                "alpha":  -1.5708, "A":  0.04009, "theta":  0.0000, "D":  0.0000,
+                "type": "prismatic",
+                "mode": "active",
+                "offset": -0.28726, 
+                "min": 0.08, 
+                "max": 0.24,
+                "ftmax": 9.877926,
+                "unit": "m"
+            },
+            {
+                "name": "wristroll",
+                "alpha":  0.0000, "A":  0.0000, "theta":  0.0000, "D":  0.3162,
+                "type": "revolute",
+                "mode": "active",
+                "offset": 0.0000,
+                "min": -4.4506,
+                "max": 4.4506,  
+                "ftmax": 0.33,
+                "unit": "rad"
+            },
+            {
+                "name": "continuum_segment1",
+                "alpha": 0.0000, "A":  0.0000, "theta":  0.0000, "D":  0.055, 
+                "type": "continuum",
+                "mode": "active",
+                "offset": 0.000, 
+                "min": -3.14,  
+                "max": 3.14,   
+                "ftmax": 0.000,
+                "unit": "rad"
+            },
+            {
+                "name": "continuum_segment2",
+                "alpha": 0.0000, "A":  0.0000, "theta":  0.0000, "D":  0.025, 
+                "type": "continuum",
+                "mode": "active",
+                "offset": 0.0, 
+                "min": -3.14, 
+                "max": 3.14,  
+                "ftmax": 0.000,
+                "unit": "rad"
+            }
+        ]
+    }
+}

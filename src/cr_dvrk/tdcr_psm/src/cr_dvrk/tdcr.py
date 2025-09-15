@@ -16,7 +16,7 @@ class tdcr(object):
         self.__crtk_utils = crtk.utils(self, self.__ral, expected_interval)
 
         # add crtk features that we need and are supported by the TDCR
-        self.__crtk_utils.add_setpoint_js()
+        self.__crtk_utils.add_setpoint_js() # need to add the measured equivalent
         self.__crtk_utils.add_servo_jp()
 
     def name(self):
@@ -24,6 +24,7 @@ class tdcr(object):
 
     def ral(self):
         return self.__ral
+        
     
-    def check_connections(self, timeout = 5.0):
-        self.__ral.check_connections(timeout)
+    # def check_connections(self, timeout = 5.0):
+    #     self.__ral.check_connections(timeout)

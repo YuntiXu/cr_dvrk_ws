@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>joint_space_ctrl</name>
+  <name>tdcr_psm</name>
   <version>2.3.0</version>
   <description>CR-DVRK Python client</description>
   <maintainer email="ytxu@ucsd.edu">Yun Ti Xu</maintainer>

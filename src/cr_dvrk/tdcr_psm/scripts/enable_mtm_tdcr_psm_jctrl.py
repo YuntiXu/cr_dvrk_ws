@@ -21,7 +21,7 @@ class Enable_MTM_TDCR_PSM_JCTRL:
         self.camera = crtk.joystick_button(self.ral, 'footpedals/camera', 0)
 
         # check connections + start node! 
-        self.ral.check_connections() # note: if the necessary topics are not beiing published, this will hang
+        # self.ral.check_connections(timeout_seconds=0.0) # note: need to debug this! 
         self.ral.spin()
 
         self.stop_teleop = False
@@ -74,6 +74,6 @@ class Enable_MTM_TDCR_PSM_JCTRL:
 def main():
     mtm_pitch = Enable_MTM_TDCR_PSM_JCTRL()
     mtm_pitch.home_mtm()
-    mtm_pitch.run_enable_mtm()
+    # mtm_pitch.run_enable_mtm()
 
 if __name__ == '__main__': main()

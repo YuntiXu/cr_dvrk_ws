@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.10)
-project (joint_space_ctrl VERSION 2.3.0)
+project (tdcr_psm VERSION 2.3.0)
 
 # first test for ROS1
 find_package (catkin QUIET
@@ -17,7 +17,7 @@ else (catkin_FOUND)
   if (ament_cmake_FOUND)
     find_package (ament_cmake_python REQUIRED)
     ament_python_install_package (cr_dvrk
-      PACKAGE_DIR ${joint_space_ctrl_SOURCE_DIR}/src/cr_dvrk)
+      PACKAGE_DIR ${tdcr_psm_SOURCE_DIR}/src/cr_dvrk)
 
     file (GLOB cr_dvrk_SCRIPTS scripts/*.py)
     install (PROGRAMS ${cr_dvrk_SCRIPTS}
