@@ -2,28 +2,31 @@
 
 # load and define the MTM
 from dvrk import mtm, psm
-# import cr_dvrk
+from cr_dvrk import tdcr
 import crtk
 import numpy as np
-
 
 class Enable_MTM_TDCR_PSM_JCTRL:
     def __init__(self):
         self.ral = crtk.ral('enable_mtm_tdcr_psm_jctrl')
+
+        # create instances of all the robot components 
         self.mtmr = mtm(self.ral,'MTMR')
-        # self.mtml = mtm(self.ral,'MTML')
+        # self.mtml = mtm(self.ral,'MTML') 
+        self.tdcr = tdcr(self.ral, 'TDCR')
+        self.psm1 = psm(self.ral, 'PSM1') # could change this as neccesary
+
+        # create instance of the console IO pedals
         self.coag = crtk.joystick_button(self.ral, 'footpedals/coag', 0)
         self.camera = crtk.joystick_button(self.ral, 'footpedals/camera', 0)
-        self.ral.check_connections()
+
+        # check connections + start node! 
+        self.ral.check_connections() # note: if the necessary topics are not beiing published, this will hang
         self.ral.spin()
 
         self.stop_teleop = False
         self.servo_time = 0.01 # seconds
-
-        # create dummy topics for simulation 
-        # self.tdcr = tdcr(self.ral, 'TDCR')
-        # self.psm1 = psm(self.ral, 'PSM1') # could change this as neccesary
-
+       
     def home_mtm(self):
         # home both mtms
         self.mtmr.enable(10)
@@ -53,16 +56,17 @@ class Enable_MTM_TDCR_PSM_JCTRL:
                 self.mtmr.lock_orientation_as_is()
                 self.mtmr.body.servo_cf(np.array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0]))
                 # send I/O signal to TDCR + PSM
-                des_IO_pos = self.mtmr.measured_jv()[2]*self.servo_time
-                # self.psm.servo_jp(np.array([0.0, 0.0, des_IO_pos, 0.0, 0.0, 0.0]))
+                measured_tip_vel,_ = self.mtmr.measured_cv() # what frame is this in? 
+                des_IO_pos = measured_tip_vel[1]*self.servo_time # I/O controlled by MTM y velocity 
+                self.psm.servo_jp(np.array([0.0, 0.0, des_IO_pos, 0.0, 0.0, 0.0]))
 
             if self.camera_pressed != 1 and self.coag_pressed == 1:
                 self.mtmr.unlock_orientation()
                 self.mtmr.body.servo_cf(np.array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0]))
                 # send wrist articulation signal to TDCR + PSM 
                 des_proxi_bend_pos = 0.0
-                des_dist_bend_pos =  self.mtmr.measured_jv()[5]*self.servo_time # get current wrist pitch velocity
-                # self.tdcr.servo_jp(np.array([des_proxi_bend_pos, des_dist_bend_pos]))
+                des_dist_bend_pos =  self.mtmr.measured_jv()[5]*self.servo_time # TDCR bending controlled by MTM wrist vel 
+                self.tdcr.servo_jp(np.array([des_proxi_bend_pos, des_dist_bend_pos]))
 
             elif self.coag_pressed != 1 and self.camera_pressed != 1:
                 self.mtmr.hold()
