@@ -10,5 +10,5 @@ class tdcr(object):
         # crtk features
         self.__crtk_utils = crtk.utils(self, self.__ral, expected_interval)
         # add crtk features that we need and are supported by the TDCR
-        self.__crtk_utils.add_measured_js() # need to add the measured equivalent
-        self.__crtk_utils.add_move_jp()
+        self.__crtk_utils.add_setpoint_js() # need to add the measured equivalent
+        self.__crtk_utils.add_servo_jr()

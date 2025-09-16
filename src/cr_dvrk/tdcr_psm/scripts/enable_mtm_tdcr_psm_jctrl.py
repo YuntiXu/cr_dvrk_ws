@@ -13,7 +13,7 @@ class Enable_MTM_TDCR_PSM_JCTRL:
         self.mtmr = mtm(self.ral,'MTMR')
         # self.mtml = mtm(self.ral,'MTML') 
         self.tdcr = tdcr(self.ral, 'TDCR')
-        self.psm1 = psm(self.ral, 'PSM1') # could change this as neccesary
+        self.psm1 = psm(self.ral, 'PSM2') # could change this as neccesary
 
         # create instance of the console IO pedals
         self.coag = crtk.joystick_button(self.ral, 'footpedals/coag', 0)
@@ -42,6 +42,8 @@ class Enable_MTM_TDCR_PSM_JCTRL:
 
     def run_enable_mtm(self):
 
+        print("running teleop")
+
         while self.stop_teleop == False:
             # current state of coag pedal 
             self.coag_pressed = self.coag.value()
@@ -69,7 +71,7 @@ class Enable_MTM_TDCR_PSM_JCTRL:
                 # send wrist articulation signal to TDCR + PSM 
                 des_proxi_bend_pos = 0.0
                 des_dist_bend_pos =  self.mtmr.measured_jv()[5]*self.servo_time # TDCR bending controlled by MTM wrist vel 
-                self.tdcr.servo_jp(np.array([des_proxi_bend_pos, des_dist_bend_pos]))
+                self.tdcr.servo_jr(np.array([des_proxi_bend_pos, des_dist_bend_pos]))
 
             elif self.coag_pressed != 1 and self.camera_pressed != 1:
                 self.mtmr.hold()
@@ -77,6 +79,6 @@ class Enable_MTM_TDCR_PSM_JCTRL:
 def main():
     mtm_pitch = Enable_MTM_TDCR_PSM_JCTRL()
     mtm_pitch.home_mtm()
-    # mtm_pitch.run_enable_mtm()
+    mtm_pitch.run_enable_mtm()
 
 if __name__ == '__main__': main()
