@@ -8,8 +8,7 @@ import numpy as np
 
 class Enable_MTM_TDCR_PSM_JCTRL:
     def __init__(self):
-        self.ral = crtk.ral('enable_mtm_tdcr_psm_jctrl')
-
+        self.ral = crtk.ral('enable_mtm_psm_tdcr')
         # create instances of all the robot components 
         self.mtmr = mtm(self.ral,'MTMR')
         # self.mtml = mtm(self.ral,'MTML') 
@@ -21,13 +20,17 @@ class Enable_MTM_TDCR_PSM_JCTRL:
         self.camera = crtk.joystick_button(self.ral, 'footpedals/camera', 0)
 
         # check connections + start node! 
-        # self.ral.check_connections(timeout_seconds=0.0) # note: need to debug this! 
+        self.ral.check_connections(timeout_seconds =0.1,check_children=False) # note: need to debug this!
         self.ral.spin()
+
+        print("connections established")
 
         self.stop_teleop = False
         self.servo_time = 0.01 # seconds
        
     def home_mtm(self):
+
+        print("Starting homing procedure...")
         # home both mtms
         self.mtmr.enable(10)
         # self.mtml.enable(10)
@@ -35,7 +38,7 @@ class Enable_MTM_TDCR_PSM_JCTRL:
         self.mtmr.move_jp(np.array([0.0, 0.0, 0.0, 0.0, np.pi/2, 0.0, 0.0]))
         # self.mtml.move_jp(np.array([0.0, 0.0, 0.0, 0.0, np.pi/2, 0.0, 0.0]))
 
-        print("Homing MTMs....")
+        print("Homed MTMs....")
 
     def run_enable_mtm(self):
 
