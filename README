@@ -1,0 +1,30 @@
+# TODO: format this 
+
+Test notes: 
+- all code tested on
+    - Ubuntu 22 
+    - ROS2 humble 
+    - Python 3.10.12
+    - continuum_actuation (released firmware version)
+
+Installation notes 
+- dependencies 
+    - crtk ([text](https://crtk-robotics.readthedocs.io/en/latest/index.html))
+        - separate folder inside main src/ folder 
+            - crtk/crtk_python_client 
+            - crtk/crtk_msgs (build failing, necessary?)
+    - PyKDL library 
+        - sudo apt install python3-pykdl
+    - other python libraries (check out requirements.txt file!)
+        - installed inside virtual environment 
+
+Software Usage 
+- sourcing/activate environments
+    - source /opt/ros/humble/setup.bash
+    - cd cr_dvrk_ws 
+    - source install/setup.bash
+    - source .venv/bin/activate 
+- building ROS2 package
+    - colcon build --symlink-install 
+
+- TODO: make ROS2 launch files! 
