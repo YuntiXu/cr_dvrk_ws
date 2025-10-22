@@ -1,27 +1,10 @@
-from glob import glob
-from setuptools import setup
+f ## ! DO NOT MANUALLY INVOKE THIS setup.py, USE CATKIN INSTEAD
+from distutils.core import setup
+from catkin_pkg.python_setup import generate_distutils_setup
 
-package_name = 'ctr_teleop'
+# fetch values from package.xml
+setup_args = generate_distutils_setup(packages=['ctr_teleop'],
+                                      package_dir={'': 'src'},
+                                      )
 
-setup(
-    name=package_name,
-    version='0.0.0',
-    packages=[package_name],
-    package_dir={'': 'src'},
-    data_files=[
-        ('share/ament_index/resource_index/packages',
-            ['resource/' + package_name]),
-        ('share/' + package_name, ['package.xml']),
-        ('lib/' + package_name, glob('scripts/*py')),
-    ],
-    install_requires=['setuptools'],
-    zip_safe=True,
-    maintainer='ytxu',
-    maintainer_email='ytxu@ucsd.edu',
-    description='CR DVRK Python Package for ROS2',
-    license='MIT',
-    entry_points={
-        'console_scripts': [
-        ],
-    },
-)
+setup(**setup_args)

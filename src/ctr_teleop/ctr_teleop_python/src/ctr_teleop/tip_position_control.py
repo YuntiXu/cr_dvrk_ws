@@ -6,9 +6,9 @@
 # 
 
 import numpy as np 
-from .ctr_fourier_kinematics import ctr_fourier_kinematics
+import ctr_fourier_kinematics
 
-class ctr_tip_positon_control:
+class tip_position_control:
 
     def __init__(self):
         self.ctr_fk = ctr_fourier_kinematics("fparams_file.mat")

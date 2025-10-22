@@ -5,7 +5,7 @@
 # Date : 2025-10-21
 
 # Usage
-# > ros2 run ctr_teleop ctr_state_node CTR PSM
+# > ros2 run ctr_teleop_python ctr_state_node.py PSM1 CTR
 
 # Description 
 
@@ -19,8 +19,8 @@ import sensor_msgs.msg
 import geometry_msgs.msg
 import numpy as np
 
-# custom function imports 
-from ..src.ctr_fourier_kinematics import ctr_fourier_kinematics
+import ctr_fourier_kinematics
+
 
 ###################### USER DEFINED PARAMETERS ############################
 # motor configs 
@@ -165,7 +165,7 @@ def main():
     example_name = type(ctr_state_info).__name__
     ral = crtk.ral(example_name)
     
-    example = ctr_state_info(ral, args.psm, args.ctr)
+    example = ctr_state_info(ral, args.PSM, args.CTR)
     ral.spin_and_execute(example.run)
 
 if __name__ == '__main__':

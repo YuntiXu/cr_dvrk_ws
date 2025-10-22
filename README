@@ -12,7 +12,7 @@ Installation notes
     - crtk ([text](https://crtk-robotics.readthedocs.io/en/latest/index.html))
         - separate folder inside main src/ folder 
             - crtk/crtk_python_client 
-            - crtk/crtk_msgs (build failing, necessary?)
+            - crtk/crtk_msgs (should clone from here https://github.com/collaborative-robotics/crtk_msgs)
     - PyKDL library 
         - sudo apt install python3-pykdl
     - other python libraries (check out requirements.txt file!)
@@ -28,5 +28,8 @@ Software Usage
     - need to point which functions has user defined parameters that might be changed! 
 - building ROS2 package
     - colcon build --symlink-install 
+
+Notes for tdcr_teleop 
+- colcon build tree needs to be in a very specific form! 
 
 - TODO: make ROS2 launch files so that users dont have to run individual python files! 
