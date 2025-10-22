@@ -1,0 +1,45 @@
+# TODO: format this 
+
+Test notes: 
+- all code tested on
+    - Ubuntu 22 
+    - ROS2 humble 
+    - Python 3.10.12
+    - continuum_actuation (released firmware version)
+
+Installation notes 
+- dependencies 
+    - crtk ([text](https://crtk-robotics.readthedocs.io/en/latest/index.html))
+        - separate folder inside main src/ folder 
+            - crtk/crtk_python_client 
+            - crtk/crtk_msgs (should clone from here https://github.com/collaborative-robotics/crtk_msgs)
+    - PyKDL library 
+        - sudo apt install python3-pykdl
+    - other python libraries (check out requirements.txt file!)
+        - installed inside virtual environment 
+
+Software Usage 
+- sourcing
+    - source /opt/ros/humble/setup.bash
+    - cd cr_dvrk_ws 
+    - source install/setup.bash
+- funtion calls
+    - need to point which functions has user defined parameters that might be changed! 
+- building ROS2 package
+    - colcon build --symlink-install 
+
+
+Dev notes for specific functions -----------------------------------------------------------------
+Notes for ctr_state_info.py
+- need to add in effects of the PSM joint motions 
+
+Notes for tdcr_teleop 
+- colcon build tree needs to be in a very specific form! 
+
+- Running list of TODOs (additional good-to-have features):
+-  make ROS2 launch files so that users dont have to run individual python files! 
+-  modify teleop logic to match a state machine implementation (checkout dvrk_teleoperation file in the dvrk_python package)
+    - will have change + unit test enable_ctr_teleop.py and enable_tdcr_teleop.py functions 
+-  create associated RVIZ files (that gets launch together?) that visualizes the backbone of the continuum robots 
+    - for ctr display point of the workspace? 
+- 

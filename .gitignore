@@ -47,7 +47,6 @@ build/
 .DS_Store
 
 # Python project configuration files
-*.cfg
 *.ini
 
 # Profiling data

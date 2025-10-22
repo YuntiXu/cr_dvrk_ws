@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>tdcr_psm</name>
-  <version>2.3.0</version>
-  <description>CR-DVRK Python client</description>
-  <maintainer email="ytxu@ucsd.edu">Yun Ti Xu</maintainer>
+  <name>ctr_teleop_python</name>
+  <version>0.0.0</version>
+  <description>CR DVRK PYTHON PACKAGE</description>
+  <maintainer email="ytxu@ucsd.edu">ytxu</maintainer>
   <license>MIT</license>
 
   <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>

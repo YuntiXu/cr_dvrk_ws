@@ -1,5 +1,5 @@
-cmake_minimum_required (VERSION 3.10)
-project (tdcr_psm VERSION 2.3.0)
+cmake_minimum_required (VERSION 3.16)
+project (ctr_teleop_python VERSION 1.3.1)
 
 # first test for ROS1
 find_package (catkin QUIET
@@ -16,11 +16,11 @@ else (catkin_FOUND)
   find_package (ament_cmake QUIET)
   if (ament_cmake_FOUND)
     find_package (ament_cmake_python REQUIRED)
-    ament_python_install_package (cr_dvrk
-      PACKAGE_DIR ${tdcr_psm_SOURCE_DIR}/src/cr_dvrk)
+    ament_python_install_package (ctr_teleop
+      PACKAGE_DIR ${ctr_teleop_python_SOURCE_DIR}/src/ctr_teleop)
 
-    file (GLOB cr_dvrk_SCRIPTS scripts/*.py)
-    install (PROGRAMS ${cr_dvrk_SCRIPTS}
+    file (GLOB ctr_teleop_SCRIPTS scripts/*.py)
+    install (PROGRAMS ${ctr_teleop_SCRIPTS}
       DESTINATION lib/${PROJECT_NAME})
 
     ament_package ()
