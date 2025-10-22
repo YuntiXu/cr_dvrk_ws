@@ -108,7 +108,7 @@ class enable_ctr_teleop:
         self.run_teleop()
 
     # position based instrument teleop
-    def run_teleop(self):
+    def run_teleop(self): # TODO: regfactor this to use state machine logic! checkout example dvrk_teleoperation.py function in the dvrk_python package 
 
         while True: # run infinite loop 
             self.coag_pressed = self.coag.value()
@@ -131,7 +131,7 @@ class enable_ctr_teleop:
                     self.mtm.lock_orientation(self.mtm.measured_cp().M) # orientation locked 
                     self.mtm.free() # free arm position 
                     if self.clutch_pressed != 1: # if not clutch 
-                        curr_mtm_pose = self.mtm.meaured_cp().p
+                        curr_mtm_pose = self.mtm.measured_cp().p
                         #TODO: need to account for the ECM frame of reference here! 
                         self.goal_pose_ctr.p = self.ctr_start_pose.p + self.scale_ctr(curr_mtm_pose - self.mtm_start_pose)
                         goal_ctr_servo_jp, *_ = self.teleop_ctr.ik(self.ctr.setpoint_jp(),self.goal_pose_ctr.p)

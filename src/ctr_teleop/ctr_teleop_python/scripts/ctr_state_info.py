@@ -169,7 +169,7 @@ class ctr_state_info:
         print("               {} enabled".format(self.psm_name))
 
         while True: 
-            # start publishing all the info related to the ctr robot state 
+            # start publishing all the info related to the ctr robot state TODO 
             # self.curr_psm_jp = self.psm.measured_js()
 
             # publish updated CTR tip position 
