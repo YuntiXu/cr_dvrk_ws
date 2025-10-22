@@ -29,9 +29,14 @@ Software Usage
     - colcon build --symlink-install 
 
 
-Dev notes for specific functions -----------------------------------------------------------------
+Dev notes for specific functions ----------------------------------------------------------------
 Notes for ctr_state_info.py
 - need to add in effects of the PSM joint motions 
+- need to robustify the enable + home logic! which state does the PSM have to be?
+
+Notes for enable_ctr_teleop.py
+- need to robustify the enable + home logic! which state does the MTMR have to be? 
+
 
 Notes for tdcr_teleop 
 - colcon build tree needs to be in a very specific form! 
