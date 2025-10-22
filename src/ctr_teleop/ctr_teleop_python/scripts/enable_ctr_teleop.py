@@ -23,7 +23,7 @@ import geometry_msgs.msg
 import std_msgs.msg
 
 # custom function imports 
-from .tip_position_control import ctr_tip_positon_control
+from ..src.tip_position_control import ctr_tip_positon_control
 
 class enable_ctr_teleop:
 

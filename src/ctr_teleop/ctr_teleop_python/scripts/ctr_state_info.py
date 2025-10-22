@@ -20,7 +20,7 @@ import geometry_msgs.msg
 import numpy as np
 
 # custom function imports 
-from .ctr_fourier_kinematics import ctr_fourier_kinematics
+from ..src.ctr_fourier_kinematics import ctr_fourier_kinematics
 
 ###################### USER DEFINED PARAMETERS ############################
 # motor configs 
