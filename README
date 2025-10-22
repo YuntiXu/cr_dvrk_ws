@@ -24,7 +24,9 @@ Software Usage
     - cd cr_dvrk_ws 
     - source install/setup.bash
     - source .venv/bin/activate 
+- funtion calls
+    - need to point which functions has user defined parameters that might be changed! 
 - building ROS2 package
     - colcon build --symlink-install 
 
-- TODO: make ROS2 launch files! 
+- TODO: make ROS2 launch files so that users dont have to run individual python files! 

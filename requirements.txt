@@ -1,4 +1,6 @@
-# To install, run on terminal pip install -r requirements.txt
+
+# To install, run on terminal pip install -r requirements.txt inside an 
+# activted python virtual environment 
 
 # General purpose libraries
 numpy==1.24.4
