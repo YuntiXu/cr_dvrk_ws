@@ -10,9 +10,9 @@ Test notes:
 Installation notes 
 - dependencies 
     - crtk ([text](https://crtk-robotics.readthedocs.io/en/latest/index.html))
-        - separate folder inside main src/ folder 
-            - crtk/crtk_python_client 
-            - crtk/crtk_msgs (should clone from here https://github.com/collaborative-robotics/crtk_msgs)
+        - separate folder inside main src/ folder, need to submodule 
+            - crtk/crtk_python_client (should clone from here: https://github.com/collaborative-robotics/crtk_python_client)
+            - crtk/crtk_msgs (should clone from here:  https://github.com/collaborative-robotics/crtk_msgs)
     - PyKDL library 
         - sudo apt install python3-pykdl
     - other python libraries (check out requirements.txt file!)
@@ -24,7 +24,7 @@ Software Usage
     - cd cr_dvrk_ws 
     - source install/setup.bash
 - funtion calls
-    - need to point which functions has user defined parameters that might be changed! 
+    - need to point which functions has user-defined parameters that might be changed! 
 - building ROS2 package
     - colcon build --symlink-install 
 
