@@ -19,11 +19,10 @@ Installation notes
         - installed inside virtual environment 
 
 Software Usage 
-- sourcing/activate environments
+- sourcing
     - source /opt/ros/humble/setup.bash
     - cd cr_dvrk_ws 
     - source install/setup.bash
-    - source .venv/bin/activate 
 - funtion calls
     - need to point which functions has user defined parameters that might be changed! 
 - building ROS2 package
@@ -32,4 +31,7 @@ Software Usage
 Notes for tdcr_teleop 
 - colcon build tree needs to be in a very specific form! 
 
-- TODO: make ROS2 launch files so that users dont have to run individual python files! 
+- Running list of TODOs (additional good-to-have features):
+-  make ROS2 launch files so that users dont have to run individual python files! 
+-  modify teleop logic to match a state machine implementation (checkout dvrk_teleoperation file in the dvrk_python package)
+    - will have change + unit test enable_ctr_teleop.py and enable_tdcr_teleop.py functions 

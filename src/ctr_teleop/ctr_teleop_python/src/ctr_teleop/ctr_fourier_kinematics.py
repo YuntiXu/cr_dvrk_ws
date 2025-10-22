@@ -43,7 +43,7 @@ class ctr_fourier_kinematics:
         q : numpy array of size 6, [t1, t2, t3, r1, r2, r3]
         '''
         self.deployed_length = q[:3]
-        self.tube_angles = q[4:]
+        self.tube_angles = q[3:]
 
     def get_tip_pos(self,q):
         '''

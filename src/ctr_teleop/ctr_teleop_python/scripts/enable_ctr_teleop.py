@@ -7,7 +7,7 @@
 # Date : 2025-10-21
 
 # Usage
-# > ros2 run ctr_teleop enable_ctr_teleop.py MTMR CTR
+# > ros2 run ctr_teleop_python enable_ctr_teleop.py MTMR CTR
 
 # Description 
 # runs teleoperation of a custom CTR instrument on a PSM 
@@ -21,9 +21,10 @@ import PyKDL
 import sys
 import geometry_msgs.msg
 import std_msgs.msg
+import importlib.resources
 
 # custom function imports 
-from ..src.tip_position_control import ctr_tip_positon_control
+from ctr_teleop import tip_position_control
 
 class enable_ctr_teleop:
 
@@ -64,13 +65,16 @@ class enable_ctr_teleop:
         def __init__(self, ral):
             # populate CTR with the ROS topics we need
             self.crtk = crtk.utils(self, ral)
-            self.crtk.add_setpoint_jp()
+            self.crtk.add_setpoint_js()
             self.crtk.add_measured_cp()
             self.crtk.add_servo_jp()  
 
     def __init__(self, ral, MTM_namespace, CTR_namespace):
         self.mtm = self.MTM(ral.create_child(MTM_namespace))
         self.ctr = self.CTR(ral.create_child(CTR_namespace))
+
+        self.mtm_name = MTM_namespace 
+        self.ctr_name = CTR_namespace
 
         self.coag = crtk.joystick_button(ral,'footpedals/coag',0)
         self.clutch = crtk.joystick_button(ral,'footpedals/clutch',0)
@@ -88,13 +92,14 @@ class enable_ctr_teleop:
         self.mtm_start_pose = None
         self.ctr_start_pose =  None
 
-        self.teleop_ctr = ctr_tip_positon_control() # TODO: fill this! 
+        with importlib.resources.path('ctr_teleop','fparams_file.mat') as fparams_path:
+                self.teleop_ctr = tip_position_control(fparams_path)
 
     # main loop
     def run(self):
         # check if mtm is enabled + homed 
         if not self.mtm.enable(10.0) or not self.mtm.home(10.0):
-            print('    ! failed to home {} within {} seconds'.format(self.mtm.name, 10.0))
+            print('    ! failed to home {} within {} seconds'.format(self.mtm_name, 10.0))
             return False
         
         print("     Homing is complete")
@@ -102,7 +107,7 @@ class enable_ctr_teleop:
         # run teleop! 
         self.run_teleop()
 
-    # position based teleop
+    # position based instrument teleop
     def run_teleop(self):
 
         while True: # run infinite loop 
@@ -149,7 +154,7 @@ def main():
     example_name = type(enable_ctr_teleop).__name__
     ral = crtk.ral(example_name)
     
-    example = enable_ctr_teleop(ral, args.mtm, args.ctr)
+    example = enable_ctr_teleop(ral, args.MTM, args.CTR)
     ral.spin_and_execute(example.run)
 
 if __name__ == '__main__':

@@ -6,12 +6,12 @@
 # 
 
 import numpy as np 
-import ctr_fourier_kinematics
+from ctr_teleop import ctr_fourier_kinematics
 
 class tip_position_control:
 
-    def __init__(self):
-        self.ctr_fk = ctr_fourier_kinematics("fparams_file.mat")
+    def __init__(self,fparams_file):
+        self.ctr_fk = ctr_fourier_kinematics(fparams_file)
         self.ik_params = {'tol': 1e-4, 'max_iter': 100, 'step_size':1.0}
     
     def ik(self,q,des_pos): 
