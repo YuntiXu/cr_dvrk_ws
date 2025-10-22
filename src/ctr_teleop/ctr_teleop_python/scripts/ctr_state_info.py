@@ -70,7 +70,7 @@ class ctr_state_info:
                                                        sensor_msgs.msg.JointState,
                                                        latch = True, queue_size = 1)
             
-            with importlib.resources.path('ctr_teleop','fparams_file.mat') as fparams_path:
+            with importlib.resources.path('ctr_teleop','fparams_file_Xu2025.mat') as fparams_path:
                 self.fk = ctr_fourier_kinematics(fparams_path)
             
             self.ral = ral 

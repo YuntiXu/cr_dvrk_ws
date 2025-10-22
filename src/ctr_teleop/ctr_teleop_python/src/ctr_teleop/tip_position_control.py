@@ -47,7 +47,7 @@ class tip_position_control:
             Js = self.ctr_fk.compute_Js_fourier(q)
 
             # calculate NR step 
-            dq = Js@dt
+            dq = np.linalg.pinv(Js)@dt
 
             # take NR step 
             q = q - step_size*dq
