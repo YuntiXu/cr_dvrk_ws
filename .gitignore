@@ -76,3 +76,6 @@ cisstLog*
 
 # any python bytecode files
 *.pyc
+
+# any crtk related folders (need to clone these separately!)
+src/crtk
